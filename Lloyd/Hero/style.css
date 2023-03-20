@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.section-1 {
+    position:sticky;
+    width: 100vw;
+    height: 100vh;
+    z-index:2;
+    overflow: hidden;
+}
+.section-1 img{
+
+    transform:scale(2);
+    z-index:2;
+    overflow: hidden;
+}
+
+.section-2{
+    position: absolute;
+    top:0;
+  
+}
+
+.Title-Window{
+    width: 100vw;
+    height: 100vh;
+    background-color: #220a4aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Higher-Jump.ttf);
+ }
+
+.hero-title{
+font-family:myFirstFont;
+font-size:2rem;
+font-weight: bold;
+color:white;
+z-index: 1;
+}
