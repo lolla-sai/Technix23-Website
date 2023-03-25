@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+/* @import url('https://fonts.cdnfonts.com/css/gilroy-bold'); */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+/* scroll bar customize */
+::-webkit-scrollbar{
+    width: 8px;
+    display: none;
+    background-color: transparent;
+  }
+
+@font-face {
+    font-family: "outfit";
+    src: local("outfit"), url(/fonts/Outfit-VariableFont_wght.ttf) format("truetype");
+    /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
+}
+@font-face {
+    font-family: "kodchasan";
+    src: local("kodchasan"), url(/fonts/Kodchasan-Regular.ttf) format("truetype");
+    /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
+}
+:root {
+    --text-primary : #1B1A27;
+    --linear_gradient: linear-gradient(180deg, #F72585 0%, #CE31C7 50.47%, #7241FF 100%);
+    --orange_gradient: linear-gradient(90.24deg, #F72585 1.45%, #F84F39 99.19%),
+    linear-gradient(0deg, #FAFAFD, #FAFAFD);
+    --green_gradient: linear-gradient(90deg, #2A966F 0%, #2A966F 50.47%, #4AE5EF 100%),
+    linear-gradient(0deg, #FAFAFD, #FAFAFD);
+    --blue_gradient: linear-gradient(90deg, #6B66DA 0%, #2590F2 45.31%, #4AE5EF 100%),
+    linear-gradient(0deg, #FAFAFD, #FAFAFD);
+}
+
+body{
+    background-color: #FAFAFD;
+    overflow-x: hidden;
+}
+
+.s_box{
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    padding: 15px;
+    min-height: 80px;
+    min-width: 231px;
+    background: #FAFAFD;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.title-sponsor{
+    margin: 40px 40px 0px;
+    min-height: 120px;
+    min-width: 301px;
+}
+.s_box:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.s_logo{
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100px;
+    width: clamp(50px, 40%, 100px);
+    height: 10px;
+    
+background: #1B1A27;
+}
+.s_icon{
+    max-height: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.s_logo_pink{
+    background-color: #FE4474;
+    z-index: 0;
+}
+.s_shell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    margin: 50px 30px 80px 0px;
+}
+
+a{
+    /* color: black; */
+    text-decoration: none;
+}
+    
+/* Title of the timeline_card */
+.title {
+    color: orangered;
+    position: relative;
+}
+
+/* Timeline dot  */
+.title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    background: white;
+    border-radius: 999px;
+    /* border: 3px solid orangered; */
+}  
+
