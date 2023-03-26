@@ -1,0 +1,23 @@
+.heroTitle {
+    font-size: clamp(2rem, 7vw, 7rem);
+    color: white;
+    z-index: 1;
+    /* text-shadow: 1px 10px 0 #ff0000, -1px -1px 0 #ff0000, 1px -1px 0 #ff0000,
+        -1px 1px 0 #ff0000, 1px 1px 0 #ff0000; */
+    --after-content: "";
+}
+
+.heroTitle::after {
+    content: var(--after-content);
+    color: black;
+    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
+        -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.outlined {
+    /* font-size: 72px; */
+    font-size: clamp(2rem, 6vw, 6rem);
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent; /* Safari */
+    text-fill-color: white;
+}
