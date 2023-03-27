@@ -1,0 +1,136 @@
+@media screen and (max-width: 1050px) {
+    #slider {
+        width: 300px;
+        --circle: 49px;
+    }
+    .event_txt {
+        font-size: 435%;
+    }
+    #event_slider {
+        padding-top: calc((53% - var(--evtab)/2)/2);
+    }
+    .event {
+        width: 271px;
+    }
+}
+@media screen and (max-width: 920px) {
+    #slider {
+        width: 285px;
+    }
+    #event_slider {
+        padding-top: calc((56% - var(--evtab)/2)/2);
+    }
+    .event {
+        width: 266px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #slider {
+        width: 270px;
+        --circle: 46px;
+    }
+    .event_txt {
+        font-size: 415%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #event_sec_txt{
+        padding-top: 1%;
+    }
+    #slider {
+        width: 250px;
+        --circle: 43px;
+    }
+    .event_txt {
+        font-size: 395%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #slider {
+        width: 200px;
+        --circle: 40px;
+    }
+    .event {
+        width: 246px;
+    }
+    .event_txt {
+        font-size: 365%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #event_sec_txt{
+        padding-top: 1.8%;
+    }
+    #slider {
+        width: 160px;
+        --circle: 36px;
+    }
+    #event_slider {
+        padding-top: calc((63% - var(--evtab)/2)/2);
+    }
+    .event {
+        margin: 0% 2%;
+        width: 230px;
+    }
+    .event_txt {
+        font-size: 315%;
+    }
+}
+@media screen and (max-width: 490px) {
+    #event_sec_txt{
+        padding-top: 4%;
+    }
+    #slider {
+        width: 130px;
+        --circle: 33px;
+    }
+    .event {
+        width: 212px;
+    }
+    .event_txt {
+        font-size: 300%;
+    }
+}
+@media screen and (max-width: 430px) {
+    #event_sec_txt{
+        padding-top: 5.6%;
+    }
+    #slider {
+        width: 130px;
+        --circle: 33px;
+    }
+    .event {
+        width: 206px;
+    }
+    .event_txt {
+        font-size: 300%;
+    }
+}
+@media screen and (max-width: 380px) {
+    #slider {
+        width: 100px;
+        --circle: 27px;
+    }
+    .event {
+        width: 228px;
+    }
+    .event_txt {
+        font-size: 280%;
+    }
+}
+@media screen and (max-width: 330px) {
+    #slider {
+        width: 100px;
+        --circle: 27px;
+    }
+    .event {
+        width: 238px;
+    }
+    .event_txt {
+        font-size: 280%;
+    }
+}
