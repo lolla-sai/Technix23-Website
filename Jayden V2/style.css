@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 #event_sec {
     background-color: #FBF2E5;
     width: 99.98vw;
@@ -18,6 +19,7 @@
     --e-col-yellow: #FFB808;
 
 }
+
 #event_top_sec {
     display: grid;
     grid-template-columns: 18% 30%;
@@ -39,7 +41,6 @@
     font-size: 4vw;
 }
 
-
 #event_btn {
     display: flex;
     justify-content: center;
@@ -53,7 +54,6 @@
     border-radius: 60px;
     box-shadow: -2px 2px 1px;
     color: black;
-    /* padding: 15px 32px; */
     padding: 3% 7%;
     text-align: center;
     text-decoration: none;
@@ -85,7 +85,6 @@
     height: 75%;
     width: 262.938px;
     cursor: pointer;
-    transition: transform 0.4s;
 }
 
 .event_tab a { 
@@ -172,7 +171,7 @@
     display: inline-block;
     border-radius: 33px;
     background: #d9555049;
-    width: 400px;
+    width: 26%;
     height: calc(var(--skull)/2);
 }
 
