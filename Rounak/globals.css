@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.text-heading-size {
+  font-size: 30px;
+}
+
+.text-subheading-size {
+  font-size: 15px;
+}
+
+.text-name-size {
+  font-size: 21px;
+}
+
+.text-contact-size {
+  font-size: 17px;
+}
+
+.top-button {
+  position: absolute;
+  top:80%;
+  right: 28%;
+  border: solid 3px;
+  border-color: black;
+  box-shadow: -3px 4px 0px #000000;
+}
+
+.gmail-button {
+  position: absolute;
+  top:80%;
+  left: 22%;
+}
+
+.insta-button {
+  position: absolute;
+  top:80%;
+  left: 25%;
+}
+
+.linkedin-button {
+  position: absolute;
+  top:80%;
+  left: 28%;
+}
+
+.copyrights-footer {
+  position: absolute;
+  bottom: 5%;
+  left: 43%;
+}
+
+.map{
+  width: 31.25rem;
+  height: 18.75rem;
+  /* position: absolute;
+  top: 50%; */
+
+}
+
+.map-div{
+  margin-left: 20px;
+
+}
+
+.custom-width{
+  width: 66.6666667%;
+}
+
+@media only screen and (max-width:737px) {
+  .top-button{
+    top:85%;
+    right: 35%;
+    margin-top: 20px;
+  }
+  .gmail-button{
+    top:99%;
+    left: 36%;
+  }
+  .insta-button{
+    top: 99%;
+    left: 42%;
+  }
+  .linkedin-button{
+    top:99%;
+    left: 50%;
+  }
+  .copyrights-footer{
+    top:99.8%;
+    bottom: 0%;
+    left: 18%;
+    margin-top: 100px;
+  }
+  .map{
+    width: 350px;
+    height: 200px;
+    
+  }
+  .map-div{
+    margin-left: 0px;
+  }
+  .custom-width{
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width:738px) and (max-width:1030px) {
+  .gmail-button{
+    top:80%;
+    left: 22%;
+  }
+  .insta-button{
+    top: 80%;
+    left: 26%;
+  }
+  .linkedin-button{
+    top:80%;
+    left: 31%;
+  }
+}
+
+
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi/Satoshi-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi/Satoshi-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Londrina Solid';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Londrina-Solid/LondrinaSolid-Regular.otf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
