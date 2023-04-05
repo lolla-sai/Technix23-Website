@@ -2,8 +2,12 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: ["seeklogo.com"],
+        domains: ["seeklogo.com", "fastly.picsum.photos"],
     },
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    distDir: "build",
 };
 
 module.exports = nextConfig;

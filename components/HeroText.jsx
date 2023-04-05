@@ -2,7 +2,7 @@ import Head from "next/head";
 import React, { useEffect, useRef } from "react";
 import HeroTextStyles from "./HeroText.module.css";
 
-function HeroText({ text, className = {}, styles = {} }) {
+function HeroText({ text, className = {}, textStyles = {} }) {
     let heroTextElement = useRef(null);
 
     useEffect(() => {
@@ -14,9 +14,6 @@ function HeroText({ text, className = {}, styles = {} }) {
 
     return (
         <div>
-            <Head>
-                <title>Technix '23 - Home</title>
-            </Head>
             <div
                 className={
                     HeroTextStyles.heroTitle +
@@ -26,7 +23,7 @@ function HeroText({ text, className = {}, styles = {} }) {
                 }
                 // after:absolute after:-z-20 after:top-1 after:-left-1
                 // after:content-['${text}']
-                style={styles}
+                style={textStyles}
                 ref={heroTextElement}
             >
                 {text}

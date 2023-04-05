@@ -1,0 +1,76 @@
+.grid__team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.tile__team {
+    width: 100%;
+    height: 100%;
+    background-color: #f1c40f;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
+
+.mesh-container {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.polygon {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+}
+
+.polygon1 {
+    border-width: 0 125px 125px 0;
+    border-color: transparent #3498db transparent transparent;
+    top: 0;
+    left: 0;
+}
+
+.polygon2 {
+    border-width: 0 125px 125px 0;
+    border-color: #3498db transparent transparent transparent;
+    top: 0;
+    right: 0;
+    transform: rotate(90deg);
+}
+
+.polygon3 {
+    border-width: 0 125px 125px 0;
+    border-color: transparent #3498db transparent transparent;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.polygon4 {
+    border-width: 0 125px 125px 0;
+    border-color: #3498db transparent transparent transparent;
+    bottom: 0;
+    left: 0;
+    transform: rotate(270deg);
+}
+
+.polygon5 {
+    width: 250px;
+    height: 250px;
+    top: 125px;
+    left: 125px;
+    /* background-image: url("https://fastly.picsum.photos/id/864/308/308.jpg?hmac=ESpzPlGY3_25KIfHBk-rkXAJT43hy-43JQeo3GIqxvE"); */
+}
+
+.polygon6 {
+    width: 250px;
+    height: 250px;
+    top: 125px;
+    left: 125px;
+    /* background-image: url("https://fastly.picsum.photos/id/864/308/308.jpg?hmac=ESpzPlGY3_25KIfHBk-rkXAJT43hy-43JQeo3GIqxvE"); */
+    transform: rotate(180deg);
+}
