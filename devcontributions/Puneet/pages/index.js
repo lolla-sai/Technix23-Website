@@ -1,104 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import React, { useState } from 'react'
-import image1 from '../assets/image1.png'
-import image2 from '../assets/image2.png'
-import image3 from '../assets/image3.png'
-import image4 from '../assets/image4.png'
+import React from 'react'
+import { background, image1, image2, image3, image4 } from '../assets'
 
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx';
-
-// TODO: Images should be from assets folder
-// TODO: Image Component of Next.js should be used. Since image are from net width is not defined so an issue is coming
-
-const slides = [
-  {
-    url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
-  },
-
-  {
-    url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
-  },
-];
-
-function Carousel(props) {
-
-  const { image, setImage } = props;
-  const changeImage = (url) => {
-    setImage(url);
-  }
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
-  };
-
-  const nextSlide = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
-
-  const goToSlide = (slideIndex) => {
-    setCurrentIndex(slideIndex);
-  };
-
-  return (
-    <div className='max-w-[1400px] w-full m-auto py-4 px-4 group relative'>
-    <div className='group flex h-[40vh] gap-x-2'>
-        <div
-          style={{ backgroundImage: `url(${slides[currentIndex % 5].url})` }}
-          className='w-1/3 h-full rounded-2xl bg-center bg-cover duration-500 px-2'
-          onClick={() => changeImage(slides[currentIndex].url)}
-        ></div>
-        <div
-          style={{ backgroundImage: `url(${slides[(currentIndex + 1) % 5].url})` }}
-          className='w-1/3 px-2 h-full rounded-2xl bg-center bg-cover duration-500'
-          onClick={() => changeImage(slides[(currentIndex + 1) % 5].url)}
-        ></div>
-        <div
-          style={{ backgroundImage: `url(${slides[(currentIndex + 2) % 5].url})` }}
-          className='w-1/3 h-full rounded-2xl bg-center bg-cover duration-500 px-2'
-          onClick={() => changeImage(slides[(currentIndex + 2) % 5].url)}
-        ></div>
-      </div>
-      {/* Left Arrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
-      </div>
-      {/* Right Arrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactRight onClick={nextSlide} size={30} />
-      </div>
-      <div className='flex top-4 justify-center py-2'>
-        {slides.map((slide, slideIndex) => (
-          <div
-            key={slideIndex}
-            onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer'
-          >
-            <RxDotFilled />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
+// TODO: DESKTOP VERSION IS BREAKING FOR NEST HUB - Width range [1020-1250]
+//? The mobile version is working nicely but the desktop version is not working properly exactly for the nest hub
 export default function Home() {
-  const [image, setImage] = useState(slides[0].url)
+
   return (
     <>
       <Head>
@@ -107,16 +15,52 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='h-screen'>
-        <div className="flex border">
-          <div className="h-[50vh] w-1/2 px-4">
-            <h2 className="text-center mt-3 px-2 text-2xl font-bold">About Technix</h2>
-            <p className='px-2 my-3 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit repudiandae sint accusantium eligendi eius reiciendis culpa asperiores accusamus. Doloremque ratione blanditiis tempore et, debitis amet magni accusamus quod suscipit eaque. Commodi excepturi doloremque consectetur sapiente similique unde voluptatem voluptatibus laborum doloribus architecto vero, eaque sunt harum mollitia tempora, accusamus exercitationem!</p>
-          </div>
-          <img src={image} className="w-1/2 h-[50vh] border" loading='true'/>
+      <main className="h-screen">
+      {/* For applying background image */}
+        <div className="z-[-1] fixed w-screen h-screen">
+          <Image src={background} alt="Image" fill />
         </div>
-      <Carousel image={image} setImage={setImage} />
-      </main> 
+        {/* For images */}
+        <div className='lg:flex lg:flex-col hidden'>
+          <div className="flex flex-row relative mb-5">
+            <Image src={image1} alt="Image" className="w-[230px] py-10 relative left-60" style={{transform: "rotate(-20deg)"}} />
+            <Image src={image2} alt="Image" className="w-[230px] py-10 mx-auto" style={{transform: "rotate(15deg)"}}/>
+            <Image src={image3} alt="Image" className="w-[230px] py-10 relative right-60" style={{transform: "rotate(-17deg)"}}/>
+          </div>
+          <div className='flex'>
+          <Image src={image3} alt="Image" className="w-[210px] py-5 relative left-28" style={{transform: "rotate(15deg)"}}/>
+            <div className="flex justify-center items-center flex-col w-[30vw] max-h-[50vw] mx-auto">
+              <h1 className="text-2xl font-extrabold mb-3">About Technix</h1>
+              <p className='text-sm font-serif text-center'>A solar flare is expected to come close to Earth's magnetic field on Sunday (5 June) or Monday (6 June) causing a geomagnetic solar storm. Space experts have confirmed an eruption on the sun occurred yesterday (2 June), hurling a solar flare known as coronal mass ejection (CME) into space</p>
+            </div>
+            <Image src={image1} alt="Image" className="w-[210px] py-5 relative right-12 -top-12" style={{transform: "rotate(15deg)"}}/>
+          </div>
+          <div className="flex justify-between mb-5 w-[80vw] mx-auto">
+            <Image src={image1} alt="Image" className="w-[230px] py-10" style={{transform: "rotate(15deg)"}} />
+            <Image src={image2} alt="Image" className="w-[230px] py-10 top-10 relative" style={{transform: "rotate(-10deg)"}}/>
+            <Image src={image3} alt="Image" className="w-[230px] py-10" style={{transform: "rotate(13deg)"}}/>
+            <Image src={image4} alt="Image" className="w-[230px] py-10" style={{transform: "rotate(-15deg)"}}/>
+          </div>
+        </div>
+        {/* For small screens - mobile version */}
+        <div className="lg:hidden">
+          {/* For images at top */}
+          <div className="flex flex-row justify-evenly">
+            <Image src={image1} alt="Image" className="w-2/5 sm:w-1/3 py-10 rotate-12" />
+            <Image src={image2} alt="Image" className="w-2/5 sm:w-1/3 py-10 -rotate-12" />
+          </div>
+          {/* For About Technix part */}
+          <div className="flex justify-center items-center h-[45vh] sm:h-[25vh] flex-col w-[80vw] mx-auto">
+            <h1 className="text-2xl font-extrabold mb-3">About Technix</h1>
+            <p className='text-sm font-serif'>A solar flare is expected to come close to Earth's magnetic field on Sunday (5 June) or Monday (6 June) causing a geomagnetic solar storm. Space experts have confirmed an eruption on the sun occurred yesterday (2 June), hurling a solar flare known as coronal mass ejection (CME) into space</p>
+          </div>
+          {/* For images at bottom */}
+          <div className="flex flex-row justify-evenly">
+            <Image src={image3} alt="Image" className="w-2/5 sm:w-1/3 py-10 rotate-12" />
+            <Image src={image4} alt="Image" className="w-2/5 sm:w-1/3 py-10 -rotate-12" />
+          </div>
+        </div>
+      </main >
     </>
   )
 }
