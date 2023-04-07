@@ -29,15 +29,13 @@ const londrinasolid = Londrina_Solid({
 
 function index() {
     const [image, setImage] = useState(slides[0].url);
-    let levs=useRef(null); 
-    let heroT=useRef(null); 
-    let T=useRef(null); 
-    let Tcontain=useRef(null); 
+    let levs = useRef(null);
+    let heroT = useRef(null);
+    let T = useRef(null);
+    let Tcontain = useRef(null);
 
     useEffect(() => {
-        
-
-        gsap.defaults({ease:"none"});
+        gsap.defaults({ ease: "none" });
         gsap.registerPlugin(ScrollTrigger);
 
         // gsap.timeline({
@@ -51,88 +49,87 @@ function index() {
         //         pin:true,
         //         snap:1,
         //         pinSpacing:false,
-              
+
         //     }
         // })
-       
-
 
         gsap.timeline({
-            defaults:{duration:2,ease:'none'},
-            scrollTrigger:{
-                trigger:levs.current,
-                start:"+=10% top",
-                end:"+20% bottom",
+            defaults: { duration: 2, ease: "none" },
+            scrollTrigger: {
+                trigger: levs.current,
+                start: "+=10% top",
+                end: "+20% bottom",
                 // markers:true,
-                scrub:1,
-                pin:true,
-                pinSpacing:false,
-              
-            }
+                scrub: 1,
+                pin: true,
+                pinSpacing: false,
+            },
         })
-        .fromTo(heroT.current,{opacity:1},{scale:1.2,opacity:0})
-        .fromTo(T.current,{scale:0,opacity:0},{scale:1,opacity:1})
-
+            .fromTo(heroT.current, { opacity: 1 }, { scale: 1.2, opacity: 0 })
+            .fromTo(
+                T.current,
+                { scale: 0, opacity: 0 },
+                { scale: 1, opacity: 1 }
+            );
 
         gsap.timeline({
-            defaults:{duration:1,ease:'none'},
-            scrollTrigger:{
-                trigger:levs.current,
-                start:"+=10% top",
-                end:"+30% bottom",
+            defaults: { duration: 1, ease: "none" },
+            scrollTrigger: {
+                trigger: levs.current,
+                start: "+=10% top",
+                end: "+30% bottom",
                 // markers:true,
-                scrub:1,
-                pin:true,
-                pinSpacing:false,
-              
-            }
-        })
-        .to(Tcontain.current,{y:'-50%'})
+                scrub: 1,
+                pin: true,
+                pinSpacing: false,
+            },
+        }).to(Tcontain.current, { y: "-50%" });
 
         gsap.timeline({
-            defaults:{duration:3,ease:'none'},
-            scrollTrigger:{
-                trigger:levs.current,
-                start:"+=20% top",
-                end:"+=100% bottom",
+            defaults: { duration: 3, ease: "none" },
+            scrollTrigger: {
+                trigger: levs.current,
+                start: "+=20% top",
+                end: "+=100% bottom",
                 // markers:true,
-                pinSpacing:false,
-                scrub:1,
-                pin:true,
-                snap:2,
-            }
-        })
-        .fromTo(levs.current,{scale:1},{scale:1.2,opacity:0, display:'block'})
-
-
-       
-
+                pinSpacing: false,
+                scrub: 1,
+                pin: true,
+                snap: 2,
+            },
+        }).fromTo(
+            levs.current,
+            { scale: 1 },
+            { scale: 1.2, opacity: 0, display: "block" }
+        );
     });
 
     return (
         <>
-        
-
-          <section class="bg-[#010027] min-h-screen grid place-items-center select-none z-0 inset-y-0">
-        
-            <div className="section-1"
-                style={{ willChange: "transform", position: "relative" }}
+            <section className="bg-[#010027] min-h-screen grid place-items-center select-none z-0 inset-y-0">
+                <div
+                    className="section-1"
+                    style={{ willChange: "transform", position: "relative" }}
                 >
-
-                <div className="T-1 text-white"     ref={heroT}>
-                    <HeroText
-                        text="TECHNIX 2023"
-                        className={londrinasolid.className}
-                    />
+                    <div className="T-1 text-white" ref={heroT}>
+                        <HeroText
+                            text="TECHNIX 2023"
+                            className={londrinasolid.className}
+                        />
+                    </div>
                 </div>
-            </div>
+            </section>
 
-          </section>
-
-
-            <section id="sect2" className="countdown p-6 bg-[#010027] z-20"  ref={Tcontain}>
+            <section
+                id="sect2"
+                className="countdown p-6 bg-[#010027] z-20"
+                ref={Tcontain}
+            >
                 <Center>
-                    <div className="flex items-center gap-4 text-white my-28"  ref={T}>
+                    <div
+                        className="flex items-center gap-4 text-white my-28"
+                        ref={T}
+                    >
                         <TimerSlice number="41" unit="days" />
                         <span className="text-5xl font-bold">:</span>
                         <TimerSlice number="17" unit="hours" />
@@ -141,9 +138,6 @@ function index() {
                     </div>
                 </Center>
             </section>
-
-        
-           
 
             <section className="aboutTechnix px-8 py-16 z-20">
                 {/* <Center></Center> */}
@@ -177,13 +171,13 @@ function index() {
             </section>
 
             <section>
-            <Image
+                <Image
                     src={heroImage}
                     className="Leaves w-full h-full object-cover fixed will-change-transform z-10 inset-y-0"
                     priority
                     quality={100}
                     ref={levs}
-            />
+                />
             </section>
         </>
     );

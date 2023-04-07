@@ -11,7 +11,7 @@ function TeamMember({
     image: { imageLink, width, height },
 }) {
     return (
-        <div className="relative teamMember max-w-xs border p-4 group cursor-pointer">
+        <div className="relative teamMember max-w-xs p-4 group cursor-pointer">
             <Image
                 src={imageLink}
                 width={width}

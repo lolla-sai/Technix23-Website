@@ -1,5 +1,5 @@
 .heroTitle {
-    font-size: clamp(2rem, 7vw, 7rem);
+    font-size: clamp(2.5rem, 7vw, 7rem);
     color: white;
     z-index: 1;
     /* text-shadow: 1px 10px 0 #ff0000, -1px -1px 0 #ff0000, 1px -1px 0 #ff0000,
@@ -12,6 +12,22 @@
     color: black;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
         -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.heroTitleInverted {
+    font-size: clamp(2.5rem, 7vw, 7rem);
+    color: black;
+    z-index: 1;
+    /* text-shadow: 1px 10px 0 #ff0000, -1px -1px 0 #ff0000, 1px -1px 0 #ff0000,
+        -1px 1px 0 #ff0000, 1px 1px 0 #ff0000; */
+    --after-content: "";
+}
+
+.heroTitleInverted::after {
+    content: var(--after-content);
+    color: white;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+        -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .outlined {

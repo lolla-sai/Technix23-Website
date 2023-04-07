@@ -12,8 +12,10 @@ function TimerSlice({ number, unit, className }) {
         <div
             className={"flex items-center flex-col " + londrinasolid.className}
         >
-            <div className="text-8xl">{number}</div>
-            <div className="text-5xl">{unit}</div>
+            <div className="lg:text-8xl sm:text-5xl text-3xl">
+                {number.toString().padStart(2, "0")}
+            </div>
+            <div className="lg:text-5xl sm:text-3xl text-xl">{unit}</div>
         </div>
     );
 }
