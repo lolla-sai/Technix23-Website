@@ -10,25 +10,56 @@
   </head>
 
   <body class="text-white">
+    <img class="absolute top-0 left-0 w-10 h-10 md:w-24 md:h-24" src="https://via.placeholder.com/150" alt="Upper Left Image">
+    <img class="absolute bottom-0 right-0 w-10 h-10 md:w-24 md:h-24" src="https://via.placeholder.com/150" alt="Bottom Right Image">
     <!-- Header -->
+    <div class="fixed top-0 right-0 p-4">
+      <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+        <path d="M21 13H3V11H21V13ZM21 7H3V9H21V7ZM21 17H3V19H21V17Z" />
+      </svg>
+    </div>    
+
     <header class="flex items-center justify-center px-8 py-6">
-      <img src="Vector.jpg" alt="Left Image" class="w-12 h-12 object-contain mr-2">
       <div class="text-center">
-        <h1 class="text-2xl font-bold ">Arena De Codigo</h1>
+        <h1 class="text-3xl font-bold ">Arena De Codigo</h1>
         <h2 class="text-base title-font">COMPETITIVE CODING</h2>
       </div>
-      <img src="Vector.jpg" alt="Right Image" class="w-12 h-12 object-contain ml-2">
-    </header>  
-    
-    <!-- Main Content -->
-    <main class="max-w-4xl mx-auto py-8">      
-      <blockquote class="text-lg text-center mb-8 title-font">
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      </blockquote>
-      <div class="flex justify-center mb-8">
-        <button class="px-6 py-2 bg-green-400 rounded-lg mr-4 focus:outline-none">REGISTER</button>
-        <button class="px-6 py-2 bg-blue-400 rounded-lg focus:outline-none">READ RULES</button>
+    </header> 
+
+    <div class="flex justify-center">
+      <img src="assets/line.svg" alt="Event Image">
+    </div>
+        
+    <div class="flex flex-col sm:flex-row items-center justify-center">
+      <div class="sm:w-full px-4 py-2 text-center">
+        <h2 class="text-lg font-bold">WHAT'S IT?</h2>
+        <p class="mt-2">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsum sequi deserunt libero cum doloribus, iusto omnis quis"</p>
       </div>
+      <div class="sm:w-full px-4 py-2 text-center">
+        <h2 class="text-lg font-bold">PRIZES</h2>
+        <ul class="mt-2 list-inside">
+          <li class="prize-1">5000</li>
+          <li class="prize-2">3000</li>
+        </ul>
+      </div>
+      <div class="sm:w-full px-4 py-2 text-center">
+        <h2 class="text-lg font-bold">DATE & TIME</h2>
+        <p class="mt-2">Thursday, 20 April, 2023</p>
+        <p class="mt-2">10am-2pm</p>
+      </div>
+    </div>    
+            
+    <!-- Main Content -->
+    <main class="mx-auto py-8 pl-8 pr-8">
+      <div class="flex justify-center items-center mb-8">
+        <button class="px-6 py-2 bg-yellow-400 rounded-lg mr-4 focus:outline-none">REGISTER</button>
+        <button class="px-6 py-2 bg-yellow-400 rounded-lg focus:outline-none">READ RULES</button>
+      </div>
+
+      <div class="flex justify-center">
+        <img src="assets/line.svg" alt="Event Image">
+      </div>
+      
       <div class="mb-8">
         <h3 class="text-xl font-bold mb-4">RULES</h3>
         <ul class="ml-8 title-font">
@@ -37,10 +68,12 @@
           <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
         </ul>
       </div>
-      
+      <div class="flex justify-center">
+        <img src="assets/line.svg" alt="Event Image">
+      </div>
       <div>
         <h3 class="text-xl font-bold mb-1">COORDINATORS</h3>
-        <ul class="title-font">
+        <ul class="ml-8 title-font">
           <li>
             <span>hello</span>
           </li>
@@ -50,7 +83,7 @@
         </ul>
       </div>
     </main>
-  
+      
   </body>
 
 
