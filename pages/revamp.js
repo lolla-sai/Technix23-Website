@@ -7,14 +7,14 @@ import { londrinasolid } from "@/data/fonts";
 import Center from "@/components/Center";
 import TimerSlice from "@/components/TimerSlice";
 const { useState, useEffect } = require("react");
-import countDownLeftLeaf from "@/public/countdown-left_leaf.png";
-import countDownRightLeaf from "@/public/countdown-right_leaf.png";
+import countDownLeftLeaf from "@/public/assets/images/countdown-left_leaf.png";
+import countDownRightLeaf from "@/public/assets/images/countdown-right_leaf.png";
 import inaug from "@/public/assets/images/Inaug Main.jpg";
 import Events from "@/components/Events";
 import Sponsors from "@/components/Sponsors";
 import FooterPage from "@/components/Footer";
 
-function index() {
+function Index() {
     const [image, setImage] = useState(slides[0].url);
     const [date, setDate] = useState(Date.now() + 10000);
     const [delta, setDelta] = useState({
@@ -52,7 +52,7 @@ function index() {
     return (
         <>
             <Head>
-                <title>Technix '23 - Home</title>
+                <title>Technix &apos;23 - Home</title>
             </Head>
 
             <section
@@ -145,4 +145,4 @@ function index() {
     );
 }
 
-export default index;
+export default Index;
