@@ -15,11 +15,11 @@ function SingleEventCard({
     return (
         <div
             className={
-                "event_tab group rounded-[90px] inline-block relative h-[500px] shrink-0 md:w-64 sm:w-52 cursor-pointer  " +
+                "event_tab group rounded-[90px] inline-block relative h-[500px] shrink-0 md:w-64 w-52 cursor-pointer  " +
                 parentDivClassName
             }
         >
-            <div className="e-cnt1 group-hover:hidden w-full h-full flex items-center flex-col gap-[25%] justify-center">
+            <div className="e-cnt1 group-hover:hidden hidden md:flex w-full h-full items-center flex-col  justify-evenly relative z-10 ">
                 <img src={imgCardDecor} alt="" />
                 <h2 className="md:text-3xl text-xl">{eventName}</h2>
                 <img src={imgCardDecor} alt="" className="rotate-180" />
@@ -28,12 +28,12 @@ function SingleEventCard({
             <img
                 src={rightFeatherImg}
                 alt=""
-                className="e_top_leaf group-hover:opacity-100 opacity-0 absolute top-[-15%] left-[58%]"
+                className="e_top_leaf md:group-hover:opacity-100 md:opacity-0 opacity-1 absolute top-[-15%] left-[58%]"
             />
             <img
                 src={leftFeatherImg}
                 alt=""
-                className="e_bottom_leaf group-hover:opacity-100 opacity-0 absolute top-[78%] left-[-20%]"
+                className="e_bottom_leaf md:group-hover:opacity-100 md:opacity-0 opacity-100 absolute top-[78%] left-[-20%]"
             />
 
             <Link href={eventHref}>
@@ -42,7 +42,7 @@ function SingleEventCard({
                         backgroundImage: `url('${cartoonImg}')`,
                     }}
                     className={
-                        "e-cnt2 hidden w-full h-full rounded-[90px] bg-white relative z-1 bg-bottom bg-no-repeat group-hover:block " +
+                        "e-cnt2 md:hidden w-full h-full rounded-[90px] bg-white relative z-10 bg-bottom bg-no-repeat group-hover:block " +
                         childDivClassName
                     }
                 >

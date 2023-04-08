@@ -148,7 +148,7 @@ function Events() {
 
                 <div
                     id="event_slider"
-                    className="overflow-x-auto flex flex-nowrap gap-12 py-20 box-border scroll-smooth relative "
+                    className="overflow-x-auto flex flex-nowrap gap-12 py-20 box-border scroll-smooth relative px-8 "
                     style={{
                         scrollbarWidth: "none",
                     }}
