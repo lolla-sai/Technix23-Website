@@ -102,16 +102,16 @@ function Events() {
     return (
         <section className=" bg-[#fbf2e5] relative overflow-hidden">
             <Image
-                src="/assets/images/wiring.png"
+                src="/assets/images/Events/wiring.png"
                 width={0}
                 height={0}
                 sizes="50vw"
-                className="object-contain absolute lg:w-[450px] w-60 h-auto bottom-[-8%] left-[-5%] rotate-180"
+                className="object-contain absolute lg:w-[486px] w-60 h-auto bottom-[-8%] left-[-5%] rotate-180"
             />
             <Image
                 width={0}
                 height={0}
-                src="/assets/images/wiring.png"
+                src="/assets/images/Events/wiring.png"
                 sizes="50vw"
                 className="object-contain absolute lg:w-[480px] w-60 h-auto top-[-8%] right-[-6%]"
             />
@@ -124,7 +124,7 @@ function Events() {
             >
                 <div
                     id="event_top_sec"
-                    className="flex justify-between items-center px-8 "
+                    className="flex justify-between items-center px-8 sm:flex-row flex-col"
                 >
                     {/* <div id="event_txt">
                         <p>EVENTS</p>
@@ -134,13 +134,16 @@ function Events() {
                         inverted={true}
                         className={
                             londrinasolid.className +
-                            " md:text-7xl text-5xl mx-auto w-fit "
+                            " md:text-7xl text-5xl mx-auto mb-4 sm:mb-0 w-fit "
                         }
                         // textStyles={{ fontSize: "20rem" }}
                     />
 
                     <Button>
-                        <Link href="/image" download>
+                        <Link
+                            href="https://lh3.googleusercontent.com/pw/AMWts8AI0eWzvzm_0aPpGCT0cRnZtMh3zxH0DK1XhSzX1BwqHbMj-Y2ltUQpea0k-B3KNENAojiyXuYI9L0ixkyrh8nvCjyHBXB2On7u7phelMJCBk0lcz4_M9hm7X1qKx0fAhIA7CUFFsyuuf-PFliVlZI=w1406-h938-s-no?authuser=0"
+                            download
+                        >
                             DOWNLOAD BROCHURE
                         </Link>
                     </Button>

@@ -12,7 +12,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                satoshi: ["Satoshi"],
+                satoshi: ["Satoshi", "Calibri", "sans-serif"],
                 LondrinaSolid: ["Londrina Solid"],
             },
             borderRadius: {
@@ -28,14 +28,13 @@ module.exports = {
                 "custom-red": "#F3442D",
                 "custom-pitch": "#FFE198",
                 "footer-bg": "#FFE198",
-                'footer-black' : '#414141'
+                "footer-black": "#414141",
             },
             screens: {
-              'avg': '1000px',
-              'xsm': '390px',
-              'xmd': '820px'
+                avg: "1000px",
+                xsm: "390px",
+                xmd: "820px",
             },
-            
         },
     },
     plugins: [],

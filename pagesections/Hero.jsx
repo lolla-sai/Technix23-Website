@@ -9,6 +9,7 @@ function Hero() {
         <section
             className="section-1 bg-[#010027] min-h-screen grid place-items-center select-none"
             style={{ willChange: "transform", position: "relative" }}
+            id="top"
         >
             <Image
                 src={heroImage}

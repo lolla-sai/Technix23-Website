@@ -15,7 +15,7 @@ function SingleEventCard({
     return (
         <div
             className={
-                "event_tab group rounded-[90px] inline-block relative h-[500px] shrink-0 md:w-64 w-52 cursor-pointer  " +
+                "event_tab group rounded-[90px] inline-block relative md:h-[500px] h-[350px] shrink-0 md:w-64 w-52 cursor-pointer  " +
                 parentDivClassName
             }
         >
@@ -52,7 +52,7 @@ function SingleEventCard({
                         alt=""
                         className="mx-auto scale-x-[-1] my-8"
                     />
-                    <p className="text-3xl whitespace-pre-line text-center ">
+                    <p className="md:text-3xl text-xl whitespace-pre-line text-center ">
                         {eventName}
                     </p>
                 </div>

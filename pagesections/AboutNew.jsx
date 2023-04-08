@@ -1,9 +1,22 @@
 import React from "react";
+import Image from "next/image";
+import {
+    background,
+    image1,
+    image2,
+    image3,
+    image4,
+} from "@/devcontributions/Puneet/assets";
 
 function AboutNew() {
     return (
-        <div className="z-[-1] fixed w-screen h-screen">
-            <Image src={background} alt="Image" fill />
+        <div className="z-[-1] bg-[#FFBF42] relative w-full min-h-screen">
+            {/* <Image
+                src={background}
+                alt="Image"
+                className="relative -z-40"
+                fill
+            /> */}
             {/* </div> */}
             <div className="lg:flex lg:flex-col hidden">
                 <div className="flex flex-row relative mb-5">

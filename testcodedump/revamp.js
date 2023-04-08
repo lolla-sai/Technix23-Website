@@ -11,7 +11,7 @@ import countDownLeftLeaf from "@/public/assets/images/countdown-left_leaf.png";
 import countDownRightLeaf from "@/public/assets/images/countdown-right_leaf.png";
 import inaug from "@/public/assets/images/Inaug Main.jpg";
 import Events from "@/components/Events";
-import Sponsors from "@/components/Sponsors";
+import Sponsors from "@/testcodedump/Sponsors";
 import FooterPage from "@/components/Footer";
 
 function Index() {

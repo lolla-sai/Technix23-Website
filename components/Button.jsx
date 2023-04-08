@@ -4,7 +4,7 @@ function Button({ children, className = "", style = {} }) {
     return (
         <div
             className={
-                "bg-[#ffe198] border-2 border-black rounded-full px-4 text-2xl cursor-pointer py-2 text-center inline-block z-20 " +
+                "bg-[#ffe198] border-2 border-black rounded-full px-4 md:text-2xl text-lg cursor-pointer py-2 text-center inline-block z-20 " +
                 className
             }
             style={{

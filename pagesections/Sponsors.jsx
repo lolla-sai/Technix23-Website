@@ -13,21 +13,21 @@ function Sponsors() {
             {/* Positioned Images */}
             <div className="absolute w-[400px] h-[400px] top-[-5%] left-[5%]">
                 <Image
-                    src="/assets/images/mask outline.png"
+                    src="/assets/images/Sponsors/mask outline.png"
                     fill
                     className="object-contain"
                 />
             </div>
             <div className="absolute w-[400px] h-[400px] bottom-[5%] left-[5%]">
                 <Image
-                    src="/assets/images/mask outline 4.png"
+                    src="/assets/images/Sponsors/mask outline 4.png"
                     fill
                     className="object-contain"
                 />
             </div>
             <div className="absolute w-[400px] h-[400px] lg:bottom-[15%] bottom-[40%] right-[5%]">
                 <Image
-                    src="/assets/images/mask outline 2.png"
+                    src="/assets/images/Sponsors/mask outline 2.png"
                     fill
                     className="object-contain"
                 />

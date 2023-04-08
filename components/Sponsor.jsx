@@ -7,7 +7,7 @@ function Sponsor({ webLink, icon, type = "normal" }) {
         <Link href={webLink}>
             <div
                 className={
-                    "hover:scale-105 hover:shadow-md transition-transform ease-in-out min-h-[140px] w-80 rounded-xl border justify-evenly relative bg-[#fafafd] border-[#e5e5e5] title-sponsor p-4 flex items-center m-4 " +
+                    "hover:scale-105 hover:shadow-md transition-transform ease-in-out min-h-[140px] w-60 md:w-80 rounded-xl border justify-evenly relative bg-[#fafafd] border-[#e5e5e5] title-sponsor p-4 flex items-center m-4 " +
                     (type === "title" && " ")
                 }
             >

@@ -1,7 +1,7 @@
 import { londrinasolid } from "@/data/fonts";
 import React from "react";
-import HeroText from "./HeroText";
-import Sponsor from "./Sponsor";
+import HeroText from "../components/HeroText";
+import Sponsor from "../components/Sponsor";
 import AccopsLogo from "../public/sponsors/Accops.png";
 
 const sponsors = {

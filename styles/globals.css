@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behaviour: smooth;
+html,
+* {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("../public/assets/fonts/Satoshi/Satoshi-Bold.ttf")
+        format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("../public/assets/fonts/Satoshi/Satoshi-Regular.ttf")
+        format("truetype");
+    /* public\assets\fonts\Satoshi */
+    font-weight: normal;
+    font-style: normal;
 }

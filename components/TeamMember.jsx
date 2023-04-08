@@ -19,7 +19,10 @@ function TeamMember({
                 className="group-hover:scale-105 group-hover:brightness-75 transition-all ease-in-out"
             />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white/90 p-4 opacity-0 group-hover:opacity-100 transition-all">
-                <p className="text-medium mb-4">{bio}</p>
+                {/* <p className="text-medium mb-4">{bio}</p> */}
+                <p className="text-sm mb-4 text-center">
+                    This is some bio you can write
+                </p>
                 <div className="flex items-center justify-center space-x-4 text-xl links">
                     <a
                         href={instagram}

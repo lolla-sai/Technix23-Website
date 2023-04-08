@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
+import Footer from "@/pagesections/Footer";
 import Events from "@/pagesections/Events";
 import Hero from "@/pagesections/Hero";
 import Countdown from "@/pagesections/Countdown";
@@ -25,11 +25,13 @@ function Index() {
             <Sponsors />
 
             <About />
-
-            <Team />
+            {/* <AboutNew /> */}
 
             <Events />
 
+            <Team />
+
+            {/* <Footer /> */}
             <Footer />
         </>
     );

@@ -39,25 +39,25 @@ function Countdown() {
     return (
         <section
             id="sect2"
-            className="countdown p-8 bg-[#010027] relative overflow-hidden"
+            className="countdown py-4 md:py-8 bg-[#010027] relative overflow-hidden"
         >
-            <div className="absolute lg:w-[380px] w-60 h-full top-[20%] left-[-5%]">
+            <div className="absolute lg:w-[380px] md:w-60 w-28 h-1/2 md:h-full bottom-[-10%] left-[-5%]">
                 <Image
-                    src="/assets/images/countdown-left_leaf.png"
+                    src="/assets/images/Countdown/countdown-left_leaf.png"
                     fill
                     className="object-contain"
                 />
             </div>
-            <div className="absolute lg:w-[410px] w-60 h-full top-[-15%] right-[-6%]">
+            <div className="absolute lg:w-[410px] md:w-60 w-28 h-1/2 md:h-full top-[-15%] right-[-6%]">
                 <Image
                     fill
-                    src="/assets/images/countdown-right_leaf.png"
+                    src="/assets/images/Countdown/countdown-right_leaf.png"
                     className="object-contain"
                 />
             </div>
 
             <Center>
-                <div className="flex items-center gap-4 text-white my-28 z-20">
+                <div className="flex items-center gap-4 text-white my-14 md:my-28 z-20">
                     <TimerSlice number={delta.days} unit="days" />
                     <span className="text-5xl font-bold">:</span>
                     <TimerSlice number={delta.hours} unit="hours" />
