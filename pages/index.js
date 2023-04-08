@@ -7,11 +7,11 @@ import Sponsors from "@/pagesections/Sponsors";
 import About from "@/pagesections/About";
 import Team from "@/pagesections/Team";
 
-function index() {
+function Index() {
     return (
         <>
             <Head>
-                <title>Technix '23 - Home</title>
+                <title>Technix &apos;23 - Home</title>
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1.0"
@@ -35,4 +35,4 @@ function index() {
     );
 }
 
-export default index;
+export default Index;

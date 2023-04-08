@@ -27,7 +27,7 @@ const londrinasolid = Londrina_Solid({
 //     subsets: ["latin"],
 // });
 
-function index() {
+function Index() {
     const [image, setImage] = useState(slides[0].url);
     let levs = useRef(null);
     let heroT = useRef(null);
@@ -183,4 +183,4 @@ function index() {
     );
 }
 
-export default index;
+export default Index;

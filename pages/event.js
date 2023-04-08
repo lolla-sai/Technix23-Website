@@ -12,6 +12,7 @@ export default function Event() {
             <script
                 id="luma-checkout"
                 src="https://embed.lu.ma/checkout-button.js"
+                async
             ></script>
         </>
     );
