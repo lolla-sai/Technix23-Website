@@ -64,11 +64,11 @@ function FooterPage(){
                             <div className={"text-custom-red md:text-3xl text-2xl md:ml-0 ml-10 " + londrinasolid.className}> CONTACT US</div>
                             <div className="text-base font-normal w-[300px] relative left-[-5%] md:left-0">Feel free to reach out to us for any events related or other queries.</div>
                         </div>
-                        <div className="mb-4 relative left-[3%] md:left-0">
+                        <div className="mb-4 relative left-[3%] xsm:left-[8%] md:left-0">
                             <p className="text-custom-red text-xl font-bold">Vineet Sawant (Event Manager)</p>
                             <p className="text-lg font-normal">vineetswant@gmail.com | WhatsApp Link</p>
                         </div>
-                        <div className='relative left-[3%] md:left-0'>
+                        <div className='relative left-[3%] xsm:left-[8%] md:left-0'>
                             <p className="text-custom-red text-xl font-bold">Manthan Prabhu (General Secretary)</p>
                             <p className="text-lg font-normal">montyphr94@gmail.com | WhatsApp Link</p>
                         </div>
@@ -89,10 +89,10 @@ function FooterPage(){
                 </div>
                 
                 {/* Mobile Screen Divider */}
-                <div className='w-72'>
-                    <div className='md:hidden absolute bottom-[19.5%] left-[11.5%] w-0 h-0 p-[6px] rounded-md bg-black'></div>
-                    <hr className="absolute bottom-[20%] left-[13%] md:hidden h-1 w-full bg-black rounded-full" />
-                    <div className='md:hidden absolute bottom-[19.5%] right-[10.5%] w-0 h-0 p-[6px] rounded-md bg-black'></div>
+                <div className='md:hidden absolute bottom-[18.2%] left-[11.5%] xsm:bottom-[18.5%] xsm:left-[14.5%] w-0 h-0 p-[6px] rounded-md bg-black'></div>
+                <div className='w-72 relative bottom-[-80%]'>
+                    <hr className="absolute bottom-[20%] left-[18%] xsm:left-[22%] md:hidden h-1 w-[265px] bg-black rounded-full" />
+                    <div className='md:hidden relative right-[-110%] w-0 h-0 p-[6px] rounded-md bg-black'></div>   
                 </div>
 
                 <div>
