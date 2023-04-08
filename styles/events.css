@@ -327,10 +327,10 @@
         font-size: 102%;
     }
     #event_slider {
-        white-space: normal;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        /* white-space: normal; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
     }
     .event_tab {
         margin-top: 13%;
