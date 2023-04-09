@@ -1,26 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satoshi&display=swap'); */
-
-body {
-    /* background-color: #0D393A;
-    background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: 90% -25%;
-    font-family: 'Londrina Solid', sans-serif; */
-
-    /* bg-[#0D393A] no-repeat bg-size-800px bg-position-90% 25% londrina */
-}
-
 .title-font {
     font-family: "Satoshi", sans-serif;
 }
 
-ul {
+.registerul {
     list-style-type: none;
     margin-left: 1rem;
 }
 
-li:before {
+.registerli:before {
     content: "";
     display: inline-block;
     width: 1rem;
@@ -30,12 +17,12 @@ li:before {
     background-size: contain;
 }
 
-.prize-1:before {
+.prize1:before {
     background: url(../public/register/first.svg) no-repeat;
     background-size: contain;
 }
 
-.prize-2:before {
+.prize2:before {
     background: url(../public/register/second.svg) no-repeat;
     background-size: contain;
 }
