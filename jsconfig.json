@@ -4,5 +4,16 @@
             "@/*": ["./*"]
         }
     },
-    "exclude": ["node_modules"]
+    "exclude": [
+        ".git",
+        ".app-cache",
+        "build",
+        ".npm",
+        ".npm-tmp",
+        "dist",
+        "dist*",
+        "node_modules",
+        "**/dist/*",
+        "**/node_modules/*"
+    ]
 }
