@@ -1,7 +1,9 @@
 import React from "react";
 import Sectionboder from "../public/register/line.svg"; // TODO: not working, fix this
+import Eventleaf from "../public/register/event-leaves.png";
 import { useRouter } from "next/router";
 import eventRegisterData from "../data/register.json";
+import Image from "next/image";
 // TODO: Luma its opening a new window like google sign in. Need to be as its on static site
 // TODO: fix reload issue, uncomment coordinators map
 
@@ -21,9 +23,8 @@ function Register() {
 
     return (
         <div className="text-white">
-        <img className="absolute top-0 left-0 w-10 h-10 md:w-24 md:h-24" src="https://via.placeholder.com/150" alt="Upper Left Image"/>
-        <img className="absolute bottom-0 right-0 w-10 h-10 md:w-24 md:h-24" src="https://via.placeholder.com/150" alt="Bottom Right Image"/>
-    
+        <Image className="absolute top-0 left-0 w-10 h-10 md:w-24 md:h-24" src={Eventleaf} alt="Upper Left Image" />
+        <Image className="absolute bottom-0 right-0 w-10 h-10 md:w-24 md:h-24" src={Eventleaf} alt="Bottom Right Image" />
         <div className="fixed top-0 right-0 p-4">
           <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
             <path d="M21 13H3V11H21V13ZM21 7H3V9H21V7ZM21 17H3V19H21V17Z" />
@@ -38,12 +39,12 @@ function Register() {
         </header> 
     
         <div className="flex justify-center">
-          <img src={Sectionboder} alt="Event Image"/>
+        <Image src={Sectionboder} alt="Event Image" />
         </div>
             
         <div className="flex flex-col sm:flex-row items-center justify-center">
           <div className="sm:w-full px-4 py-2 text-center">
-            <h2 className="text-lg font-bold">WHAT'S IT?</h2>
+            <h2 className="text-lg font-bold">WHAT&apos;S IT?</h2>
             <p className="mt-2">{eventRegisterData[eventName].event_quote}</p>
           </div>
           <div className="sm:w-full px-4 py-2 text-center">
@@ -67,7 +68,7 @@ function Register() {
           </div>
     
           <div className="flex justify-center">
-            <img src={Sectionboder} alt="Event Image"/>
+          <Image src={Sectionboder} alt="Event Image" />
           </div>
           
           <div className="mb-8">
@@ -75,20 +76,20 @@ function Register() {
             <ul className="ml-8 title-font">
                 {
                 eventRegisterData[eventName].rules.map((rule) => (
-                    <li>{rule}</li>
+                    <li key={rule}>{rule}</li>
                 ))
                 }
             </ul>
           </div>
           <div className="flex justify-center">
-            <img src={Sectionboder} alt="Event Image"/>
+          <Image src={Sectionboder} alt="Event Image" />
           </div>
           <div>
             <h3 className="text-xl font-bold mb-1">COORDINATORS</h3>
             <ul className="ml-8 title-font">
             {
             eventRegisterData[eventName].coordinators.map((coordinator) => (
-                <li>{coordinator}</li>
+                <li key={coordinator}>{coordinator}</li>
             ))
             }
             </ul>
