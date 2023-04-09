@@ -27,11 +27,13 @@ function Register() {
     }, [router.isReady]);
 
     function redirectToEvent() {
-        window.open(
-            "https://lu.ma/event/evt-4LEqHzIVQizhJso",
-            "Event Page",
-            "height=500,width=700"
-        );
+        alert("Registerations will open from 14th April 2023");
+        // for time being, removed luma from here.
+        // window.open(
+        //     "https://lu.ma/event/evt-4LEqHzIVQizhJso",
+        //     "Event Page",
+        //     "height=500,width=700"
+        // );
     }
 
     return (
@@ -47,10 +49,10 @@ function Register() {
                     }
                 }
                 className={
-                    "text-white md:text-lg bg-[#0D393A] bg-no-repeat overflow-hidden relative min-h-screen py-8 "
+                    "text-white md:text-lg bg-[#0D393A] bg-no-repeat overflow-hidden relative min-h-screen py-8 font-satoshi font-[500] "
                 }
             >
-                <div className="fixed top-0 left-0 w-[25vmax] max-w-[390px] max-h-[390px] h-[25vmax] -translate-x-1/4 -translate-y-1/4">
+                <div className="absolute top-0 left-0 w-[25vmax] max-w-[390px] max-h-[390px] h-[25vmax] -translate-x-1/4 -translate-y-1/4">
                     <Image
                         className="object-contain rotate-180"
                         src={"/register/event-leaves.png"}
@@ -61,7 +63,7 @@ function Register() {
                     />
                 </div>
 
-                <div className="fixed bottom-0 right-0 max-w-[390px] max-h-[390px] w-[25vmax] h-[25vmax] translate-x-1/4 translate-y-1/4">
+                <div className="absolute bottom-0 right-0 max-w-[390px] max-h-[390px] w-[25vmax] h-[25vmax] translate-x-1/4 translate-y-1/4">
                     <Image
                         className="object-contain"
                         src={"/register/event-leaves.png"}
@@ -71,6 +73,29 @@ function Register() {
                         fill
                     />
                 </div>
+
+                <div className="absolute w-[400px] h-[400px] top-[25%] left-[-5%]">
+                    <Image
+                        src="/assets/images/Sponsors/mask outline.png"
+                        fill
+                        className="object-contain"
+                    />
+                </div>
+                <div className="absolute w-[400px] h-[400px] bottom-[5%] left-[-5%] rotate-[-24deg]">
+                    <Image
+                        src="/assets/images/Sponsors/mask outline 4.png"
+                        fill
+                        className="object-contain"
+                    />
+                </div>
+                <div className="absolute w-[400px] h-[400px] lg:bottom-[15%] bottom-[40%] right-[-5%]">
+                    <Image
+                        src="/assets/images/Sponsors/mask outline 2.png"
+                        fill
+                        className="object-contain"
+                    />
+                </div>
+
                 <div className="max-w-[1000px] mx-auto relative z-30">
                     {/* <div className="fixed top-0 right-0 p-4">
                         <svg

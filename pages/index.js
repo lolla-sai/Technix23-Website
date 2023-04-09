@@ -6,6 +6,8 @@ import Countdown from "@/pagesections/Countdown";
 import Sponsors from "@/pagesections/Sponsors";
 import About from "@/pagesections/About";
 import Team from "@/pagesections/Team";
+import AboutNew from "@/pagesections/AboutNew";
+import AboutSai from "@/pagesections/AboutSai";
 
 function Index() {
     return (
@@ -22,12 +24,13 @@ function Index() {
 
             <Countdown />
 
-            <Sponsors />
-
-            <About />
+            {/* <About /> */}
             {/* <AboutNew /> */}
+            <AboutSai />
 
             <Events />
+
+            <Sponsors />
 
             <Team />
 

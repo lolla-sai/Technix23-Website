@@ -81,7 +81,13 @@ function Footer() {
                                 Vineet Sawant (Event Manager)
                             </p>
                             <p className="text-lg font-normal">
-                                vineetswant@gmail.com | WhatsApp Link
+                                vineetswant@gmail.com |{" "}
+                                <a
+                                    href="https://wa.link/wfqn0y"
+                                    target="_blank"
+                                >
+                                    WhatsApp Link
+                                </a>
                             </p>
                         </div>
                         <div className="">
@@ -89,7 +95,13 @@ function Footer() {
                                 Manthan Prabhu (General Secretary)
                             </p>
                             <p className="text-lg font-normal">
-                                montyphr94@gmail.com | WhatsApp Link
+                                montyphr94@gmail.com |{" "}
+                                <a
+                                    href="https://wa.link/wfqn0y"
+                                    target="_blank"
+                                >
+                                    WhatsApp Link
+                                </a>
                             </p>
                         </div>
                     </div>
@@ -99,7 +111,7 @@ function Footer() {
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3755.9743617960876!2d73.978366!3d15.424195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfba54b908417d%3A0x413acca8e6df29a7!2sComputer%20Engineering%20Department!5e1!3m2!1sen!2sin!4v1680007500929!5m2!1sen!2sin"
                             alt="GEC Computer Department Location"
-                            className="xl:w-[500px] xl:h-[300px] w-[350px] h-[200px] md:w-[350px] md:h-[350px] xmd:w-[400px] avg:h-[20rem] xsm:h-[300px] xsm:ml-14 sm:ml-0 mr-[2%] md:mr-0 rounded-mid border-custom-red border-2"
+                            className="max-w-[100vw] xl:w-[500px] xl:h-[300px] w-[350px] h-[200px] md:w-[350px] md:h-[350px] xmd:w-[400px] avg:h-[20rem] xsm:h-[300px] sm:ml-0 mr-[2%] md:mr-0 rounded-mid border-custom-red border-2"
                         />
                     </div>
                 </div>

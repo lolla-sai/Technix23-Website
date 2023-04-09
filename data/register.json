@@ -3,7 +3,7 @@
         "event_name": "Technothon 2.0",
         "event_type": "Hackathon",
         "event_quote": "Indulge in Technothon for a caffeine fueled coding marathon by competing against other crazed coders in a race against time by delivering the ultimate solution. Code-Create-Collaborate! Do you have what it takes to : return(Victorious); ",
-        "prizes": ["15000", "9000"],
+        "prizes": ["20000", "10000"],
         "date": "2023-04-20 and 2023-04-21",
         "time": "12:00 PM - 12:00 PM IST",
         "rules": [
@@ -16,37 +16,336 @@
             "Team members need to carry their own systems/accessories.",
             "Decisions of the judges will be final."
         ],
-        "detailedRulesLink": "https://docs.google.com",
-        "coordinators": ["Sai Sameer Kumar Lolla", "Rounak Naik", "Amisha Naik"]
+        "detailedRulesLink": "https://docs.google.com/document/d/1Kv_PjuiiG8cckbypIJO68eHyTnPPZZ-Q8NV_C_rNugg/edit?usp=sharing",
+        "coordinators": [
+            "Sai Sameer Kumar Lolla (94041 81639)",
+            "Rounak Naik (91303 46772)",
+            "Amisha Naik (87886 18475)",
+            "Azvern Dias (82620 82881)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
     },
-    "Competitive Coding": {
-        "event_name": "Arena de Codigo",
+    "competitive_coding": {
+        "event_name": "Arena De Codigo",
         "event_type": "Competitive Coding",
-        "event_quote": "Join us for a competitive coding challenge and win exciting prizes!",
+        "event_quote": "Pen is mightier than sword, but we geeks prefer to fight using code. Enter the arena to battle it out. Magic of your logic is what we care about.",
         "prizes": ["3000", "2000"],
-        "date": "2023-08-01",
-        "time": "1:00 PM - 5:00 PM EST",
+        "date": "2023-04-20",
+        "time": "11:00 AM - 5:00 PM IST",
         "rules": [
-            "Individual participation only",
-            "All code must be original",
-            "No plagiarism allowed"
+            "A team shall consist of 2 members.",
+            "The event will constitute 3 rounds.",
+            "Round 1: Participants will have to answer a questionnaire based on C/C++ knowledge, Programming and DSA concepts, Aptitude and Logical reasoning. The top teams will be selected for round 2.",
+            "Round 2: The team members will be separated. One member has to solve a series of questions based on logic and programming. Each solution will unlock the next question as well as a coding question which has to be solved by other team member.The top teams will qualify for final round.",
+            "Round 3: A classic Competitive Coding round in which both team members will sit together to solve programming problems. The number of test cases passed and time for submission will be considered for scoring.",
+            "Only C/C++ will be allowed for coding.",
+            "The organizers reserve the right to modify these rules and Disqualify teams if found to be engaged in malpractice.",
+            "Decision taken by the judges will be considered final."
         ],
-        "detailedRulesLink": "docs.google.com/",
-        "coordinators": ["Sam Wilson", "Lisa Patel", "Ravi Singh"]
+        "detailedRulesLink": "https://drive.google.com/file/d/1y2qqcVpheZV8DRSjqtx5eqrz_8yc05hN/view?usp=sharing",
+        "coordinators": [
+            "Harsh Kumar (91758 15437)",
+            "Shriteen Dhamasker (93597 84361)",
+            "Rushikesh Sharma (91724 74780)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
     },
-    "Treasure Hunt": {
-        "event_name": "hlkjhklh",
-        "event_type": "Film Festival",
-        "event_quote": "Submit your short films and get a chance to showcase it at our film festival!",
+    "code_in_chaos": {
+        "event_name": "The Code Circus",
+        "event_type": "Coding with Challenges",
+        "event_quote": "Do you think you can code in any conditions? So get ready to code, get ready to play, we bring you The Code Circus that'll make your day!",
         "prizes": ["3000", "2000"],
-        "date": "2023-10-20",
-        "time": "6:00 PM - 10:00 PM EST",
+        "date": "2023-04-21",
+        "time": "10:00 AM - 4:00 PM IST",
         "rules": [
-            "Short films only (max 10 mins)",
-            "Must be original work",
-            "No offensive or discriminatory content allowed"
+            "A team should strictly consist of 2 members.",
+            "A participant can be part of only one team.",
+            "The contest will consist of three rounds, with selected teams proceeding to the next round.",
+            "The 1st round will be of mcq and the 2nd,3rd rounds are surprise coding rounds",
+            "The programming languages allowed for the contest are only C/C++",
+            "Participants must not carry any reference material or books in the contest room/laboratory while participating in this event",
+            "Use of mobile phone by contestants is prohibited during the contest rounds",
+            "Coordinators will be assigned to observe the participants and will report any problem and/or violations of the rules to the Organising Committee.",
+            "Decisions taken by the coordinators will be final."
         ],
-        "detailedRulesLink": "",
-        "coordinators": ["Samantha Lee", "Peter Johnson", "Anna Wilson"]
+        "detailedRulesLink": "https://docs.google.com/document/d/1gxTDjw72rb9CQEPZFRwrCjaS_YE5AJFrWVzwOEbnvfM/edit?usp=sharing",
+        "coordinators": [
+            "Sahil Gadkari (87885 18557)",
+            "Puneet Patil (94030 44925)",
+            "Sahil Vernekar (88057 40191)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "tech_quiz": {
+        "event_name": "Brain Carousel",
+        "event_type": "Quiz",
+        "event_quote": "Ready to show off your smarts? Join us for an exciting quiz event and put your knowledge to the test!",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-21",
+        "time": "11:00 AM - 3:00 PM IST",
+        "rules": [
+            "Teams of 2 members from the same institution are allowed.",
+            "Candidates must report at the registration desk by 10.30 am on the day of the event and carry ID cards along with them.",
+            "The event consists of 3 rounds:- Preliminary, Intermediary, Onstage.",
+            "4 teams shall qualify for the onstage round.",
+            "The topics covered in the whole event will be on Modern Technology, Game Theory and Fintech.",
+            "No reference materials or books are allowed during the event.",
+            "Participants indulging in malpractices shall be immediately disqualified.",
+            "The decision of the coordinators will be final."
+        ],
+        "detailedRulesLink": "docs.google.com",
+        "coordinators": [
+            "Siya Golatkar (94226 00672)",
+            "Saiesh Khanolkar (93259 90664)",
+            "Rahul Kolwalkar (91687 99791)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "escape_room": {
+        "event_name": "CarnEVIL Escape",
+        "event_type": "Escape Room",
+        "event_quote": "Tangled in time,\nTangled in space.\nWanna escape the professor's trap?\nCrack the case!",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-20 and 2023-04-21",
+        "time": "10:00 AM - 1:00 PM IST on 20th and 9:00 AM - 3:00 PM IST on 21st",
+        "rules": [
+            "Maximum 3 people in a team.",
+            "The event will have 3 rounds in entirety (all offline).",
+            "Round 1 (written aptitude): Max of 50 number of teams can participate.",
+            "Round 2 (digital treasure hunt): Max of 20 number of teams get selected.",
+            "Round 1 and 2 will be conducted on Day 1 (includes prize for Day 1 winners).",
+            "Round 3 (escape room): 8 teams get selected for the actual escape room round.",
+            "Knowledge of programming languages like C, C++, HTML/CSS/JS is preferred.",
+            "Phones/Wearble devices/Laptops won’t be allowed inside the escape room."
+        ],
+        "detailedRulesLink": "https://docs.google.com/document/d/1EwapTdpmx5Xxxo1OYoIk0suaURyG2IVJ5uOs0_zMO6A/edit?usp=sharing",
+        "coordinators": [
+            "Caymann Velingkar (85548 44249)",
+            "Medam Greeshma (79723 21283)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "ideathon": {
+        "event_name": "Idea Utsav",
+        "event_type": "Ideathon",
+        "event_quote": "Ideas that can change the world!",
+        "prizes": ["3000", "2000"],
+        "date": "To Be Updated",
+        "time": "To Be Updated",
+        "rules": [
+            "Team Size: 1 – 4 members",
+            "Max no of teams-8 (if we get higher response, a separate qualifier round will be scheduled at morning 10 am whose details will be shared in the whatsapp group)",
+            "The Project/Business idea should strictly be within the bounds of computer science, engineering, and other tech-related stuff.",
+            "Presentation/Demonstration of Ideas is compulsory.",
+            "Each team will be given 10 mins to pitch their products which will be followed by a Q&A session with the judges. If the presentation exceeds the allotted time limit, some points will be deducted as a penalty.",
+            "Presentations must be submitted to the coordinators at least 15 minutes before the event starts. Participants need to carry presentation PPTs on their Pendrive or can mail them to the coordinators.",
+            "A prototype is optional. But a working prototype, if presented, will fetch the team some extra bonus points.",
+            "The idea should be novel and Copying of ideas is strictly prohibited and will lead to elimination. Any kind of Vulgarity will not be entertained.",
+            "Decisions taken by the judges will be final.",
+            "No change is allowed in the name of the teams and the name of the team members once you are registered.",
+            "The structure of the event might change according to the event coordinator and the same will be notified through whatsapp.",
+            "The team leader will be the point of contact for all the further communication."
+        ],
+        "detailedRulesLink": "https://docs.google.com/document/d/1J6sHm38Rc2bW5HsA6ZzZANrSyzfaVnf4dN5F0iUF2bI/edit?usp=drivesdk",
+        "coordinators": [
+            "Vedant Malkarnekar (97650 21099)",
+            "Harsh Bhobe (95798 97408)",
+            "Jacob Abraham (94210 12095)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "ui_ux_design": {
+        "event_name": "Rio Designeiro",
+        "event_type": "UI/UX Design Challenge",
+        "event_quote": "Step right into the Capital of Canvases and immerse yourself into the art of interaction design - a whirlwind of inspiration, imagination, and innovation",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-20 and 2023-04-21",
+        "time": "5:00 PM - 1:00 PM IST",
+        "rules": [
+            "Each team can have a maximum of 3 members. Every participant must carry their ID card.",
+            "This event is open to college students as well as graduates.",
+            "This is a design-based competition and does not require coding.",
+            "Contestants can carry notepads and pens while participating in the event.",
+            "Allowed software: Figma, Adobe XD, Sketch, etc.",
+            "The contest will consist of two rounds. First round will be the UI/UX Design round which will be of 12 hours.",
+            "The second round will be a presentation round, where teams will have to present their digital solution and case study before the judges.",
+            "Decisions taken by the judges will be final"
+        ],
+        "detailedRulesLink": "https://docs.google.com/document/d/1MYOcm-62dljVXwbpvCxM8wdHhz0WEYshQZJZBxcSTMQ/edit?usp=sharing",
+        "coordinators": [
+            "Trusha Neogi (70200 54143)",
+            "Mark Cotta (74481 18949)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "treasure_hunt": {
+        "event_name": "Backtracker’s Samba",
+        "event_type": "Treasure Hunt",
+        "event_quote": "Grab your big boots to maneuver your samba moves, to get your hands on the treasure troves or backtrack down the sad grooves",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-20 and 2023-04-21",
+        "time": "10:00 AM - 1:00 PM IST on 20th and 9:00 AM - 4:00 PM IST on 21st",
+        "rules": [
+            "There is no limit on the number of online entries for the event.",
+            "Participation in the event is open to teams of two members only.",
+            "Each team must nominate a point of contact (POC) who will be responsible for communication with the event coordinators.",
+            "The POC of each team must join the official WhatsApp group for ease of communication with the coordinators.",
+            "The event consists of three rounds, with Rounds 1 and 2 serving as filtering rounds and Round 3 as the decisive round.",
+            "Round 1 will be held online on day-1, and may be split into two phases if required (Morning Session and Evening Session).",
+            "Teams are not allowed to submit more than one entry. Multiple entries will lead to disqualification.",
+            "Only the top 16 teams selected from Round 1 will be eligible for Round 2.",
+            "Round 2 and round-3 will be conducted in the campus on day-2.",
+            "A team should have atleast one mobile device with a QR code scanning feature (Participants can use inbuilt or downloaded app)"
+        ],
+        "detailedRulesLink": "https://docs.google.com",
+        "coordinators": [
+            "Lloyd Costa (95275 09048)",
+            "Raghuram Shetty (76665 64977)",
+            "Jayden Viegas (83790 25762)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "speed_typing": {
+        "event_name": "Typing Tango",
+        "event_type": "Speed Typing",
+        "event_quote": "Unleash your inner speed demon!",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-20",
+        "time": "11:00 AM - 1:00 PM IST",
+        "rules": [
+            "1st stage:\nKeyboard Ninja\nThis is a Knockout round.\nType the given paragraph as fast as you can.\nThis will be held on: https://play.typeracer.com/.",
+            "Stage 2:\nSurprise!",
+            "Stage 3:\nProScripter\nType segments of code in 3 languages as fast as you can!\nTo be held on: https://typing.io/",
+            "CRITERION: WPM AND TIME."
+        ],
+        "detailedRulesLink": "https://docs.google.com/document/d/1vSSx7f-VROXCLncvKVK4bPRvt2nJsyXPnfGcSqcCJX8/edit?usp=sharing",
+        "coordinators": [
+            "Bhargava Bhatkurse (95521 69925)",
+            "Kasim Khan (90672 99580)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "minecraft": {
+        "event_name": "MINEFIESTA",
+        "event_type": "Minecraft",
+        "event_quote": "The First Ever Minecraft LAN in Goa!",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-21",
+        "time": "9:00 AM - 5:00 PM IST",
+        "rules": [
+            "The version to be used is Minecraft Java Edition (1.12.2)",
+            "16 players will compete in the championship.",
+            "In case the no. of entries go beyond 16, a preliminary qualification round will be conducted. More details will be shared in the WhatsApp group.",
+            "The championship will consist of the following minigames:\nBuild Battle (Creative Building)\nParkour\nMaze\nSkywars\nBedwars\nRedstone Contraption Building\nHunger Games",
+            "Decision by the coordinators will be final."
+        ],
+        "detailedRulesLink": "https://docs.google.com/document/d/1BwSgGk345WzXZOqD_V5qszc6ckecTLYUqJZ13VG29xg/edit?usp=drivesdk",
+        "coordinators": [
+            "Farhan Bukhari (95277 07909)",
+            "Aryan Ghorpade (77588 84457)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "fifa": {
+        "event_name": "VIVA FIFA",
+        "event_type": "FIFA",
+        "event_quote": "Event Quote Goes Here",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-20",
+        "time": "10:00 AM - 5:00 PM IST",
+        "rules": ["Rule 1", "Rule 2"],
+        "detailedRulesLink": "https://docs.google.com/",
+        "coordinators": ["Coordinator (Phone)"],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "reel_making": {
+        "event_name": "Reel Rodeo",
+        "event_type": "Reel Making",
+        "event_quote": "From script to screen: Enter our reel-making contest and bring your vision to life on the silver screen",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-20",
+        "time": "10:00 AM - 5:00 PM IST",
+        "rules": [
+            "The reel should be in a 16:9 Aspect ratio (Portrait size)",
+            "The reel should exceed the time duration of 1min.",
+            "Maximum 5 people in a team.",
+            "The Technix template & entry number should be mentioned at the start of the video & Mention the entry number and team name in the caption along with {Technix Hashtag}.",
+            "For submission, the participant has to upload the reel on their Instagram page having more than 100 followers & in collaboration with Cursor's Instagram handle.",
+            "Original content only. No copyright violations are allowed, Violators will be disqualified."
+        ],
+        "detailedRulesLink": "https://docs.google.com/document/d/1st6H2WuU1QtqPC8hJcc487zvoENrxgahjnnJnDkGsiU/edit?usp=sharing",
+        "coordinators": [
+            "Jayant Apte (99218 36102)",
+            "Shreya Khorjuvekar (93564 19849)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "photography": {
+        "event_name": "SnapFloat",
+        "event_type": "Photography",
+        "event_quote": "Snap your best shot",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-20 and 2023-04-21",
+        "time": "9:00 AM IST on 20th - 3:00 PM IST on 21st",
+        "rules": [
+            "Individual participant only.",
+            "The contest will be divided into two rounds.",
+            "The theme of the contest will be revealed on the day of the event via the official instagram page of Team Cursor.",
+            "No restriction on the location or medium of photography.",
+            "Participants can submit a maximum of 2 photographs (accepted in jpeg, jpg, or png format).",
+            "Basic modifications to the photo will be permitted but no advanced manipulation allowed.",
+            "Both original and edited soft  copies must be submitted.",
+            "Decision of the judges will be final.",
+            "The results and the winners will be announced on the official instagram page of Team Cursor."
+        ],
+        "detailedRulesLink": "https://docs.google.com/document/d/1-3oE0LIOs7S5vFS8SqZSvISlmtXvMOuK33tD6h3Q8-Y/edit?usp=drivesdk",
+        "coordinators": [
+            "Sakshi Joshi (90964 11707)",
+            "Prathik Achari (73878 92231)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "meme": {
+        "event_name": "MEME FUNHOUSE",
+        "event_type": "Meme",
+        "event_quote": "Unmask your humor and join the meme-funhouse",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-20",
+        "time": "9:00 AM- 3:00 PM",
+        "rules": [
+            "One Entry per participant.",
+            "The topic will be given on 18th April by 10am.",
+            "Memes will be posted on technix Instagram handle at 11am on 19th april and the likes will be checked at 11am on 20th april (exactly one day to get all the likes) after that no more likes will be counted.",
+            "Memes must be in Jpeg format.",
+            "Meme should be submitted through Google forms or whatsapp group created for the event.( deadline 10am on 19th April )",
+            "Use of bots to generate likes will lead to disqualification.",
+            "Small description of the meme along with the submission.",
+            "Language English",
+            "Content must be ORIGINAL and PLAGIARISM is strictly prohibited. ",
+            "The decision of the judging panel will be final.",
+            "Submit a good resolution image.",
+            "Registration will be closed on 18 April 10am."
+        ],
+        "detailedRulesLink": "https://docs.google.com/document/d/1vCvjLo6DxAdkfi0xh73xnYaL8zySV23wUBc_BQRCHbM/edit?usp=sharing",
+        "coordinators": [
+            "Shivam Raikar (74995 91439)",
+            "Satyam Naik (70284 58742)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    },
+    "debate": {
+        "event_name": "De-byte-able",
+        "event_type": "Debate",
+        "event_quote": "Event Quote Goes Here",
+        "prizes": ["3000", "2000"],
+        "date": "2023-04-21",
+        "time": "10:00 AM - 3:00 PM IST",
+        "rules": ["Rule 1", "Rule 2"],
+        "detailedRulesLink": "https://docs.google.com/document/d/1X_Ax_ZSDKHWdJOCGMfb8B8ySmtMu3PJZxP_OZGCwzhs/edit?usp=drivesdk",
+        "coordinators": [
+            "Azvern Dias (82620 82881)",
+            "Vaibhav Mhambrey (93705 68242)"
+        ],
+        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
     }
 }
