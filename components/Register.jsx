@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Sectionboder from "../public/register/line.svg"; // TODO: not working, fix this
+import Eventleaf from "../public/register/event-leaves.png";
 import { useRouter } from "next/router";
 import eventRegisterData from "../data/register.json";
 import { londrinasolid } from "@/data/fonts";
 import registerStyles from "./Register.module.css";
 import Head from "next/head";
+import Image from "next/image";
 // TODO: Luma its opening a new window like google sign in. Need to be as its on static site
 // TODO: fix reload issue, uncomment coordinators map
 
@@ -14,7 +16,7 @@ function Register() {
     const router = useRouter();
 
     useEffect(() => {
-        if (!router.isReady) return;
+        if (!router.isReady || eventName === null) return;
 
         const { eventName } = router.query;
         setEventName(eventName);
@@ -44,14 +46,15 @@ function Register() {
             <Head>
                 <title>{title}</title>
             </Head>
-            <img
+
+            <Image
                 className="absolute top-0 left-0 w-10 h-10 md:w-24 md:h-24"
-                src="https://via.placeholder.com/150"
+                src={Eventleaf}
                 alt="Upper Left Image"
             />
-            <img
+            <Image
                 className="absolute bottom-0 right-0 w-10 h-10 md:w-24 md:h-24"
-                src="https://via.placeholder.com/150"
+                src={Eventleaf}
                 alt="Bottom Right Image"
             />
 
