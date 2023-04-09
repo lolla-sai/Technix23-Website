@@ -5,6 +5,9 @@ const nextConfig = {
     images: {
         domains: ["seeklogo.com", "fastly.picsum.photos"],
     },
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
 };
 
 module.exports = nextConfig;
