@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Sectionboder from "../public/register/line.svg"; // TODO: not working, fix this
-import Eventleaf from "../public/register/event-leaves.png";
+// import Eventleaf from "../public/register/event-leaves.png";
 import { useRouter } from "next/router";
 import eventRegisterData from "../data/register.json";
 import { londrinasolid } from "@/data/fonts";
 import registerStyles from "./Register.module.css";
 import Head from "next/head";
 import Image from "next/image";
+import CustomButton from "@/components/CustomButton";
 // TODO: Luma its opening a new window like google sign in. Need to be as its on static site
 // TODO: fix reload issue, uncomment coordinators map
 
@@ -16,12 +17,13 @@ function Register() {
     const router = useRouter();
 
     useEffect(() => {
-        if (!router.isReady || eventName === null) return;
+        if (!router.isReady) return;
 
-        const { eventName } = router.query;
-        setEventName(eventName);
-        setTitle("Register - " + eventRegisterData[eventName].event_name);
-        console.log(eventName, eventRegisterData[eventName]);
+        setEventName(router.query.eventName);
+        setTitle(
+            "Register - " + eventRegisterData[router.query.eventName].event_name
+        );
+        console.log(eventRegisterData[router.query.eventName]);
     }, [router.isReady]);
 
     function redirectToEvent() {
@@ -33,139 +35,261 @@ function Register() {
     }
 
     return (
-        <div
-            style={{
-                backgroundPosition: "90% 25%",
-                backgroundSize: "800px",
-            }}
-            className={
-                "text-white bg-[#0D393A] bg-no-repeat " +
-                londrinasolid.className
-            }
-        >
+        <>
             <Head>
                 <title>{title}</title>
             </Head>
-
-            <Image
-                className="absolute top-0 left-0 w-10 h-10 md:w-24 md:h-24"
-                src={Eventleaf}
-                alt="Upper Left Image"
-            />
-            <Image
-                className="absolute bottom-0 right-0 w-10 h-10 md:w-24 md:h-24"
-                src={Eventleaf}
-                alt="Bottom Right Image"
-            />
-
-            <div className="fixed top-0 right-0 p-4">
-                <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
-                    <path d="M21 13H3V11H21V13ZM21 7H3V9H21V7ZM21 17H3V19H21V17Z" />
-                </svg>
-            </div>
-
-            <header className="flex items-center justify-center px-8 py-6">
-                <div className="text-center">
-                    <h1 className="text-3xl font-bold ">
-                        {eventName && eventRegisterData[eventName].event_name}
-                    </h1>
-                    <h2 className="text-base title-font">
-                        {eventName && eventRegisterData[eventName].event_type}
-                    </h2>
+            <div
+                style={
+                    {
+                        // backgroundPosition: "90% 25%",
+                        // backgroundSize: "800px",
+                    }
+                }
+                className={
+                    "text-white md:text-lg bg-[#0D393A] bg-no-repeat overflow-hidden relative min-h-screen py-8 "
+                }
+            >
+                <div className="fixed top-0 left-0 w-[25vmax] max-w-[390px] max-h-[390px] h-[25vmax] -translate-x-1/4 -translate-y-1/4">
+                    <Image
+                        className="object-contain rotate-180"
+                        src={"/register/event-leaves.png"}
+                        alt="Upper Left Image"
+                        // width={393}
+                        // height={407}
+                        fill
+                    />
                 </div>
-            </header>
 
-            <div className="flex justify-center">
-                <img src={Sectionboder} alt="Event Image" />
-            </div>
-
-            <div className="flex flex-col sm:flex-row items-center justify-center">
-                <div className="sm:w-full px-4 py-2 text-center">
-                    <h2 className="text-lg font-bold">WHAT'S IT?</h2>
-                    <p className="mt-2">
-                        {eventName && eventRegisterData[eventName].event_quote}
-                    </p>
+                <div className="fixed bottom-0 right-0 max-w-[390px] max-h-[390px] w-[25vmax] h-[25vmax] translate-x-1/4 translate-y-1/4">
+                    <Image
+                        className="object-contain"
+                        src={"/register/event-leaves.png"}
+                        alt="Bottom Right Image"
+                        // width={393}
+                        // height={407}
+                        fill
+                    />
                 </div>
-                <div className="sm:w-full px-4 py-2 text-center">
-                    <h2 className="text-lg font-bold">PRIZES</h2>
-                    <ul
-                        className={
-                            "mt-2 list-inside " + registerStyles.registerul
-                        }
-                    >
-                        <li
-                            className={
-                                registerStyles.prize1 +
-                                " " +
-                                registerStyles.registerli
-                            }
+                <div className="max-w-[1000px] mx-auto relative z-30">
+                    {/* <div className="fixed top-0 right-0 p-4">
+                        <svg
+                            viewBox="0 0 24 24"
+                            className="h-6 w-6 fill-current"
                         >
-                            {eventName &&
-                                eventRegisterData[eventName].prizes[0]}
-                        </li>
-                        <li
-                            className={
-                                registerStyles.registerli +
-                                " " +
-                                registerStyles.prize2
-                            }
-                        >
-                            {eventName &&
-                                eventRegisterData[eventName].prizes[1]}
-                        </li>
-                    </ul>
-                </div>
-                <div className="sm:w-full px-4 py-2 text-center">
-                    <h2 className="text-lg font-bold">DATE & TIME</h2>
-                    <p className="mt-2">
-                        {eventName && eventRegisterData[eventName].date}
-                    </p>
-                    <p className="mt-2">
-                        {eventName && eventRegisterData[eventName].time}
-                    </p>
+                            <path d="M21 13H3V11H21V13ZM21 7H3V9H21V7ZM21 17H3V19H21V17Z" />
+                        </svg>
+                    </div> */}
+                    <header className="flex items-center justify-center px-8 py-6">
+                        <div className="text-center">
+                            <h1
+                                className={
+                                    "md:text-7xl sm:text-6xl text-4xl mb-2 font-bold " +
+                                    londrinasolid.className
+                                }
+                            >
+                                {eventName &&
+                                    eventRegisterData[eventName].event_name}
+                            </h1>
+                            <h2 className="md:text-3xl text-2xl uppercase font-satoshi font-bold">
+                                {eventName &&
+                                    eventRegisterData[eventName].event_type}
+                            </h2>
+                        </div>
+                    </header>
+
+                    <div className="flex justify-center relative w-full h-8 my-8">
+                        <Image
+                            src={"/register/line.svg"}
+                            fill
+                            alt="Event Image"
+                            className="object-contain"
+                        />
+                    </div>
+
+                    <div className="flex flex-col sm:flex-row gap-6 justify-between">
+                        <div className="px-4 py-2">
+                            <h2
+                                className={
+                                    "text-3xl " + londrinasolid.className
+                                }
+                            >
+                                WHAT'S IT?
+                            </h2>
+                            <p className="mt-2 max-w-[36ch]">
+                                {eventName &&
+                                    eventRegisterData[eventName].event_quote}
+                            </p>
+                        </div>
+                        <div className="px-4 py-2 text-center">
+                            <h2
+                                className={
+                                    "text-3xl " + londrinasolid.className
+                                }
+                            >
+                                PRIZES
+                            </h2>
+                            <ul
+                                className={
+                                    "mt-2 list-inside " +
+                                    registerStyles.registerul
+                                }
+                            >
+                                <li
+                                    className={
+                                        registerStyles.prize1 +
+                                        " " +
+                                        registerStyles.registerli
+                                    }
+                                >
+                                    {eventName &&
+                                        eventRegisterData[eventName].prizes[0]}
+                                </li>
+                                <li
+                                    className={
+                                        registerStyles.registerli +
+                                        " " +
+                                        registerStyles.prize2
+                                    }
+                                >
+                                    {eventName &&
+                                        eventRegisterData[eventName].prizes[1]}
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="px-4 py-2">
+                            <h2
+                                className={
+                                    "text-3xl " + londrinasolid.className
+                                }
+                            >
+                                DATE & TIME
+                            </h2>
+                            <p className="mt-2">
+                                {eventName && eventRegisterData[eventName].date}
+                            </p>
+                            <p className="mt-2">
+                                {eventName && eventRegisterData[eventName].time}
+                            </p>
+                        </div>
+                    </div>
+                    <main className="mx-auto py-8 md:px-8 px-4">
+                        <div className="flex justify-center items-center mb-28 flex-col xsm:flex-row gap-4">
+                            <button
+                                style={{
+                                    boxShadow: "-3px 4px 0 0 #262626",
+                                }}
+                                className={
+                                    "px-6 py-2 hover:scale-110 transition-transform bg-[#B2D600] text-[#262626] rounded-full xsm:mrss-6 focus:outline-none " +
+                                    londrinasolid.className
+                                }
+                                onClick={redirectToEvent}
+                            >
+                                REGISTER
+                            </button>
+                            <a
+                                href={
+                                    eventName
+                                        ? eventRegisterData[eventName]
+                                              .detailedRulesLink
+                                        : ""
+                                }
+                                target="_blank"
+                                style={{
+                                    boxShadow: "-3px 4px 0 0 #262626",
+                                }}
+                                className={
+                                    "block px-6 py-2 hover:scale-110 transition-transform bg-[#B2D600] text-[#262626] rounded-full focus:outline-none " +
+                                    londrinasolid.className
+                                }
+                            >
+                                READ RULES
+                            </a>
+                        </div>
+
+                        <div className="flex justify-center relative w-full h-8 my-4">
+                            <Image
+                                src={"/register/line.svg"}
+                                fill
+                                alt="Event Image"
+                                className="object-contain"
+                            />
+                        </div>
+
+                        <div className="mt-8 mb-16">
+                            <h2
+                                className={
+                                    "text-3xl text-[#FAF5EF] my-4 " +
+                                    londrinasolid.className
+                                }
+                            >
+                                Rules
+                            </h2>
+                            <ul
+                                className={
+                                    "ml-8 title-font " +
+                                    registerStyles.registerul
+                                }
+                            >
+                                {eventName &&
+                                    eventRegisterData[eventName].rules.map(
+                                        (rule) => (
+                                            <li
+                                                className={
+                                                    "mb-2 " +
+                                                    registerStyles.registerli
+                                                }
+                                            >
+                                                {rule}
+                                            </li>
+                                        )
+                                    )}
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center relative w-full h-8 my-16">
+                            <Image
+                                src={"/register/line.svg"}
+                                fill
+                                alt="Event Image"
+                                className="object-contain"
+                            />
+                        </div>
+
+                        <div>
+                            <h2
+                                className={
+                                    "text-3xl mb-4 text-[#FAF5EF] " +
+                                    londrinasolid.className
+                                }
+                            >
+                                Coordinators
+                            </h2>
+                            <ul
+                                className={
+                                    "ml-8 title-font " +
+                                    registerStyles.registerul
+                                }
+                            >
+                                {eventName &&
+                                    eventRegisterData[
+                                        eventName
+                                    ].coordinators.map((coordinator) => (
+                                        <li
+                                            className={
+                                                registerStyles.registerli +
+                                                " mb-2"
+                                            }
+                                        >
+                                            {coordinator}
+                                        </li>
+                                    ))}
+                            </ul>
+                        </div>
+                    </main>
                 </div>
             </div>
-
-            <main className="mx-auto py-8 pl-8 pr-8">
-                <div className="flex justify-center items-center mb-8">
-                    <button
-                        className="px-6 py-2 bg-yellow-400 rounded-lg mr-4 focus:outline-none"
-                        onClick={redirectToEvent}
-                    >
-                        REGISTER
-                    </button>
-                    <button className="px-6 py-2 bg-yellow-400 rounded-lg focus:outline-none">
-                        READ RULES
-                    </button>
-                </div>
-
-                <div className="flex justify-center">
-                    <img src={Sectionboder} alt="Event Image" />
-                </div>
-
-                <div className="mb-8">
-                    <h3 className="text-xl font-bold mb-4">RULES</h3>
-                    <ul className="ml-8 title-font">
-                        {eventName &&
-                            eventRegisterData[eventName].rules.map((rule) => (
-                                <li>{rule}</li>
-                            ))}
-                    </ul>
-                </div>
-                <div className="flex justify-center">
-                    <img src={Sectionboder} alt="Event Image" />
-                </div>
-                <div>
-                    <h3 className="text-xl font-bold mb-1">COORDINATORS</h3>
-                    <ul className="ml-8 title-font">
-                        {eventName &&
-                            eventRegisterData[eventName].coordinators.map(
-                                (coordinator) => <li>{coordinator}</li>
-                            )}
-                    </ul>
-                </div>
-            </main>
-        </div>
+        </>
     );
 }
 

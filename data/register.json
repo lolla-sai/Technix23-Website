@@ -1,21 +1,27 @@
 {
     "hackathon": {
-        "event_name": "jklmno123",
-        "event_type": "Virtual Hackathon",
-        "event_quote": "Join us for a virtual hackathon to build solutions for social good!",
-        "prizes": ["5000", "2000"],
-        "date": "2023-06-15",
-        "time": "9:00 AM - 6:00 PM EST",
+        "event_name": "Technothon 2.0",
+        "event_type": "Hackathon",
+        "event_quote": "Indulge in Technothon for a caffeine fueled coding marathon by competing against other crazed coders in a race against time by delivering the ultimate solution. Code-Create-Collaborate! Do you have what it takes to : return(Victorious); ",
+        "prizes": ["15000", "9000"],
+        "date": "2023-04-20 and 2023-04-21",
+        "time": "12:00 PM - 12:00 PM IST",
         "rules": [
-            "Teams of 3-5 members allowed",
-            "All code must be original",
-            "No offensive or discriminatory content allowed"
+            "A team should have minimum of 2 and maximum of 3 members",
+            "Teams are allowed to register by 11 PM on 18th April 2023.",
+            "The hackathon is of a 24 hour format beginning at 12 PM on 20th April. No team member is allowed to leave the venue until the end of the hackathon.",
+            "Problem Statements range over a wide variety of topics including IoT, teams targeting those should carry their own hardware etc. (Raspberry Pi, Arduino, etc.). Additional hardware if required will be provided (sensors,etc).",
+            "Problem statements will be released one hour prior to the hackathon(11 AM on 20th April) on the Whatsapp group and emailed. One problem statement will be allocated to a maximum of one team on the basis of first come first serve.",
+            "Each team has to choose one unallocated problem statement and inform it on the WhatsApp group. Once the problem statement is chosen it is no longer available to other teams.",
+            "Team members need to carry their own systems/accessories.",
+            "Decisions of the judges will be final."
         ],
-        "coordinators": ["John Smith", "Jane Doe", "Alex Johnson"]
+        "detailedRulesLink": "https://docs.google.com",
+        "coordinators": ["Sai Sameer Kumar Lolla", "Rounak Naik", "Amisha Naik"]
     },
     "Competitive Coding": {
-        "event_name": "adsfdf",
-        "event_type": "Coding Competition",
+        "event_name": "Arena de Codigo",
+        "event_type": "Competitive Coding",
         "event_quote": "Join us for a competitive coding challenge and win exciting prizes!",
         "prizes": ["3000", "2000"],
         "date": "2023-08-01",
@@ -25,6 +31,7 @@
             "All code must be original",
             "No plagiarism allowed"
         ],
+        "detailedRulesLink": "docs.google.com/",
         "coordinators": ["Sam Wilson", "Lisa Patel", "Ravi Singh"]
     },
     "Treasure Hunt": {
@@ -39,6 +46,7 @@
             "Must be original work",
             "No offensive or discriminatory content allowed"
         ],
+        "detailedRulesLink": "",
         "coordinators": ["Samantha Lee", "Peter Johnson", "Anna Wilson"]
     }
 }
