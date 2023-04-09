@@ -36,7 +36,7 @@ function SingleEventCard({
                 className="e_bottom_leaf md:group-hover:opacity-100 md:opacity-0 opacity-100 absolute top-[78%] left-[-20%]"
             />
 
-            <Link href={eventHref}>
+            <Link href="/register/[eventName]" as={`/register/${eventName}`}>
                 <div
                     style={{
                         backgroundImage: `url('${cartoonImg}')`,
