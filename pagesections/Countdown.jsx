@@ -46,8 +46,8 @@ function Countdown() {
         gsap.timeline({
             defaults: { duration: 3, ease: "none" },
             scrollTrigger: {
-                trigger: ".SC2",
-                start: "-=50% top",
+                trigger: ".HRO",
+                start: "+=10% top",
                 end: "bottom bottom",
                 // markers:true,
                 pinSpacing: false,

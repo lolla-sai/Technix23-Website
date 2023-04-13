@@ -74,6 +74,7 @@ const StyledModalOverlay = styled.div`
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.65);
+    max-width: 100vh;
 `;
 
 export default Modal1;

@@ -1,12 +1,15 @@
 import Modal1 from "@/components/Modal1";
 import Modal2 from "@/components/Modal2";
 import { londrinasolid } from "@/data/fonts";
+import modalContext from "@/store/modalContext";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Schedule() {
     const [showModal1, setShowModal1] = useState(false);
     const [showModal2, setShowModal2] = useState(false);
+    const { navbarOpen, setNavbarOpen } = useContext(modalContext);
 
     return (
         <section id="schedule" className={londrinasolid.className + " h-auto"}>
@@ -47,15 +50,12 @@ function Schedule() {
                     </span>
 
                     {/* Menu */}
-                    <div className="mb-2 xs:mb-0">
-                        <Image
-                            src="/assets/images/Schedule/menu.svg"
-                            alt="menu"
-                            width="50"
-                            height="50"
-                            className="relative z-[1]"
-                        />
-                    </div>
+                    <GiHamburgerMenu
+                        size={40}
+                        color="black"
+                        className="cursor-pointer"
+                        onClick={() => setNavbarOpen(!navbarOpen)}
+                    />
                 </div>
 
                 {/* Day 1 */}
