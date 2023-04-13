@@ -3,7 +3,7 @@
         "event_name": "Technothon 2.0",
         "event_type": "Hackathon",
         "event_quote": "Indulge in Technothon for a caffeine fueled coding marathon by competing against other crazed coders in a race against time by delivering the ultimate solution. Code-Create-Collaborate! Do you have what it takes to : return(Victorious); ",
-        "prizes": ["20000", "10000"],
+        "prizes": ["10000", "6000"],
         "date": "2023-04-20 and 2023-04-21",
         "time": "12:00 PM - 12:00 PM IST",
         "rules": [
@@ -23,13 +23,13 @@
             "Amisha Naik (87886 18475)",
             "Azvern Dias (82620 82881)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/technothon2.0"
     },
     "competitive_coding": {
         "event_name": "Arena De Codigo",
         "event_type": "Competitive Coding",
         "event_quote": "Pen is mightier than sword, but we geeks prefer to fight using code. Enter the arena to battle it out. Magic of your logic is what we care about.",
-        "prizes": ["3000", "2000"],
+        "prizes": ["4000", "3000"],
         "date": "2023-04-20",
         "time": "11:00 AM - 5:00 PM IST",
         "rules": [
@@ -48,13 +48,13 @@
             "Shriteen Dhamasker (93597 84361)",
             "Rushikesh Sharma (91724 74780)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/arena-De-codigo"
     },
     "code_in_chaos": {
         "event_name": "The Code Circus",
         "event_type": "Coding with Challenges",
         "event_quote": "Do you think you can code in any conditions? So get ready to code, get ready to play, we bring you The Code Circus that'll make your day!",
-        "prizes": ["3000", "2000"],
+        "prizes": ["4000", "3000"],
         "date": "2023-04-21",
         "time": "10:00 AM - 4:00 PM IST",
         "rules": [
@@ -74,15 +74,15 @@
             "Puneet Patil (94030 44925)",
             "Sahil Vernekar (88057 40191)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/codeCircus"
     },
     "tech_quiz": {
         "event_name": "Brain Carousel",
         "event_type": "Quiz",
         "event_quote": "Ready to show off your smarts? Join us for an exciting quiz event and put your knowledge to the test!",
-        "prizes": ["3000", "2000"],
+        "prizes": ["3500", "2500"],
         "date": "2023-04-21",
-        "time": "11:00 AM - 3:00 PM IST",
+        "time": "11:00 AM - 4:00 PM IST",
         "rules": [
             "Teams of 2 members from the same institution are allowed.",
             "Candidates must report at the registration desk by 10.30 am on the day of the event and carry ID cards along with them.",
@@ -93,21 +93,21 @@
             "Participants indulging in malpractices shall be immediately disqualified.",
             "The decision of the coordinators will be final."
         ],
-        "detailedRulesLink": "docs.google.com",
+        "detailedRulesLink": "https://docs.google.com/document/d/1DUogjEpqgeqQKTmuH--DLq58VYMIGECONsDjFeKEiWQ/edit?usp=drivesdk",
         "coordinators": [
             "Siya Golatkar (94226 00672)",
             "Saiesh Khanolkar (93259 90664)",
             "Rahul Kolwalkar (91687 99791)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/Brain_Carousel"
     },
     "escape_room": {
         "event_name": "CarnEVIL Escape",
         "event_type": "Escape Room",
         "event_quote": "Tangled in time,\nTangled in space.\nWanna escape the professor's trap?\nCrack the case!",
-        "prizes": ["3000", "2000"],
+        "prizes": ["6000", "4500"],
         "date": "2023-04-20 and 2023-04-21",
-        "time": "10:00 AM - 1:00 PM IST on 20th and 9:00 AM - 3:00 PM IST on 21st",
+        "time": "2:00 PM - 4:00 PM IST on 20th and 9:30 AM - 4:00 PM IST on 21st",
         "rules": [
             "Maximum 3 people in a team.",
             "The event will have 3 rounds in entirety (all offline).",
@@ -123,15 +123,15 @@
             "Caymann Velingkar (85548 44249)",
             "Medam Greeshma (79723 21283)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/technix-escape-room"
     },
     "ideathon": {
-        "event_name": "Idea Utsav",
+        "event_name": "Concepto Exibição",
         "event_type": "Ideathon",
         "event_quote": "Ideas that can change the world!",
-        "prizes": ["3000", "2000"],
-        "date": "To Be Updated",
-        "time": "To Be Updated",
+        "prizes": ["4500", "3000"],
+        "date": "2023-04-20",
+        "time": "2:00 PM - 5:00 PM IST",
         "rules": [
             "Team Size: 1 – 4 members",
             "Max no of teams-8 (if we get higher response, a separate qualifier round will be scheduled at morning 10 am whose details will be shared in the whatsapp group)",
@@ -152,13 +152,13 @@
             "Harsh Bhobe (95798 97408)",
             "Jacob Abraham (94210 12095)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/Concepto_exabicao"
     },
     "ui_ux_design": {
         "event_name": "Rio Designeiro",
         "event_type": "UI/UX Design Challenge",
         "event_quote": "Step right into the Capital of Canvases and immerse yourself into the art of interaction design - a whirlwind of inspiration, imagination, and innovation",
-        "prizes": ["3000", "2000"],
+        "prizes": ["7500", "6000"],
         "date": "2023-04-20 and 2023-04-21",
         "time": "5:00 PM - 1:00 PM IST",
         "rules": [
@@ -176,15 +176,15 @@
             "Trusha Neogi (70200 54143)",
             "Mark Cotta (74481 18949)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/riodesigneiro"
     },
     "treasure_hunt": {
         "event_name": "Backtracker’s Samba",
         "event_type": "Treasure Hunt",
         "event_quote": "Grab your big boots to maneuver your samba moves, to get your hands on the treasure troves or backtrack down the sad grooves",
-        "prizes": ["3000", "2000"],
+        "prizes": ["6000", "4500"],
         "date": "2023-04-20 and 2023-04-21",
-        "time": "10:00 AM - 1:00 PM IST on 20th and 9:00 AM - 4:00 PM IST on 21st",
+        "time": "9:00 AM - 5:00 PM IST on 21st",
         "rules": [
             "There is no limit on the number of online entries for the event.",
             "Participation in the event is open to teams of two members only.",
@@ -197,19 +197,19 @@
             "Round 2 and round-3 will be conducted in the campus on day-2.",
             "A team should have atleast one mobile device with a QR code scanning feature (Participants can use inbuilt or downloaded app)"
         ],
-        "detailedRulesLink": "https://docs.google.com",
+        "detailedRulesLink": "https://docs.google.com/document/d/1QJsVJP8eLmXH3a9QjA4GNGJ5y-h1OVtPb5OTuynspnA/edit?usp=sharing",
         "coordinators": [
             "Lloyd Costa (95275 09048)",
             "Raghuram Shetty (76665 64977)",
             "Jayden Viegas (83790 25762)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/backtrackers-samba"
     },
     "speed_typing": {
         "event_name": "Typing Tango",
         "event_type": "Speed Typing",
         "event_quote": "Unleash your inner speed demon!",
-        "prizes": ["3000", "2000"],
+        "prizes": ["2000", "1000"],
         "date": "2023-04-20",
         "time": "11:00 AM - 1:00 PM IST",
         "rules": [
@@ -223,15 +223,15 @@
             "Bhargava Bhatkurse (95521 69925)",
             "Kasim Khan (90672 99580)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/technix-typing-tango"
     },
     "minecraft": {
         "event_name": "MINEFIESTA",
         "event_type": "Minecraft",
         "event_quote": "The First Ever Minecraft LAN in Goa!",
-        "prizes": ["3000", "2000"],
+        "prizes": ["7000", "3000"],
         "date": "2023-04-21",
-        "time": "9:00 AM - 5:00 PM IST",
+        "time": "9:30 AM - 5:00 PM IST",
         "rules": [
             "The version to be used is Minecraft Java Edition (1.12.2)",
             "16 players will compete in the championship.",
@@ -244,7 +244,7 @@
             "Farhan Bukhari (95277 07909)",
             "Aryan Ghorpade (77588 84457)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/mine-fiesta"
     },
     "fifa": {
         "event_name": "VIVA FIFA",
@@ -253,18 +253,26 @@
         "prizes": ["3000", "2000"],
         "date": "2023-04-20",
         "time": "10:00 AM - 5:00 PM IST",
-        "rules": ["Rule 1", "Rule 2"],
-        "detailedRulesLink": "https://docs.google.com/",
-        "coordinators": ["Coordinator (Phone)"],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "rules": ["1v1 format fifa with default Fifa 22 teams. Games will be played on Playstation console and Laptop using ps4 controllers.", 
+                "4 Minutes Half games",
+                "With 2 minutes pre-game for Team Instructions and Settings Change",
+                "Pausing Game during match will not be allowed unless ball is out of play.",
+                "Teams can be changed per game",
+                "Game to be used: FIFA 22",
+                "Game to be used: FIFA 22",
+                "PS 4 Controllers"
+                ],
+        "detailedRulesLink": "https://drive.google.com/file/d/1MBaUKuZlIRABqlrWNHxuophK6EeHIwtf/view?usp=drivesdk",
+        "coordinators": ["Avnish Cabral (82376 73292)","Shashwat Halnarkar: (72490 64548)"],
+        "lumaLink": "https://lu.ma/VivaFifa"
     },
     "reel_making": {
         "event_name": "Reel Rodeo",
         "event_type": "Reel Making",
         "event_quote": "From script to screen: Enter our reel-making contest and bring your vision to life on the silver screen",
-        "prizes": ["3000", "2000"],
-        "date": "2023-04-20",
-        "time": "10:00 AM - 5:00 PM IST",
+        "prizes": ["2000", "1500"],
+        "date": "2023-04-19 and 2023-04-20",
+        "time": "11:30 PM IST on 19th - 12:00 AM IST on 20th",
         "rules": [
             "The reel should be in a 16:9 Aspect ratio (Portrait size)",
             "The reel should exceed the time duration of 1min.",
@@ -278,15 +286,15 @@
             "Jayant Apte (99218 36102)",
             "Shreya Khorjuvekar (93564 19849)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/ReelRodeo"
     },
     "photography": {
         "event_name": "SnapFloat",
         "event_type": "Photography",
         "event_quote": "Snap your best shot",
-        "prizes": ["3000", "2000"],
-        "date": "2023-04-20 and 2023-04-21",
-        "time": "9:00 AM IST on 20th - 3:00 PM IST on 21st",
+        "prizes": ["1500", "1000"],
+        "date": "2023-04-20",
+        "time": "9:00 AM - 5:00 PM IST",
         "rules": [
             "Individual participant only.",
             "The contest will be divided into two rounds.",
@@ -303,15 +311,15 @@
             "Sakshi Joshi (90964 11707)",
             "Prathik Achari (73878 92231)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/SnapFloat"
     },
     "meme": {
         "event_name": "MEME FUNHOUSE",
         "event_type": "Meme",
         "event_quote": "Unmask your humor and join the meme-funhouse",
-        "prizes": ["3000", "2000"],
-        "date": "2023-04-20",
-        "time": "9:00 AM- 3:00 PM",
+        "prizes": ["1500", "1000"],
+        "date": "2023-04-18 to 2023-04-20",
+        "time": "10:00 AM IST on 18th - 11:00 AM on 20th",
         "rules": [
             "One Entry per participant.",
             "The topic will be given on 18th April by 10am.",
@@ -331,7 +339,7 @@
             "Shivam Raikar (74995 91439)",
             "Satyam Naik (70284 58742)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/MEME-FUNHOUSE"
     },
     "debate": {
         "event_name": "De-byte-able",
@@ -340,12 +348,18 @@
         "prizes": ["3000", "2000"],
         "date": "2023-04-21",
         "time": "10:00 AM - 3:00 PM IST",
-        "rules": ["Rule 1", "Rule 2"],
+        "rules": ["Team of 2 members will compete in a 1v1 style debate.",
+        "Teams are randomly paired against each other and cumulative points over all rounds determine top 4 teams.",
+        "Sides for topics chosen by coin toss if only teams do not come to a consensus.",
+        "Topics will be randomly chosen by judges once both teams are on stage and preparation time will begin as soon as topic is read out, after which electronic devices are to be kept aside.",
+        "Top 4 teams will be randomly put against each other for semi finals and winners of each semi final round will be against each other for finals.",
+        "Question round can have only one answer with no follow up questions or answers"
+    ],
         "detailedRulesLink": "https://docs.google.com/document/d/1X_Ax_ZSDKHWdJOCGMfb8B8ySmtMu3PJZxP_OZGCwzhs/edit?usp=drivesdk",
         "coordinators": [
             "Azvern Dias (82620 82881)",
             "Vaibhav Mhambrey (93705 68242)"
         ],
-        "lumaLink": "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+        "lumaLink": "https://lu.ma/DeByteAble"
     }
 }
