@@ -6,10 +6,14 @@ import Countdown from "@/pagesections/Countdown";
 import Sponsors from "@/pagesections/Sponsors";
 import About from "@/pagesections/About";
 import Team from "@/pagesections/Team";
-import AboutNew from "@/pagesections/AboutNew";
-import AboutSai from "@/pagesections/AboutSai";
+import Schedule from "@/pagesections/Schedule";
+import Menu from "@/components/Menu";
+import { useContext } from "react";
+import modalContext from "@/store/modalContext";
 
 function Index() {
+    const { navbarOpen } = useContext(modalContext);
+
     return (
         <>
             <Head>
@@ -20,22 +24,29 @@ function Index() {
                 ></meta>
             </Head>
 
-            <Hero />
+            {navbarOpen && (
+                <div className="modal h-full w-full fixed inset-0 z-50">
+                    <Menu />
+                </div>
+            )}
 
-            <Countdown />
+            <main>
+                <Hero />
 
-            {/* <About /> */}
-            {/* <AboutNew /> */}
-            <AboutSai />
+                <Countdown />
 
-            <Events />
+                <About />
 
-            <Sponsors />
+                <Events />
 
-            <Team />
+                <Schedule />
 
-            {/* <Footer /> */}
-            <Footer />
+                <Sponsors />
+
+                <Team />
+
+                <Footer />
+            </main>
         </>
     );
 }

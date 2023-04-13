@@ -100,7 +100,7 @@ function Events() {
     }, []);
 
     return (
-        <section className=" bg-[#fbf2e5] relative overflow-hidden">
+        <section className=" bg-[#fbf2e5] relative overflow-hidden" id="events">
             <Image
                 src="/assets/images/Events/wiring.png"
                 width={0}

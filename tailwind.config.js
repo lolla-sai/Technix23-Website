@@ -31,9 +31,10 @@ module.exports = {
                 "footer-black": "#414141",
             },
             screens: {
-                avg: "1000px",
                 xsm: "390px",
+                xs: "450px",
                 xmd: "820px",
+                avg: "1000px",
             },
         },
     },

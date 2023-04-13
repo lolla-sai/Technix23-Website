@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 function SingleEventCard({
     parentDivClassName,
@@ -15,13 +16,15 @@ function SingleEventCard({
     return (
         <div
             className={
-                "event_tab group rounded-[90px] inline-block relative md:h-[500px] h-[350px] shrink-0 md:w-64 w-52 cursor-pointer  " +
+                "event_tab group rounded-[90px] inline-block relative md:h-[500px] h-[350px] shrink-0 md:w-64 w-52 cursor-pointer select-none outline-none " +
                 parentDivClassName
             }
         >
             <div className="e-cnt1 group-hover:hidden hidden md:flex w-full h-full items-center flex-col  justify-evenly relative z-10 ">
                 <img src={imgCardDecor} alt="" />
-                <h2 className="md:text-3xl text-xl">{eventName}</h2>
+                <h2 className="md:text-3xl text-xl px-4 text-center">
+                    {eventName}
+                </h2>
                 <img src={imgCardDecor} alt="" className="rotate-180" />
             </div>
 
@@ -46,10 +49,12 @@ function SingleEventCard({
                         childDivClassName
                     }
                 >
-                    <img
+                    <Image
                         id="cursor"
-                        src={cursorImg}
-                        alt=""
+                        src={"/" + cursorImg}
+                        width={30}
+                        height={30}
+                        alt="Cursor Image"
                         className="mx-auto scale-x-[-1] my-8"
                     />
                     <p className="md:text-3xl text-xl whitespace-pre-line text-center ">
