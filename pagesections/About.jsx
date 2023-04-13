@@ -7,7 +7,7 @@ import modalContext from "@/store/modalContext";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
-import React, { useContext, useLayoutEffect } from "react";
+import React, { useContext, useEffect, useLayoutEffect } from "react";
 import { GiDiamonds, GiHamburgerMenu } from "react-icons/gi";
 import { BsFillDiamondFill, BsFlower1 } from "react-icons/bs";
 
@@ -35,7 +35,7 @@ const props = [
 function About() {
     const { navbarOpen, setNavbarOpen } = useContext(modalContext);
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         gsap.defaults({ ease: "none" });
         gsap.registerPlugin(ScrollTrigger);
 
@@ -51,7 +51,7 @@ function About() {
                         toggleActions: "reverse",
                         pin: true,
                         pinSpacing: false,
-                        snap: ".EventTrans",
+                        // snap: ".EventTrans",
                     },
                 }).fromTo(
                     ".EventTrans",
@@ -71,7 +71,7 @@ function About() {
                         toggleActions: "reverse",
                         pin: true,
                         pinSpacing: false,
-                        snap: ".EventTrans",
+                        // snap: ".EventTrans",
                     },
                 }).fromTo(
                     ".EventTrans",
@@ -91,7 +91,7 @@ function About() {
                         toggleActions: "reverse",
                         pin: true,
                         pinSpacing: false,
-                        snap: ".EventTrans",
+                        // snap: ".EventTrans",
                     },
                 }).fromTo(
                     ".EventTrans",
@@ -118,7 +118,7 @@ function About() {
     }, []);
 
     return (
-        <>
+        <div className="w-full h-screen overflow-hidden">
             <div
                 className="bg-[#FFBF42] overflow-hidden relative w-full flex items-center justify-center min-h-screen px-6 EventTrans origin-center will-change-transform transform-gpu"
                 id="about"
@@ -236,7 +236,7 @@ function About() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

@@ -39,7 +39,7 @@ function Countdown() {
         }, 1000);
     }, [setDelta]);
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         gsap.defaults({ ease: "none" });
         gsap.registerPlugin(ScrollTrigger);
 
