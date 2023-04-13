@@ -43,7 +43,7 @@ function Schedule() {
                     </svg>
                 </div>
                 {/* Schedule text, Menu */}
-                <div className="flex flex-col-reverse items-center xs:justify-between xs:flex-row p-14 pb-7">
+                <div className="flex items-center justify-between flex-row p-14 pb-7">
                     {/* Schedule text */}
                     <span className="text-3xl xs:text-4xl sm:text-5xl">
                         SCHEDULE

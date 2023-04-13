@@ -16,9 +16,12 @@ function SingleEventCard({
     return (
         <div
             className={
-                "event_tab group rounded-[90px] inline-block relative md:h-[500px] h-[350px] shrink-0 md:w-64 w-52 cursor-pointer select-none outline-none " +
+                "event_tab group rounded-[90px] inline-block relative md:h-[500px] h-[350px] shrink-0 md:w-64 w-52 md:cursor-pointer select-none outline-none " +
                 parentDivClassName
             }
+            style={{
+                "-webkit-tap-highlight-color": "transparent",
+            }}
         >
             <div className="e-cnt1 group-hover:hidden hidden md:flex w-full h-full items-center flex-col  justify-evenly relative z-10 ">
                 <img src={imgCardDecor} alt="" />
@@ -31,12 +34,12 @@ function SingleEventCard({
             <img
                 src={rightFeatherImg}
                 alt=""
-                className="e_top_leaf md:group-hover:opacity-100 md:opacity-0 opacity-1 absolute top-[-15%] left-[58%]"
+                className="e_top_leaf w-[70px] h-[70px] md:w-auto md:h-auto md:group-hover:opacity-100 md:opacity-0 opacity-1 absolute top-0 right-0 translate-x-[30%] -translate-y-[30%] md:translate-x-[0%] md:-translate-y-[0%] md:top-[-15%] md:left-[58%] hidden md:block"
             />
             <img
                 src={leftFeatherImg}
                 alt=""
-                className="e_bottom_leaf md:group-hover:opacity-100 md:opacity-0 opacity-100 absolute top-[78%] left-[-20%]"
+                className="e_bottom_leaf w-[70px] h-[70px] md:w-auto md:h-auto md:group-hover:opacity-100 md:opacity-0 opacity-100 absolute bottom-0 left-0 -translate-x-[30%] translate-y-[30%] md:-translate-x-[0%] md:translate-y-[0%] md:top-[78%] md:left-[-20%] hidden md:block"
             />
 
             <Link href={`/register/${eventHref}`} as={`/register/${eventHref}`}>
