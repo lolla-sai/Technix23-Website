@@ -2,7 +2,6 @@ import menuButtons from "@/data/menubuttons";
 import modalContext from "@/store/modalContext";
 import React, { useContext } from "react";
 import { AiOutlineClose } from "react-icons/ai";
-import AnimatedButton from "./AnimatedButton";
 
 function Menu() {
     const { navbarOpen, setNavbarOpen } = useContext(modalContext);

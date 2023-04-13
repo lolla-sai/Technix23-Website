@@ -3,7 +3,12 @@ const nextConfig = {
     reactStrictMode: true,
     distDir: "build",
     images: {
-        domains: ["seeklogo.com", "fastly.picsum.photos"],
+        domains: [
+            "seeklogo.com",
+            "fastly.picsum.photos",
+            "www.teaminertia.com",
+            "www.hotelhub.com",
+        ],
     },
     eslint: {
         ignoreDuringBuilds: true,

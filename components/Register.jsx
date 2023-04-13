@@ -27,13 +27,13 @@ function Register() {
     }, [router.isReady]);
 
     function redirectToEvent() {
-        alert("Registerations will open from 14th April 2023");
+        // alert("Registerations will open from 14th April 2023");
         // for time being, removed luma from here.
-        // window.open(
-        //     "https://lu.ma/event/evt-4LEqHzIVQizhJso",
-        //     "Event Page",
-        //     "height=500,width=700"
-        // );
+        window.open(
+            "https://lu.ma/event/evt-4LEqHzIVQizhJso",
+            "Event Page",
+            "height=500,width=700"
+        );
     }
 
     return (

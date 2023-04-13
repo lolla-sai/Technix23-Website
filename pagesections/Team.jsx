@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import HeroText from "@/components/HeroText";
 import TeamMember from "../components/TeamMember";
 import members from "../data/members";
