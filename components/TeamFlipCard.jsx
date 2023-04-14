@@ -25,7 +25,7 @@ function TeamFlipCard({ name, role, dp, linkedin, behance, mail, github }) {
             `}</style>
 
             <div className="bg-transparent w-[300px] h-[300px] group flip-card rounded-3xl overflow-hidden relative z-30">
-                <div className="relative w-full h-full text-center group-hover:rotate-y-180 flip-card-inner transition-transform duration-300">
+                <div className="relative w-full h-full text-center group-hover:rotate-y-180 flip-card-inner transition-transform duration-300 flex">
                     <div
                         className="absolute w-full h-full bg-[#bbb] text-black"
                         style={{
@@ -42,17 +42,22 @@ function TeamFlipCard({ name, role, dp, linkedin, behance, mail, github }) {
                         />
                     </div>
                     <div
-                        className="absolute w-full h-full text-white bg-[#1AC769] "
+                        className="absolute w-full h-full text-white bg-[#1AC769] flex items-center flex-col justify-center"
                         style={{
                             "-webkit-backface-visibility": "hidden",
                             "backface-visibility": "hidden",
                             transform: "rotateY(180deg)",
                         }}
                     >
-                        <h1>{name}</h1>
-                        <p>{role}</p>
-                        <div className="flex-row flex">
+                        <h1 className="text-2xl font-extrabold uppercase">{name}</h1>
+                        <p className="mt-2">{role}</p>
+                        <Image className="relative top-0 left-0" src={}/>
+                        <Image className="relative top-0 right-0" src={}/>
+                        <Image className="relative bottom-0 left-0" src={}/>
+                        <Image className="relative bottom-0 right-0" src={}/>
+                        <div className="flex-row flex items-center justify-center mt-2">
                             <a
+                                className="px-1"
                                 href={linkedin}
                                 target="_blank"
                                 rel="noopenner noreferrer"
@@ -60,6 +65,7 @@ function TeamFlipCard({ name, role, dp, linkedin, behance, mail, github }) {
                                 <AiFillLinkedin />
                             </a>
                             <a
+                                className="px-1"
                                 href={behance}
                                 target="_blank"
                                 rel="noopenner noreferrer"
@@ -67,6 +73,7 @@ function TeamFlipCard({ name, role, dp, linkedin, behance, mail, github }) {
                                 <AiFillBehanceSquare />
                             </a>
                             <a
+                                className="px-1"
                                 href={mail}
                                 target="_blank"
                                 rel="noopenner noreferrer"
@@ -74,6 +81,7 @@ function TeamFlipCard({ name, role, dp, linkedin, behance, mail, github }) {
                                 <AiOutlineMail />
                             </a>
                             <a
+                                className="px-1"
                                 href={github}
                                 target="_blank"
                                 rel="noopenner noreferrer"
