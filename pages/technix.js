@@ -11,7 +11,7 @@ import Menu from "@/components/Menu";
 import { useContext } from "react";
 import modalContext from "@/store/modalContext";
 
-function Index() {
+function Technix() {
     const { navbarOpen } = useContext(modalContext);
 
     return (
@@ -43,7 +43,7 @@ function Index() {
 
                 <Sponsors />
 
-                {/* <Team /> */}
+                <Team />
 
                 <Footer />
             </main>
@@ -51,4 +51,4 @@ function Index() {
     );
 }
 
-export default Index;
+export default Technix;

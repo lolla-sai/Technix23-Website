@@ -145,7 +145,7 @@ function Hero() {
 
     return (
         <>
-            <section class="w-full h-full overflow-hidden relative">
+            <section className="w-full h-full overflow-hidden relative">
                 <section>
                     <Image
                         src={heroImage}
@@ -156,7 +156,7 @@ function Hero() {
                     />
                 </section>
 
-                <section class="bg-[#010027] min-h-screen grid place-items-center select-none z-0 inset-y-0  w-full h-full HRO overflow-hidden ">
+                <section className="bg-[#010027] min-h-screen grid place-items-center select-none z-0 inset-y-0  w-full h-full HRO overflow-hidden ">
                     <div
                         className="section-1"
                         style={{

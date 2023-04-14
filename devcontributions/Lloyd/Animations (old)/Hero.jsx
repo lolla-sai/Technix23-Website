@@ -82,7 +82,7 @@ function Hero() {
                 />
             </section>
 
-            <section class="bg-[#010027] min-h-screen grid place-items-center select-none z-0 inset-y-0 absolute top-0 w-full h-full HRO ">
+            <section className="bg-[#010027] min-h-screen grid place-items-center select-none z-0 inset-y-0 absolute top-0 w-full h-full HRO ">
                 <div
                     className="section-1"
                     style={{ willChange: "transform", position: "relative" }}

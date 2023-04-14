@@ -1,47 +1,47 @@
 {
-    "Title Sponsor":[
+    "Title Sponsor": [
         {
-            "name":"Pocket52",
-            "logo":"/assets/logos/Pocket52.png",
-            "link":"https://www.pocket52.com/"
+            "name": "Pocket52",
+            "logo": "/assets/logos/Pocket52.png",
+            "link": "https://www.pocket52.com/"
         }
     ],
-    "Co Sponsor":[
+    "Co Sponsor": [
         {
-            "name":"Hotel Hub",
-            "logo":"https://www.hotelhub.com/wp-content/themes/hotelhub/assets/images/logo.svg",
-            "link":"https://www.hotelhub.com/"
+            "name": "Hotel Hub",
+            "logo": "/assets/logos/hotelhub.jpeg",
+            "link": "https://www.hotelhub.com/"
         }
     ],
-    "Event Supporters":[
+    "Event Supporters": [
         {
-            "name":"Fieldnotes Ai",
-            "logo":"/assets/logos/fieldnotes.jpg",
-            "link":"https://fieldnotes.ai/"
+            "name": "Fieldnotes Ai",
+            "logo": "/assets/logos/fieldnotes.jpg",
+            "link": "https://fieldnotes.ai/"
         },
         {
-            "name":"Creative Capsule",
-            "logo":"/assets/logos/cc.png",
-            "link":"https://www.creativecapsule.com/"
+            "name": "Creative Capsule",
+            "logo": "/assets/logos/cc.png",
+            "link": "https://www.creativecapsule.com/"
         },
         {
-            "name":"Team Inertia",
-            "logo":"https://www.teaminertia.com/img/logo_orange.jpg",
-            "link":"https://www.teaminertia.com/"
+            "name": "Team Inertia",
+            "logo": "https://www.teaminertia.com/img/logo_orange.jpg",
+            "link": "https://www.teaminertia.com/"
         }
     ],
-    "Beverage Partner":[
+    "Beverage Partner": [
         {
-            "name":"Zen",
-            "logo":"/assets/logos/zen.png",
-            "link":""
+            "name": "Zen",
+            "logo": "/assets/logos/zen.png",
+            "link": ""
         }
     ],
-    "Food Partner":[
+    "Food Partner": [
         {
-            "name":"Hotel Annapurna",
-            "logo":"/assets/logos/annapurna.png",
-            "link":""
+            "name": "Hotel Annapurna",
+            "logo": "/assets/logos/annapurna.png",
+            "link": ""
         }
     ]
 }
