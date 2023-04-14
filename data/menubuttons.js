@@ -36,13 +36,13 @@ const menuButtons = [
             "text-center block md:text-5xl text-3xl text-white " +
             londrinasolid.className,
     },
-    // {
-    //     href: "../#team",
-    //     title: "Team",
-    //     className:
-    //         "text-center block md:text-5xl text-3xl text-white " +
-    //         londrinasolid.className,
-    // },
+    {
+        href: "../#team",
+        title: "Team",
+        className:
+            "text-center block md:text-5xl text-3xl text-white " +
+            londrinasolid.className,
+    },
     {
         href: "https://bit.ly/TECHNIX23",
         title: "Download Brochure",
