@@ -4,10 +4,12 @@ import Events from "@/pagesections/Events";
 import Hero from "@/pagesections/Hero";
 import Countdown from "@/pagesections/Countdown";
 import Sponsors from "@/pagesections/Sponsors";
+import Seminar from "@/pagesections/Seminar";
 import About from "@/pagesections/About";
 import Team from "@/pagesections/Team";
 import Schedule from "@/pagesections/Schedule";
 import Menu from "@/components/Menu";
+
 import { useContext } from "react";
 import modalContext from "@/store/modalContext";
 
@@ -38,6 +40,8 @@ function Index() {
                 <About />
 
                 <Events />
+
+                <Seminar />
 
                 <Schedule />
 

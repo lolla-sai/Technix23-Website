@@ -1,5 +1,5 @@
 import { Serverless, Networking, Career, DecodingSecret, NewComputing } from "@/public/assets/images/Talks";
-const seminarCardData = [
+const seminarCardDataThursday = [
     {
         "title": "Careers in IT",
         "image": Career,
@@ -18,6 +18,8 @@ const seminarCardData = [
         "linkedin": "https://www.linkedin.com/in/maheshwari-terse",
         "registrationLink":"https://lu.ma/Networking_101"
     },
+]
+const seminarCardDataFriday = [
     {
         "title": "Decoding the Secret of '25 दिन में पैसा डबल'",
         "image": DecodingSecret,
@@ -31,4 +33,4 @@ const seminarCardData = [
         "registrationLink":"https://lu.ma/ServerlessOnAws"
     },
 ]
-export default seminarCardData;
+module.exports = {seminarCardDataThursday,seminarCardDataFriday}
