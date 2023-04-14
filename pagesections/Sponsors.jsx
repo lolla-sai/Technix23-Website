@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Sponsor from "@/components/Sponsor";
 import { londrinasolid } from "@/data/fonts";
 import HeroText from "@/components/HeroText";
 import Image from "next/image";
+import { GiHamburgerMenu } from "react-icons/gi";
+import modalContext from "@/store/modalContext";
 
 const sponsors = {
     "Title Sponsors": [
@@ -65,11 +67,22 @@ const sponsors = {
 };
 
 function Sponsors() {
+    const { navbarOpen, setNavbarOpen } = useContext(modalContext);
+
     return (
         <section
             id="sponsors"
             className="bg-[#FF6237] p-8 relative overflow-hidden"
         >
+            <div className="absolute top-10 left-10 z-20">
+                {/* <AnimatedButton /> */}
+                <GiHamburgerMenu
+                    size={40}
+                    color="white"
+                    className="cursor-pointer"
+                    onClick={() => setNavbarOpen(!navbarOpen)}
+                />
+            </div>
             {/* Positioned Images */}
             <div className="absolute w-[25vmax] h-[25vmax] max-w-[400px] max-h-[400px] top-0 left-0 translate-y-[-25%] translate-x-[-30%]">
                 <Image
