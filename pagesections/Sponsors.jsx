@@ -160,6 +160,19 @@ function Sponsors() {
                     londrinasolid.className + " text-4xl text-center text-white"
                 }
             >
+                Event Supporters
+            </h1>
+            <div className="s_shell">
+                {sponsors["Event Sponsor"].map((titleSponsor) => (
+                    <Sponsor {...titleSponsor} key={titleSponsor.name} />
+                ))}
+            </div>
+
+            <h1
+                className={
+                    londrinasolid.className + " text-4xl text-center text-white"
+                }
+            >
                 Beverage Partner
             </h1>
             <div className="s_shell">

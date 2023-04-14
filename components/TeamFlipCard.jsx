@@ -10,6 +10,15 @@ function TeamFlipCard({ name, role, dp, linkedin, behance, mail, github }) {
     return (
         <>
             <style jsx>{`
+                .flip-card {
+                    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+                }
+
+                .flip-card-inner {
+                    transition: transform 0.8s;
+                    transform-style: preserve-3d;
+                }
+
                 .flip-card:hover .flip-card-inner {
                     transform: rotateY(180deg);
                 }

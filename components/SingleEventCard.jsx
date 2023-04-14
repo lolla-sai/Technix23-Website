@@ -21,6 +21,7 @@ function SingleEventCard({
             }
             style={{
                 "-webkit-tap-highlight-color": "transparent",
+                WebkitTapHighlightColor: "transparent",
             }}
         >
             <div className="e-cnt1 group-hover:hidden hidden md:flex w-full h-full items-center flex-col  justify-evenly relative z-10 ">

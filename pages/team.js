@@ -10,6 +10,7 @@ import { CiTwitter } from "react-icons/ci";
 import MiniProp from "@/components/MiniProp";
 import TeamFlipCard from "@/components/TeamFlipCard";
 import Menu from "@/components/Menu";
+import Head from "next/head";
 
 const props = [
     {
@@ -82,6 +83,13 @@ function Team() {
             id="team"
             className="p-6 bg-[#1E1E1E] relative min-h-screen overflow-hidden"
         >
+            <Head>
+                <meta
+                    property="og:image"
+                    content="https://ahrefs.com/blog/wp-content/uploads/2020/01/fb-open-graph-1.jpg"
+                />
+                <title>Cursor - Team</title>
+            </Head>
             {navbarOpen && (
                 <div className="modal h-full w-full fixed inset-0 z-50">
                     <Menu />
