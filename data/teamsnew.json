@@ -62,7 +62,7 @@
             "imgLink": "/assets/images/Team/Council/Vineet.png",
             "linkedin": "https://www.linkedin.com/in/vineet-sawant-023ab6175",
             "behance": "",
-            "mail": "vineetswant@gmail.com",
+            "mail": "mailto:vineetswant@gmail.com",
             "github": "https://github.com/Vineet-Sawant",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
@@ -75,7 +75,7 @@
             "imgLink": "/assets/images/Team/Council/Pratham.png",
             "linkedin": "https://www.linkedin.com/in/prathamshankwalker",
             "behance": "",
-            "mail": "pshankwalker1@gmail.com",
+            "mail": "mailto:pshankwalker1@gmail.com",
             "github": "https://github.com/prathamshankwalker",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
@@ -88,7 +88,7 @@
             "imgLink": "/assets/images/Team/Council/Cayman.png",
             "linkedin": "https://www.linkedin.com/in/caymann-velingkar-975014207/",
             "behance": "",
-            "mail": "velingkarcaymann@gmail.com",
+            "mail": "mailto:velingkarcaymann@gmail.com",
             "github": "https://github.com/Kmann22",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
@@ -140,7 +140,7 @@
             "imgLink": "/assets/images/Team/Council/Kaustubh.png",
             "linkedin": "https://www.linkedin.com/in/kaustubh-athalekar",
             "behance": "",
-            "mail": "kaustubhdva@gmail.com",
+            "mail": "mailto:kaustubhdva@gmail.com",
             "github": "https://github.com/Itsmecoscube",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
@@ -153,7 +153,7 @@
             "imgLink": "/assets/images/Team/Council/Sudiksha.png",
             "linkedin": "https://www.linkedin.com/in/sudiksha-bhat",
             "behance": "",
-            "mail": "sudikshabhat2109@gmail.com",
+            "mail": "mailto:sudikshabhat2109@gmail.com",
             "github": "",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
@@ -208,7 +208,7 @@
             "imgLink": "/assets/images/Team/Website/Trusha.png",
             "linkedin": "https://www.linkedin.com/in/trushaneogi/",
             "behance": "https://www.behance.net/trushaneogi",
-            "mail": "trushaneogi05@gmail.com",
+            "mail": "mailto:trushaneogi05@gmail.com",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
             },
@@ -220,7 +220,7 @@
             "imgLink": "/assets/images/Team/Website/Sai.png",
             "linkedin": "https://www.linkedin.com/in/saisameerlolla/",
             "behance": "",
-            "mail": "saisameer.lolla@gmail.com",
+            "mail": "mailto:saisameer.lolla@gmail.com",
             "github": "https://github.com/lolla-sai",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
@@ -233,7 +233,7 @@
             "imgLink": "/assets/images/Team/Website/Harsh.png",
             "linkedin": "https://www.linkedin.com/in/harsh-k-64638a1b4/",
             "behance": "",
-            "mail": "hk2257853@gmail.com",
+            "mail": "mailto:hk2257853@gmail.com",
             "github": "https://github.com/hk2257853",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
@@ -246,7 +246,7 @@
             "imgLink": "/assets/images/Team/Website/Lloyd.png",
             "linkedin": "https://www.linkedin.com/in/lloyd-alrich-costa-482509176",
             "behance": "",
-            "mail": "llloydcosta23@gmail.com",
+            "mail": "mailto:llloydcosta23@gmail.com",
             "github": "",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
@@ -259,7 +259,7 @@
             "imgLink": "/assets/images/Team/Website/Jayden.png",
             "linkedin": "https://www.linkedin.com/in/jayden-viegas-313141267/",
             "behance": "",
-            "mail": "jaydenviegas57@gmail.com",
+            "mail": "mailto:jaydenviegas57@gmail.com",
             "github": "https://github.com/Jayden0228",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
@@ -272,7 +272,7 @@
             "imgLink": "/assets/images/Team/Website/Rounak.png",
             "linkedin": "https://www.linkedin.com/in/rounak-naik-233130229/",
             "behance": "",
-            "mail": "rounaknaik23@gmail.com",
+            "mail": "mailto:rounaknaik23@gmail.com",
             "github": "https://github.com/rounak84",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
@@ -285,7 +285,7 @@
             "imgLink": "/assets/images/Team/Website/Greeshma.png",
             "linkedin": "https://www.linkedin.com/in/m-greeshma/",
             "behance": "",
-            "mail": "greeshma290303@gmail.com",
+            "mail": "mailto:greeshma290303@gmail.com",
             "github": "https://github.com/greeshma2903",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
@@ -298,7 +298,7 @@
             "imgLink": "/assets/images/Team/Website/Mark.png",
             "linkedin": "https://www.linkedin.com/in/mark-cotta-38489b215/",
             "behance": "",
-            "mail": "mark.e.cotta@gmail.com",
+            "mail": "mailto:mark.e.cotta@gmail.com",
             "github": "https://github.com/MarkCotta",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
@@ -311,7 +311,7 @@
             "imgLink": "/assets/images/Team/Website/team.png",
             "linkedin": "https://www.linkedin.com/in/puneetpatil/",
             "behance": "",
-            "mail": "patilpuneet01@gmail.com",
+            "mail": "mailto:patilpuneet01@gmail.com",
             "github": "https://github.com/puneetmpatil",
             "style": {
                 "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
