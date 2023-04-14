@@ -47,8 +47,8 @@ function Hero() {
                 snap:2,
             }
         })
-        .fromTo(levs.current,{scale:1},{scale:1.2})
-        .to(levs.current,{opacity:0, display:'block'})
+        .fromTo(levs.current,{scale:1},{scale:1.2,opacity:0, display:'block'})
+        // .to(levs.current,{opacity:0, display:'block'})
            
         },
 
