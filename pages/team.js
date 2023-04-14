@@ -153,7 +153,7 @@ function Team() {
                     <TeamMember {...member} key={member.bio} />
                 ))}
             </div> */}
-            <TeamFlipCard name="Sai" role="dev" />
+            <TeamFlipCard name="Sai Sameer Lolla" role="Developer" />
         </section>
     );
 }
