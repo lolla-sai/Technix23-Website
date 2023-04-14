@@ -4,7 +4,7 @@ import React from "react";
 import Talk from "../components/Talk";
 import {seminarCardDataThursday,seminarCardDataFriday} from "@/data/talks"
 import { Career } from "@/public/assets/images/Talks";
-import {wiring} from '../public/assets/images/Events/wiring.png'
+import wiring from '../public/assets/images/Events/wiring.png'
 import speaker from '../public/assets/images/Talks/speaker.png'
 
 
@@ -75,7 +75,7 @@ export default function Home() {
                 }
 
           </div>
-
+        
           <div className="rotate-180 left-0 bottom-[-1] sm:-bottom-8">
               <Image
                 src={wiring}
