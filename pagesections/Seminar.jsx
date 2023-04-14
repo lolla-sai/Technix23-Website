@@ -17,14 +17,6 @@ export default function Home() {
 
   return (
     <section className={londrinaSolid.className + ' bg-[#fbf2e5] relative h-auto overflow-hidden'}>
-         <div className="absolute right-0 -top-8">
-              <Image
-                src={wiring}
-                alt="menu"
-                width="220"
-                height="20"
-              />
-            </div>
       
         <div className="flex flex-col-reverse items-center xs:justify-between xs:flex-row p-14 pb-7">
           
