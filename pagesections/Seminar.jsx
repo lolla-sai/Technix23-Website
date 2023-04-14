@@ -18,9 +18,9 @@ export default function Home() {
   return (
     <section className={londrinaSolid.className + ' bg-[#fbf2e5] relative h-auto overflow-hidden'}>
       
-        <div className="flex flex-col-reverse items-center xs:justify-between xs:flex-row p-14 pb-7">
+        <div className="flex flex-col-reverse items-center xs:justify-between xs:flex-row p-2 md:p-14 pb-7">
           
-          <span className="text-3xl xs:text-4xl sm:text-5xl">TALKS</span>
+          <span className="text-5xl xs:text-4xl sm:text-5xl">TALKS</span>
           <div className="">
             <Image
               src={speaker}
