@@ -1,0 +1,111 @@
+[
+    {
+            "name": "Sai Lolla",
+            "role": "Developer",
+            "dp": "/assets/images/Team/Sai.png",
+            "linkedin": "https://www.linkedin.com/in/saisameerlolla/",
+            "behance": "",
+            "mail": "saisameer.lolla@gmail.com",
+            "github": "https://github.com/lolla-sai"
+        },
+        {
+            "name": "Medam Greeshma",
+            "role": "Designer",
+            "dp": "/assets/images/Team/Greeshma.png",
+            "linkedin": "https://www.linkedin.com/in/m-greeshma/",
+            "behance": "",
+            "mail": "greeshma290303@gmail.com",
+            "github": "https://github.com/greeshma2903"
+        },
+        {
+            "name": "Trusha Neogi",
+            "role": "Designer",
+            "dp": "/assets/images/Team/Trusha.png",
+            "linkedin": "https://www.linkedin.com/in/trushaneogi/",
+            "behance": "https://www.behance.net/trushaneogi",
+            "mail": "trushaneogi05@gmail.com"
+        },
+    {
+            "name": "Harsh Kumar",
+            "role": "Developer",
+            "dp": "/assets/images/Team/Harsh.png",
+            "linkedin": "https://www.linkedin.com/in/harsh-k-64638a1b4/",
+            "behance": "",
+            "mail": "hk2257853@gmail.com",
+            "github": "https://github.com/hk2257853"
+    },
+    {
+            "name": "Rounak Naik",
+            "role": "Developer",
+            "dp": "/assets/images/Team/Rounak.png",
+            "linkedin": "https://www.linkedin.com/in/rounak-naik-233130229/",
+            "behance": "",
+            "mail": "rounaknaik23@gmail.com",
+            "github": "https://github.com/rounak84"
+    },
+    
+    {
+            "name": "Lloyd Costa",
+            "role": "Developer",
+            "dp": "/assets/images/Team/Lloyd.png",
+            "linkedin": "https://www.linkedin.com/in/lloyd-alrich-costa-482509176",
+            "behance": "",
+            "mail": "llloydcosta23@gmail.com",
+            "github":""
+    },
+    {
+            "name": "Jayden Viegas",
+            "role": "Developer",
+            "dp": "/assets/images/Team/Jayden.png",
+            "linkedin": "https://www.linkedin.com/in/jayden-viegas-313141267/",
+            "behance": "",
+            "mail": "jaydenviegas57@gmail.com",
+            "github":"https://github.com/Jayden0228"
+    },
+    {
+            "name":"Pratham Shankwalker",
+            "role":"Public Relations Officer",
+            "dp":"/assets/images/Team/Pratham.png",
+            "linkedin":"https://www.linkedin.com/in/prathamshankwalker",
+            "behance":"",
+            "mail":"pshankwalker1@gmail.com",
+            "github":"https://github.com/prathamshankwalker"
+    },
+    {
+            "name":"Sudiksha Bhat",
+            "role":"BE Executive",
+            "dp":"/assets/images/Team/Sudiksha.png",
+            "linkedin":"https://www.linkedin.com/in/sudiksha-bhat",
+            "behance":"",
+            "mail":"sudikshabhat2109@gmail.com",
+            "github":""
+    },
+    {
+            "name":"Vineet Sawant",
+            "role":"Event Manager",
+            "dp":"/assets/images/Team/Vineet.png",
+            "linkedin":"https://www.linkedin.com/in/vineet-sawant-023ab6175",
+            "behance":"",
+            "mail":"vineetswant@gmail.com",
+            "github":"https://github.com/Vineet-Sawant"
+    },
+    {
+            "name":"Kaustubh Athalekar",
+            "role":"Joint Placement Secretary",
+            "dp":"/assets/images/Team/Kaustubh.png",
+            "linkedin":"https://www.linkedin.com/in/kaustubh-athalekar",
+            "behance":"",
+            "mail":"kaustubhdva@gmail.com",
+            "github":"https://github.com/Itsmecoscube"
+    },
+    {
+            "name":"Cayman Velingkar",
+            "role":"Magazine Secretary",
+            "dp":"/assets/images/Team/Cayman.png",
+            "linkedin":"https://www.linkedin.com/in/caymann-velingkar-975014207/",
+            "behance":"",
+            "mail":"velingkarcaymann@gmail.com",
+            "github":"https://github.com/Kmann22"
+    }        
+]
+    
