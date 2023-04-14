@@ -6,7 +6,7 @@ import Countdown from "@/pagesections/Countdown";
 import Sponsors from "@/pagesections/Sponsors";
 import About from "@/pagesections/About";
 import Team from "@/pagesections/Team";
-// import Schedule from "@/pagesections/Schedule";
+import Schedule from "@/pagesections/Schedule";
 import Menu from "@/components/Menu";
 import { useContext } from "react";
 import modalContext from "@/store/modalContext";
@@ -39,7 +39,7 @@ function Index() {
 
                 <Events />
 
-                {/* <Schedule /> */}
+                <Schedule />
 
                 <Sponsors />
 
