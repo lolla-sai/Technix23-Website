@@ -3,7 +3,7 @@
         "event_name": "Technothon 2.0",
         "event_type": "Hackathon",
         "event_quote": "Indulge in Technothon for a caffeine fueled coding marathon by competing against other crazed coders in a race against time by delivering the ultimate solution. Code-Create-Collaborate! Do you have what it takes to : return(Victorious); ",
-        "prizes": ["₹10000", "₹6000"],
+        "prizes": ["₹ 10000", "₹ 6000"],
         "date": "20th April 2023 and 21st April 2023",
         "time": "12:00 PM - 12:00 PM IST",
         "rules": [
@@ -29,7 +29,7 @@
         "event_name": "Arena De Codigo",
         "event_type": "Competitive Coding",
         "event_quote": "Pen is mightier than sword, but we geeks prefer to fight using code. Enter the arena to battle it out. Magic of your logic is what we care about.",
-        "prizes": ["₹4000", "₹3000"],
+        "prizes": ["₹ 4000", "₹ 3000"],
         "date": "20th April 2023",
         "time": "11:00 AM - 5:00 PM IST",
         "rules": [
@@ -54,7 +54,7 @@
         "event_name": "The Code Circus",
         "event_type": "Coding with Challenges",
         "event_quote": "Do you think you can code in any conditions? So get ready to code, get ready to play, we bring you The Code Circus that'll make your day!",
-        "prizes": ["₹4000", "₹3000"],
+        "prizes": ["₹ 4000", "₹ 3000"],
         "date": "21st April 2023",
         "time": "10:00 AM - 4:00 PM IST",
         "rules": [
@@ -80,7 +80,7 @@
         "event_name": "Brain Carousel",
         "event_type": "Quiz",
         "event_quote": "Ready to show off your smarts? Join us for an exciting quiz event and put your knowledge to the test!",
-        "prizes": ["₹3500", "₹2500"],
+        "prizes": ["₹ 3500", "₹ 2500"],
         "date": "21st April 2023",
         "time": "11:00 AM - 4:00 PM IST",
         "rules": [
@@ -105,7 +105,7 @@
         "event_name": "CarnEVIL Escape",
         "event_type": "Escape Room",
         "event_quote": "Tangled in time,\nTangled in space.\nWanna escape the professor's trap?\nCrack the case!",
-        "prizes": ["₹6000( Day 2 Winner) ; ₹1000(Day 1 Winner)", "₹4500(Day 2 Runner Up)"],
+        "prizes": ["₹ 6000( Day 2 Winner) ; ₹ 1000(Day 1 Winner)", "₹ 4500(Day 2 Runner Up)"],
         "date": "20th April 2023 and 21st April 2023",
         "time": "2:00 PM - 4:00 PM IST on 20th and 9:30 AM - 4:00 PM IST on 21st (1 hour for each team on Day 2)",
         "rules": [
@@ -129,7 +129,7 @@
         "event_name": "Concepto Exibição",
         "event_type": "Ideathon",
         "event_quote": "Unleash your inner tech genius and join us for Idea Utsav - the ultimate platform to showcase your revolutionary ideas that can change the world. Get ready to ignite your creativity and pitch your brilliant tech ideas to our panel of expert judges. So, bring your innovation, creativity, and passion to the tank, and let's see if you have what it takes to make a splash!",
-        "prizes": ["₹4500", "₹3000"],
+        "prizes": ["₹ 4500", "₹ 3000"],
         "date": "21st April 2023",
         "time": "2:00 PM - 5:00 PM IST",
         "rules": [
@@ -158,7 +158,7 @@
         "event_name": "Rio Designeiro",
         "event_type": "UI/UX Design Challenge",
         "event_quote": "Step right into the Capital of Canvases and immerse yourself into the art of interaction design - a whirlwind of inspiration, imagination, and innovation",
-        "prizes": ["₹7500", "₹6000"],
+        "prizes": ["₹ 7500", "₹ 6000"],
         "date": "20th April 2023 and 21st April 2023",
         "time": "5:00 PM - 1:00 PM IST",
         "rules": [
@@ -182,7 +182,7 @@
         "event_name": "Backtracker’s Samba",
         "event_type": "Treasure Hunt",
         "event_quote": "Grab your big boots to maneuver your samba moves, to get your hands on the treasure troves or backtrack down the sad grooves",
-        "prizes": ["₹6000", "₹4500"],
+        "prizes": ["₹ 6000", "₹ 4500"],
         "date": "20th April 2023 and 21st April 2023",
         "time": "12:00 PM - 1:00 PM IST Online Test on 20th and 9:00 AM - 5:00 PM IST on 21st",
         "rules": [
@@ -209,7 +209,7 @@
         "event_name": "Typing Tango",
         "event_type": "Speed Typing",
         "event_quote": "Unleash your inner speed demon!",
-        "prizes": ["₹2000", "₹1000"],
+        "prizes": ["₹ 2000", "₹ 1000"],
         "date": "20th April 2023",
         "time": "11:00 AM - 1:00 PM IST",
         "rules": [
@@ -226,10 +226,10 @@
         "lumaLink": "https://lu.ma/technix-typing-tango"
     },
     "minecraft": {
-        "event_name": "MINEFIESTA",
+        "event_name": "MineFiesta",
         "event_type": "Minecraft",
         "event_quote": "The First Ever Minecraft LAN in Goa!",
-        "prizes": ["₹6000 + Custom Minecraft Trophy worth ₹3000", "₹3000 (Powered by TheGoanGamer)","Razer DeathAdder Essential Gaming Mouse (Powered by TheGoanGamer)"],
+        "prizes": ["₹ 6000 + Custom Minecraft Trophy worth ₹ 3000", "₹ 3000 (Powered by TheGoanGamer)","Razer DeathAdder Essential Gaming Mouse (Powered by TheGoanGamer)"],
         "date": "21st April 2023",
         "time": "9:30 AM - 5:00 PM IST",
         "rules": [
@@ -247,10 +247,10 @@
         "lumaLink": "https://lu.ma/mine-fiesta"
     },
     "fifa": {
-        "event_name": "VIVA FIFA",
+        "event_name": "Viva Fifa",
         "event_type": "FIFA",
         "event_quote": "Event Quote Goes Here",
-        "prizes": ["₹3000", "₹2000"],
+        "prizes": ["₹ 3000", "₹ 2000"],
         "date": "20th April 2023",
         "time": "10:00 AM - 5:00 PM IST",
         "rules": ["1v1 format fifa with default Fifa 22 teams. Games will be played on Playstation console and Laptop using ps4 controllers.", 
@@ -270,7 +270,7 @@
         "event_name": "Reel Rodeo",
         "event_type": "Reel Making",
         "event_quote": "From script to screen: Enter our reel-making contest and bring your vision to life on the silver screen",
-        "prizes": ["₹2000", "₹1500"],
+        "prizes": ["₹ 2000", "₹ 1500"],
         "date": "19th April 2023 and 20th April 2023",
         "time": "11:30 PM IST on 19th - 12:00 AM IST on 20th",
         "rules": [
@@ -289,10 +289,10 @@
         "lumaLink": "https://lu.ma/ReelRodeo"
     },
     "photography": {
-        "event_name": "SnapFloat",
+        "event_name": "Snap Float",
         "event_type": "Photography",
         "event_quote": "Snap your best shot",
-        "prizes": ["₹1500", "₹1000"],
+        "prizes": ["₹ 1500", "₹ 1000"],
         "date": "20th April 2023",
         "time": "9:00 AM - 5:00 PM IST",
         "rules": [
@@ -314,10 +314,10 @@
         "lumaLink": "https://lu.ma/SnapFloat"
     },
     "meme": {
-        "event_name": "MEME FUNHOUSE",
+        "event_name": "Meme Funhouse",
         "event_type": "Meme",
         "event_quote": "Unmask your humor and join the meme-funhouse",
-        "prizes": ["₹1500", "₹1000"],
+        "prizes": ["₹ 1500", "₹ 1000"],
         "date": "18th April 2023 to 20th April 2023",
         "time": "10:00 AM IST on 18th - 11:00 AM on 20th",
         "rules": [
@@ -345,7 +345,7 @@
         "event_name": "De-byte-able",
         "event_type": "Debate",
         "event_quote": "Event Quote Goes Here",
-        "prizes": ["₹3000", "₹2000"],
+        "prizes": ["₹ 3000", "₹ 2000"],
         "date": "21st April 2023",
         "time": "10:00 AM - 3:00 PM IST",
         "rules": ["Team of 2 members will compete in a 1v1 style debate.",
