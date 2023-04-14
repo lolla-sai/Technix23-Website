@@ -186,16 +186,18 @@
         "date": "20th April 2023 and 21st April 2023",
         "time": "12:00 PM - 1:00 PM IST Online Test on 20th and 9:00 AM - 5:00 PM IST on 21st",
         "rules": [
-            "There is no limit on the number of online entries for the event.",
-            "Participation in the event is open to teams of two members only.",
-            "Each team must nominate a point of contact (POC) who will be responsible for communication with the event coordinators.",
-            "The POC of each team must join the official WhatsApp group for ease of communication with the coordinators.",
-            "The event consists of three rounds, with Rounds 1 and 2 serving as filtering rounds and Round 3 as the decisive round.",
-            "Round 1 will be held online on day-1, and may be split into two phases if required (Morning Session and Evening Session).",
-            "Teams are not allowed to submit more than one entry. Multiple entries will lead to disqualification.",
-            "Only the top 16 teams selected from Round 1 will be eligible for Round 2.",
-            "Round 2 and round-3 will be conducted in the campus on day-2.",
-            "A team should have atleast one mobile device with a QR code scanning feature (Participants can use inbuilt or downloaded app)"
+            "Number of entries: Unlimited",
+            "A team should comprise of exactly 3 members.",
+            "The team should nominate a member as the team’s POC (Point of contact).",
+            "The POC should join the official whatsapp group to facilitate ease communication with the coordinators.",
+            "The event consists of 3 rounds. Round-1 and Round-2 will serve as the filtering rounds and Round-3 shall serve as the decisive round.",
+            "Round-1 will be held entirely in online mode from 12PM to 1PM on day 1. Top 20 teams will move on to round 2.",
+            "Two or more test entries by a single team will face disqualification.",
+            "A team should have atleast one mobile device with a QR code scanning feature (Participants can use inbuilt or downloaded app)",
+            "Participants must hunt within the bounds of the defined area.",
+            "Participants must refrain from entering any classrooms of other departments where classes are being conducted.",
+            "Any act of tempering/hiding clues or use of abusive language may lead to disqualification of the team.",
+            "Any discrepancies shall be resolved with the committee’s intervention and their decision will be final"
         ],
         "detailedRulesLink": "https://docs.google.com/document/d/1QJsVJP8eLmXH3a9QjA4GNGJ5y-h1OVtPb5OTuynspnA/edit?usp=sharing",
         "coordinators": [
