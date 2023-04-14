@@ -60,7 +60,7 @@ function Register() {
                         <Menu />
                     </div>
                 )}
-                <div className="absolute top-10 right-10 z-20">
+                <div className="absolute top-4 right-4 md:top-10 md:right-10 z-20">
                     {/* <AnimatedButton /> */}
                     <GiHamburgerMenu
                         size={40}
