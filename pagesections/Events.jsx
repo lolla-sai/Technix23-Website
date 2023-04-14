@@ -140,10 +140,7 @@ function Events() {
                     />
 
                     <Button>
-                        <Link
-                            href="https://lh3.googleusercontent.com/pw/AMWts8AI0eWzvzm_0aPpGCT0cRnZtMh3zxH0DK1XhSzX1BwqHbMj-Y2ltUQpea0k-B3KNENAojiyXuYI9L0ixkyrh8nvCjyHBXB2On7u7phelMJCBk0lcz4_M9hm7X1qKx0fAhIA7CUFFsyuuf-PFliVlZI=w1406-h938-s-no?authuser=0"
-                            download
-                        >
+                        <Link href="/Technix 2023 Brochure.pdf" download>
                             DOWNLOAD BROCHURE
                         </Link>
                     </Button>

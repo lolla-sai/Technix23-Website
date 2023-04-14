@@ -158,7 +158,7 @@ function Events() {
                         <p>EVENTS</p>
                     </div>
                     <div id="event_btn">
-                        <Link href="/image" download>
+                        <Link href="/Technix 2023 Brochure.pdf" download>
                             DOWNLOAD BROCHURE
                         </Link>
                     </div>

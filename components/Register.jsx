@@ -179,7 +179,7 @@ function Register() {
                                 <li
                                     className={
                                         registerStyles.prize1 +
-                                        " " +
+                                        " whitespace-nowrap " +
                                         registerStyles.registerli
                                     }
                                 >
@@ -189,7 +189,7 @@ function Register() {
                                 <li
                                     className={
                                         registerStyles.registerli +
-                                        " " +
+                                        " whitespace-nowrap " +
                                         registerStyles.prize2
                                     }
                                 >
@@ -201,7 +201,7 @@ function Register() {
                                         <li
                                             className={
                                                 registerStyles.registerli +
-                                                " " +
+                                                " whitespace-nowrap " +
                                                 registerStyles.prize3
                                             }
                                         >
