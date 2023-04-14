@@ -17,7 +17,7 @@ function SingleEventCard({
     return (
         <div
             className={
-                "event_tab group rounded-[90px] inline-block relative md:h-[500px] h-[350px] shrink-0 md:w-64 w-52 md:cursor-pointer select-none outline-none " +
+                "event_tab group rounded-[90px] inline-block relative md:h-[500px] h-[350px] shrink-0 md:w-64 w-[150px] md:cursor-pointer select-none outline-none " +
                 parentDivClassName
             }
             style={{
