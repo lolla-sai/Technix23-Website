@@ -60,9 +60,9 @@ function SingleEventCard({
                         width={30}
                         height={30}
                         alt="Cursor Image"
-                        className="mx-auto scale-x-[-1] my-8"
+                        className="mx-auto scale-x-[-1] my-8 hidden md:block"
                     />
-                    <p className="md:text-3xl text-xl whitespace-pre-line text-center ">
+                    <p className="md:text-3xl text-xl whitespace-pre-line text-center mt-8 mb:mt-0">
                         {eventName}
                         {eventType && (
                             <>

@@ -12,7 +12,8 @@ const sponsors = {
             name: "Codemax IT Solutions",
             icon: "/assets/logos/cdmx.png",
             webLink: "https://www.cdmx.in/",
-            className: "w-52 xsm:w-60 md:w-80 min-h-[120px] md:min-h-[150px]",
+            className:
+                "w-52 xsm:w-60 md:w-80 min-h-[120px] md:min-h-[150px] bg-[#fafafd]",
         },
         {
             name: "Pocket52",

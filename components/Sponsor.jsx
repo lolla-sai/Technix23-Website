@@ -5,12 +5,12 @@ import Link from "next/link";
 function Sponsor({
     webLink,
     icon,
-    className = "w-48 xsm:w-56 md:w-72 min-h-[100px] md:min-h-[120px]",
+    className = "w-48 xsm:w-56 md:w-72 min-h-[100px] md:min-h-[120px] bg-[#fafafd] ",
 }) {
     let content = (
         <div
             className={
-                "hover:scale-105 hover:shadow-md transition-transform ease-in-out  rounded-xl justify-evenly relative bg-[#fafafd] title-sponsor p-4 flex items-center m-4 border-[6px] border-[#B25445] " +
+                "hover:scale-105 hover:shadow-md transition-transform ease-in-out  rounded-xl justify-evenly relative  title-sponsor p-4 flex items-center m-4 border-[6px] border-[#B25445] " +
                 className
             }
         >

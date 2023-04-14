@@ -11,6 +11,7 @@ import CustomButton from "@/components/CustomButton";
 import { GiHamburgerMenu } from "react-icons/gi";
 import modalContext from "@/store/modalContext";
 import Menu from "./Menu";
+import { AiOutlineArrowUp } from "react-icons/ai";
 // TODO: Luma its opening a new window like google sign in. Need to be as its on static site
 // TODO: fix reload issue, uncomment coordinators map
 
@@ -351,6 +352,19 @@ function Register() {
                     </main>
                 </div>
             </div>
+
+            <CustomButton
+                dest="../#events"
+                styling={
+                    "px-6 md:py-4 text-xl md:mt-[20px] xl:mt-0 rounded-full fixed bottom-10 right-10 border-solid border-3 border-black bg-custom-pitch border z-50 hover:scale-110 transition-transform " +
+                    londrinasolid.className
+                }
+                style={{
+                    boxShadow: "-3px 4px 0px 0px #000000",
+                }}
+            >
+                <div className="flex flex-row items-center">Go To Events</div>
+            </CustomButton>
         </>
     );
 }
