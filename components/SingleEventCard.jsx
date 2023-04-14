@@ -64,12 +64,12 @@ function SingleEventCard({
                     />
                     <p className="md:text-3xl text-xl whitespace-pre-line text-center ">
                         {eventName}
-                        {/* {eventType && (
+                        {eventType && (
                             <>
                                 <br />
-                                <p>{eventType}</p>
+                                {eventType}
                             </>
-                        )} */}
+                        )}
                     </p>
                 </div>
             </Link>
