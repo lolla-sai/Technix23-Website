@@ -5,6 +5,7 @@ import Hero from "@/pagesections/Hero";
 import Countdown from "@/pagesections/Countdown";
 import Sponsors from "@/pagesections/Sponsors";
 import About from "@/pagesections/About";
+import Seminar from "@/pagesections/Seminar";
 import Team from "@/pagesections/Team";
 import Schedule from "@/pagesections/Schedule";
 import Menu from "@/components/Menu";
@@ -38,6 +39,8 @@ function Technix() {
                 <About />
 
                 <Events />
+
+                <Seminar />
 
                 <Schedule />
 
