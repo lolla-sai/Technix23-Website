@@ -19,7 +19,8 @@
 }
 
 .prize1,
-.prize2 {
+.prize2,
+.prize3 {
     position: relative;
     text-align: left;
     padding-left: 40px;
@@ -27,7 +28,8 @@
 }
 
 .prize1:before,
-.prize2:before {
+.prize2:before,
+.prize3:before {
     content: "";
     position: absolute;
     width: 30px;
@@ -38,9 +40,16 @@
 }
 
 .prize1:before {
-    background: url(../public/register/first.svg) no-repeat;
+    background: url(../public/register/1st.png) no-repeat;
+    background-size: contain;
 }
 
 .prize2:before {
     background: url(../public/register/second.svg) no-repeat;
+    background-size: contain;
+}
+
+.prize3:before {
+    background: url(../public/register/3rd.svg) no-repeat;
+    background-size: contain;
 }

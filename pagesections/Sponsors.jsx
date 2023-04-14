@@ -7,43 +7,27 @@ import Image from "next/image";
 const sponsors = {
     "Title Sponsors": [
         {
+            name: "Codemax IT Solutions",
+            icon: "/assets/logos/cdmx.png",
+            webLink: "https://www.cdmx.in/",
+            className: "w-52 xsm:w-60 md:w-80 min-h-[120px] md:min-h-[150px]",
+        },
+        {
             name: "Pocket52",
             webLink: "https://www.pocket52.com/",
             icon: "/assets/logos/Pocket52.png",
             className:
                 "w-52 xsm:w-60 md:w-80 min-h-[120px] md:min-h-[150px] bg-black",
         },
-
-        // {
-        //     name: "OneShield",
-        //     webLink: "https://www.accops.com/",
-        //     icon: "/sponsors/Accops.png",
-        //     className: "w-52 xsm:w-60 md:w-80 min-h-[120px] md:min-h-[150px]",
-        // },
-        // {
-        //     name: "SJ Innovation",
-        //     webLink: "https://sjinnovation.com/",
-        //     icon: "https://sjinnovation.com/themes/custom/sji_theme/logo.svg",
-        //     className: "w-52 xsm:w-60 md:w-80 min-h-[120px] md:min-h-[150px]",
-        // },
     ],
     "Co-Sponsors": [
         {
             name: "HotelHub",
             webLink: "https://www.hotelhub.com/",
-            icon: "https://www.hotelhub.com/wp-content/themes/hotelhub/assets/images/logo.svg",
-            className: "bg-black",
+            icon: "/assets/logos/hotelhub.jpeg",
+            className:
+                "w-52 xsm:w-60 md:w-80 min-h-[120px] md:min-h-[150px] bg-black",
         },
-        // {
-        //     name: "Comscope",
-        //     webLink: "https://www.accops.com/",
-        //     icon: "/sponsors/Accops.png",
-        // },
-        // {
-        //     name: "Softmonks",
-        //     webLink: "https://sjinnovation.com/",
-        //     icon: "https://sjinnovation.com/themes/custom/sji_theme/logo.svg",
-        // },
     ],
     "Event Sponsor": [
         {
@@ -55,6 +39,8 @@ const sponsors = {
             name: "Creative Capsule",
             icon: "/assets/logos/cc.png",
             webLink: "https://www.creativecapsule.com/",
+            className:
+                " bg-[#9fba29] w-48 xsm:w-56 md:w-72 min-h-[100px] md:min-h-[120px] ",
         },
         {
             name: "Team Inertia",
@@ -131,7 +117,8 @@ function Sponsors() {
 
             <h1
                 className={
-                    londrinasolid.className + " text-4xl text-center text-white"
+                    londrinasolid.className +
+                    " text-4xl text-center text-white z-20"
                 }
             >
                 Title Sponsors
@@ -144,7 +131,8 @@ function Sponsors() {
 
             <h1
                 className={
-                    londrinasolid.className + " text-4xl text-center text-white"
+                    londrinasolid.className +
+                    " text-4xl text-center text-white z-20"
                 }
             >
                 Co-Sponsors
@@ -157,7 +145,8 @@ function Sponsors() {
 
             <h1
                 className={
-                    londrinasolid.className + " text-4xl text-center text-white"
+                    londrinasolid.className +
+                    " text-4xl text-center text-white z-20 relative"
                 }
             >
                 Event Supporters
@@ -170,7 +159,8 @@ function Sponsors() {
 
             <h1
                 className={
-                    londrinasolid.className + " text-4xl text-center text-white"
+                    londrinasolid.className +
+                    " text-4xl text-center text-white z-20 relative"
                 }
             >
                 Beverage Partner
@@ -183,7 +173,8 @@ function Sponsors() {
 
             <h1
                 className={
-                    londrinasolid.className + " text-4xl text-center text-white"
+                    londrinasolid.className +
+                    " text-4xl text-center text-white z-20 relative"
                 }
             >
                 Food Partner

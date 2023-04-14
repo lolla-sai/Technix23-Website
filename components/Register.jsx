@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Sectionboder from "../public/register/line.svg"; // TODO: not working, fix this
 // import Eventleaf from "../public/register/event-leaves.png";
 import { useRouter } from "next/router";
@@ -8,6 +8,9 @@ import registerStyles from "./Register.module.css";
 import Head from "next/head";
 import Image from "next/image";
 import CustomButton from "@/components/CustomButton";
+import { GiHamburgerMenu } from "react-icons/gi";
+import modalContext from "@/store/modalContext";
+import Menu from "./Menu";
 // TODO: Luma its opening a new window like google sign in. Need to be as its on static site
 // TODO: fix reload issue, uncomment coordinators map
 
@@ -15,6 +18,7 @@ function Register() {
     const [eventName, setEventName] = useState(null);
     const [title, setTitle] = useState("Register");
     const router = useRouter();
+    const { navbarOpen, setNavbarOpen } = useContext(modalContext);
 
     useEffect(() => {
         if (!router.isReady) return;
@@ -26,14 +30,12 @@ function Register() {
         console.log(eventRegisterData[router.query.eventName]);
     }, [router.isReady]);
 
-    function redirectToEvent() {
+    function redirectToEvent(
+        lumaLink = "https://lu.ma/event/evt-4LEqHzIVQizhJso"
+    ) {
         // alert("Registerations will open from 14th April 2023");
         // for time being, removed luma from here.
-        window.open(
-            "https://lu.ma/event/evt-4LEqHzIVQizhJso",
-            "Event Page",
-            "height=500,width=700"
-        );
+        window.open(lumaLink, "Event Page", "height=500,width=700");
     }
 
     return (
@@ -52,6 +54,20 @@ function Register() {
                     "text-white md:text-lg bg-[#0D393A] bg-no-repeat overflow-hidden relative min-h-screen py-8 font-satoshi font-[500] "
                 }
             >
+                {navbarOpen && (
+                    <div className="modal h-full w-full fixed inset-0 z-50">
+                        <Menu />
+                    </div>
+                )}
+                <div className="absolute top-10 right-10 z-20">
+                    {/* <AnimatedButton /> */}
+                    <GiHamburgerMenu
+                        size={40}
+                        color="white"
+                        className="cursor-pointer"
+                        onClick={() => setNavbarOpen(!navbarOpen)}
+                    />
+                </div>
                 <div className="absolute top-0 left-0 w-[25vmax] max-w-[390px] max-h-[390px] h-[25vmax] -translate-x-1/4 -translate-y-1/4">
                     <Image
                         className="object-contain rotate-180"
@@ -180,6 +196,21 @@ function Register() {
                                     {eventName &&
                                         eventRegisterData[eventName].prizes[1]}
                                 </li>
+                                {eventName &&
+                                    eventRegisterData[eventName].prizes[2] && (
+                                        <li
+                                            className={
+                                                registerStyles.registerli +
+                                                " " +
+                                                registerStyles.prize3
+                                            }
+                                        >
+                                            {
+                                                eventRegisterData[eventName]
+                                                    .prizes[2]
+                                            }
+                                        </li>
+                                    )}
                             </ul>
                         </div>
                         <div className="px-4 py-2">
@@ -208,7 +239,13 @@ function Register() {
                                     "px-6 py-2 hover:scale-110 transition-transform bg-[#B2D600] text-[#262626] rounded-full xsm:mrss-6 focus:outline-none " +
                                     londrinasolid.className
                                 }
-                                onClick={redirectToEvent}
+                                onClick={() =>
+                                    redirectToEvent(
+                                        eventName &&
+                                            eventRegisterData[eventName]
+                                                .lumaLink
+                                    )
+                                }
                             >
                                 REGISTER
                             </button>
@@ -228,7 +265,7 @@ function Register() {
                                     londrinasolid.className
                                 }
                             >
-                                READ RULES
+                                READ DETAILED RULES
                             </a>
                         </div>
 

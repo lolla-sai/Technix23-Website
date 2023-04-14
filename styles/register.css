@@ -31,11 +31,16 @@ li:before {
 }
 
 .prize-1:before {
-    background: url(../public/register/first.svg) no-repeat;
+    background: url(../public/register/1st.png) no-repeat;
     background-size: contain;
 }
 
 .prize-2:before {
     background: url(../public/register/second.svg) no-repeat;
+    background-size: contain;
+}
+
+.prize-3:before {
+    background: url(../public/register/3rd.svg) no-repeat;
     background-size: contain;
 }

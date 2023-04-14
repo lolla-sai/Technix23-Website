@@ -17,8 +17,10 @@ function Sponsor({
             >
                 <Image
                     src={icon}
-                    width={300}
-                    height={200}
+                    // width={300}
+                    // height={200}
+                    fill
+                    className="p-4"
                     style={{ objectFit: "contain", objectPosition: "center" }}
                 />
             </div>

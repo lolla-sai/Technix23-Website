@@ -228,9 +228,9 @@ function About() {
                             Engineering. The event houses various competitions
                             wherein students from across Goa compete and
                             showcase their technical knowledge while also
-                            immersing themselves in other fun events. In thii
+                            immersing themselves in other fun events. In this
                             year's edition, Technix brings to you a set of new
-                            and exciting events from the 20th to the 21th Of
+                            and exciting events from the 20th to the 21st Of
                             April 2023.
                         </p>
                     </div>

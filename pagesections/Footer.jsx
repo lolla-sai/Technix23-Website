@@ -14,7 +14,7 @@ function Footer() {
                 className="w-full p-10 bg-custom-pitch relative overflow-hidden flex flex-col items-center gap-20"
             >
                 <div className="positionedImages">
-                    <div className="absolute z-30 w-[200px] h-[200px] top-[-5%] right-[-10%] md:w-[400px] md:h-[400px] md:top-[-15%] md:right-[-14%] lg:w-[500px] lg:h-[500px] lg:top-[-20%] lg:right-[-13%] ">
+                    <div className="absolute z-30 w-[100px] h-[100px] xsm:w-[200px] xsm:h-[200px] top-[-5%] right-[-10%] md:w-[400px] md:h-[400px] md:top-[-15%] md:right-[-14%] lg:w-[500px] lg:h-[500px] lg:top-[-20%] lg:right-[-13%] ">
                         <Image
                             className="object-contain "
                             src="/assets/images/Footer/footer-leaf.svg"
@@ -22,7 +22,7 @@ function Footer() {
                             fill
                         />
                     </div>
-                    <div className="absolute top-[48%] right-[-3%] w-[120px] h-[120px]">
+                    <div className="absolute top-[48%] right-[-3%] w-[60px] h-[60px] xsm:w-[120px] xsm:h-[120px]">
                         <Image
                             className="object-contain"
                             src="/assets/images/Footer/footer-qr-1.svg"
@@ -47,7 +47,7 @@ function Footer() {
                             className="object-contain"
                         />
                     </div>
-                    <div className="absolute z-10 w-[500px] h-[580px] bottom-[-25%] left-[-10%] ">
+                    <div className="absolute z-10 w-[200px] h-[200px] md:w-[500px] md:h-[580px] bottom-[-6%] left-[-15%] md:bottom-[-25%] md:left-[-10%] ">
                         <Image
                             className=" object-contain"
                             src="/assets/images/Footer/footer-leaf.svg"
@@ -126,7 +126,7 @@ function Footer() {
                 />
 
                 <div className="flex flex-col items-center">
-                    <div className="flex items-center gap-4 mb-4">
+                    <div className="flex items-center gap-4 mb-4 z-20 relative">
                         {/* Email Button */}
                         <CustomButton dest="mailto:cursorcouncilgec@gmail.com">
                             <div className="flex flex-row items-center">
