@@ -61,7 +61,7 @@ function Countdown() {
                         snap:".SC2",
                     }
                 })
-                .fromTo('.CT',{scale:0},{scale:1,rotateX:-360})
+                .fromTo('.CT',{scale:0},{scale:1})
                
         
                 gsap.timeline({
