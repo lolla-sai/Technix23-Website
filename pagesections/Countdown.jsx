@@ -43,19 +43,214 @@ function Countdown() {
         gsap.defaults({ ease: "none" });
         gsap.registerPlugin(ScrollTrigger);
 
-        gsap.timeline({
-            defaults: { duration: 3, ease: "none" },
-            scrollTrigger: {
-                trigger: ".HRO",
-                start: "+=10% top",
-                end: "bottom bottom",
-                // markers:true,
-                pinSpacing: false,
-                scrub: 1,
-                pin: true,
-                snap: ".SC2",
-            },
-        }).fromTo(".CT", { scale: 0 }, { scale: 1 });
+        ScrollTrigger.matchMedia({
+
+            "(max-width: 767px)": function() {
+
+                gsap.timeline({
+                    defaults:{duration:3,ease:'none'},
+                    scrollTrigger:{
+                        trigger:'.HRO',
+                        start:"+=10% top",
+                        end:"bottom bottom",
+                        // markers:true,
+                        
+                        scrub:1,
+                        pin:true,
+                        pinSpacing:false,
+                        snap:".SC2",
+                    }
+                })
+                .fromTo('.CT',{scale:0},{scale:1,rotateX:-360})
+               
+        
+                gsap.timeline({
+                    defaults:{duration:3,ease:'none'},
+                    scrollTrigger:{
+                        trigger:'.HRO',
+                        start:"+=10% top",
+                        end:"bottom bottom",
+                        // markers:true,
+                        scrub:1,
+                        pin:true,
+                        pinSpacing:false,
+                        // snap:".SC2",
+                    }
+                })
+                .to('.SC2',{y:"-160%"})
+                .to('.wrapp',{height:0})
+                // .to(".EventTrans",{y:0})
+                
+        
+                gsap.timeline({
+                    defaults:{duration:3,ease:'none'},
+                    scrollTrigger:{
+                        trigger:'.HRO',
+                        start:"+=20% top",
+                        end:"bottom bottom",
+                        // markers:true,
+                        scrub:2,
+                        pin:true,
+                        pinSpacing:false,
+                        // snap:".SC2",
+                    }
+                })
+                .fromTo('.SideImage1',{opacity:0,rotate:-20},{opacity:1,rotate:0})
+        
+                gsap.timeline({
+                    defaults:{duration:3,ease:'none'},
+                    scrollTrigger:{
+                        trigger:'.HRO',
+                        start:"+=20% top",
+                        end:"bottom bottom",
+                        // markers:true,
+                        scrub:2,
+                        pin:true,
+                        pinSpacing:false,
+                        // snap:".SC2",
+                    }
+                })
+                .fromTo('.SideImage2',{opacity:0,rotate:-20},{opacity:1,rotate:0})
+            
+        },
+
+        "(min-width: 768px) and (max-width: 1024px)": function() {
+            gsap.timeline({
+                defaults:{duration:3,ease:'none'},
+                scrollTrigger:{
+                    trigger:'.HRO',
+                    start:"+=40% top",
+                    end:"bottom bottom",
+                    // markers:true,
+                    
+                    scrub:1,
+                    pin:true,
+                    pinSpacing:false,
+                    snap:".SC2",
+                }
+            })
+            .fromTo('.CT',{scale:0},{scale:1,rotateX:-360})
+           
+    
+            gsap.timeline({
+                defaults:{duration:3,ease:'none'},
+                scrollTrigger:{
+                    trigger:'.HRO',
+                    start:"+=10% top",
+                    end:"bottom bottom",
+                    // markers:true,
+                    scrub:1,
+                    pin:true,
+                    pinSpacing:false,
+                    // snap:".SC2",
+                }
+            })
+            .to('.SC2',{y:"-90%"})
+            .to('.wrapp',{height:0})
+            .to(".EventTrans",{y:0})
+            
+    
+            gsap.timeline({
+                defaults:{duration:3,ease:'none'},
+                scrollTrigger:{
+                    trigger:'.HRO',
+                    start:"+=20% top",
+                    end:"bottom bottom",
+                    // markers:true,
+                    scrub:2,
+                    pin:true,
+                    pinSpacing:false,
+                    // snap:".SC2",
+                }
+            })
+            .fromTo('.SideImage1',{opacity:0,rotate:-20},{opacity:1,rotate:0})
+    
+            gsap.timeline({
+                defaults:{duration:3,ease:'none'},
+                scrollTrigger:{
+                    trigger:'.HRO',
+                    start:"+=20% top",
+                    end:"bottom bottom",
+                    // markers:true,
+                    scrub:2,
+                    pin:true,
+                    pinSpacing:false,
+                    // snap:".SC2",
+                }
+            })
+            .fromTo('.SideImage2',{opacity:0,rotate:-20},{opacity:1,rotate:0})
+          
+        },
+
+        
+        "(min-width: 1024px)": function() {
+            gsap.timeline({
+                defaults:{duration:3,ease:'none'},
+                scrollTrigger:{
+                    trigger:'.HRO',
+                    start:"+=10% top",
+                    end:"bottom bottom",
+                    // markers:true,
+                    scrub:1,
+                    pin:true,
+                    pinSpacing:false,
+                    snap:".SC2",
+                }
+            })
+            .fromTo('.CT',{scale:0},{scale:1,rotateX:-360})
+           
+    
+            gsap.timeline({
+                defaults:{duration:3,ease:'none'},
+                scrollTrigger:{
+                    trigger:'.HRO',
+                    start:"+=10% top",
+                    end:"bottom bottom",
+                    // markers:true,
+                    scrub:1,
+                    pin:true,
+                    pinSpacing:false,
+                    // snap:".SC2",
+                }
+            })
+            .to('.SC2',{y:"-90%"})
+            .to('.wrapp',{height:0})
+           
+            
+    
+            gsap.timeline({
+                defaults:{duration:3,ease:'none'},
+                scrollTrigger:{
+                    trigger:'.HRO',
+                    start:"+=15% top",
+                    end:"bottom bottom",
+                    // markers:true,
+                    scrub:2,
+                    pin:true,
+                    pinSpacing:false,
+                    // snap:".SC2",
+                }
+            })
+            .fromTo('.SideImage1',{opacity:0,rotate:-20},{opacity:1,rotate:0})
+    
+            gsap.timeline({
+                defaults:{duration:3,ease:'none'},
+                scrollTrigger:{
+                    trigger:'.HRO',
+                    start:"+=15% top",
+                    end:"bottom bottom",
+                    // markers:true,
+                    scrub:2,
+                    pin:true,
+                    pinSpacing:false,
+                    // snap:".SC2",
+                }
+            })
+            .fromTo('.SideImage2',{opacity:0,rotate:-20},{opacity:1,rotate:0})
+         
+        }
+
+        })
         // let ctx = gsap.context(() => {
         //     gsap.timeline({
         //         defaults: { duration: 3, ease: "none" },
@@ -110,6 +305,7 @@ function Countdown() {
                 </div>
             </Center>
         </section> */}
+        <section className="w-full bg-[#010027] wrapp">
 
             <section
                 id="sect2"
@@ -120,14 +316,14 @@ function Countdown() {
                     <Image
                         src="/assets/images/Countdown/countdown-left_leaf.png"
                         fill
-                        className="object-contain"
+                        className="object-contain SideImage1"
                     />
                 </div>
                 <div className="absolute lg:w-[410px] md:w-60 w-28 h-1/2 md:h-full top-[-15%] right-[-6%]">
                     <Image
                         fill
                         src="/assets/images/Countdown/countdown-right_leaf.png"
-                        className="object-contain"
+                        className="object-contain SideImage2"
                     />
                 </div>
 
@@ -142,6 +338,7 @@ function Countdown() {
                         <TimerSlice number={delta.seconds} unit="seconds" />
                     </div>
                 </Center>
+            </section>
             </section>
         </>
     );

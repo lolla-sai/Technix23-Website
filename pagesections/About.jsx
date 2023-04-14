@@ -40,65 +40,63 @@ function About() {
         gsap.registerPlugin(ScrollTrigger);
 
         ScrollTrigger.matchMedia({
-            "(max-width: 767px)": function () {
-                gsap.timeline({
-                    scrollTrigger: {
-                        trigger: ".EventTrans",
-                        start: "1% top",
-                        end: "+=100%",
-                        // markers:true,
-                        scrub: 1,
-                        toggleActions: "reverse",
-                        pin: true,
-                        pinSpacing: false,
-                        snap: ".EventTrans",
-                    },
-                }).fromTo(
-                    ".EventTrans",
-                    { y: 0 },
-                    { y: 0, scale: 1.2, rotate: 0 }
-                );
-            },
-            "(min-width: 768px) and (max-width: 1024px)": function () {
-                gsap.timeline({
-                    scrollTrigger: {
-                        trigger: ".EventTrans",
-                        start: "+=10% top",
-                        end: "+=100%",
-                        markers: true,
-                        scrub: 1,
-                        toggleActions: "reverse",
-                        pin: true,
-                        pinSpacing: false,
-                        snap: ".EventTrans",
-                    },
-                }).fromTo(
-                    ".EventTrans",
-                    { y: 0 },
-                    { rotate: -20, y: 0, scale: 0.5 }
-                );
-            },
 
-            "(min-width: 1024px)": function () {
-                gsap.timeline({
-                    scrollTrigger: {
-                        trigger: ".EventTrans",
-                        start: "+=10% top",
-                        end: "+=100%",
-                        // markers:true,
-                        scrub: 1,
-                        toggleActions: "reverse",
-                        pin: true,
-                        pinSpacing: false,
-                        snap: ".EventTrans",
-                    },
-                }).fromTo(
-                    ".EventTrans",
-                    { y: 0 },
-                    { rotate: -20, y: 0, scale: 0.5 }
-                );
-            },
-        });
+            "(max-width: 767px)": function() {
+            gsap.timeline({
+                scrollTrigger:{
+                    trigger:".EventTrans",
+                    start:"1% top",
+                    end:"+=100%",
+                    // markers:true,
+                    scrub:1,
+                    toggleActions:"reverse",
+                    pin:true,
+                    pinSpacing:false,
+                    snap:".EventTrans"   
+                }
+                
+            })
+            .fromTo(".EventTrans",{y:0 },{y:0,scale:1.2,rotate:0})
+        },
+
+        "(min-width: 768px) and (max-width: 1024px)": function() {
+            gsap.timeline({
+                scrollTrigger:{
+                    trigger:".EventTrans",
+                    start:"+=10% top",
+                    end:"+=100%",
+                    markers:true,
+                    scrub:1,
+                    toggleActions:"reverse",
+                    pin:true,
+                    pinSpacing:false,
+                    snap:".EventTrans"
+                    
+                }
+            })
+            .fromTo(".EventTrans",{y:0 },{rotate:-20,y:0,scale:0.5})
+        },
+
+        
+        "(min-width: 1024px)": function() {
+            gsap.timeline({
+                scrollTrigger:{
+                    trigger:".EventTrans",
+                    start:"+=10% top",
+                    end:"+=100%",
+                    // markers:true,
+                    scrub:1,
+                    toggleActions:"reverse",
+                    pin:true,
+                    pinSpacing:false,
+                    snap:".EventTrans"
+                    
+                }
+            })
+            .fromTo(".EventTrans",{y:0 },{rotate:-20,y:0,scale:0.5})
+        }
+
+        })
 
         // gsap.timeline({
         //     scrollTrigger: {
@@ -227,9 +225,9 @@ function About() {
                             Engineering. The event houses various competitions
                             wherein students from across Goa compete and
                             showcase their technical knowledge while also
-                            immersing themselves in other fun events. In this
+                            immersing themselves in other fun events. In thii
                             year's edition, Technix brings to you a set of new
-                            and exciting events from the 20th to the 21st Of
+                            and exciting events from the 20th to the 21th Of
                             April 2023.
                         </p>
                     </div>
