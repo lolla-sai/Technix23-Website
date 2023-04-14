@@ -1,16 +1,16 @@
 import { Serverless, Networking, Career, DecodingSecret, NewComputing } from "@/public/assets/images/Talks";
 const seminarCardDataThursday = [
     {
-        "title": "Careers in IT",
-        "image": Career,
-        "linkedin": "https://www.linkedin.com/in/aniket-khorjuvekar-a31b1a30",
-        "registrationLink":"https://lu.ma/CareerInIt"
-    },
-    {
         "title": "New Computing Abstractions",
         "image": NewComputing,
         "linkedin": "https://www.linkedin.com/in/kunal-korgaonkar-70171418",
         "registrationLink":"https://lu.ma/ComputerAbstraction"
+    },
+    {
+        "title": "Careers in IT",
+        "image": Career,
+        "linkedin": "https://www.linkedin.com/in/aniket-khorjuvekar-a31b1a30",
+        "registrationLink":"https://lu.ma/CareerInIt"
     },
     {
         "title": "Networking 101",
