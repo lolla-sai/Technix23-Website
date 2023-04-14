@@ -44,7 +44,7 @@ const menuButtons = [
     //         londrinasolid.className,
     // },
     {
-        href: "/Technix 2023 Brochure.pdf",
+        href: "https://bit.ly/TECHNIX23",
         title: "Download Brochure",
         className:
             "text-center block md:text-3xl text-xl bg-[#FF6955] text-black rounded-full px-2 py-1 " +

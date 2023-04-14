@@ -9,7 +9,10 @@
             "behance": "",
             "mail": "",
             "github": "",
-            "className": "bg-[#ff1053]"
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
+            },
+            "className": "bg-[#ff1053] bg-cover"
         },
         {
             "name": "Mr. Nitesh Naik",
@@ -19,7 +22,11 @@
             "linkedin": "",
             "behance": "",
             "mail": "",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
+            },
+            "className": "bg-[#f5b700] bg-cover"
         }
     ],
     "council": [
@@ -30,7 +37,11 @@
             "linkedin": "",
             "behance": "",
             "mail": "",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
+            },
+            "className": "bg-[#1ac769] bg-cover"
         },
         {
             "name": "Manthan Prabhu",
@@ -39,7 +50,11 @@
             "linkedin": "",
             "behance": "",
             "mail": "",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
+            },
+            "className": "bg-[#7479ff] bg-cover"
         },
         {
             "name": "Vineet Sawant",
@@ -48,7 +63,11 @@
             "linkedin": "https://www.linkedin.com/in/vineet-sawant-023ab6175",
             "behance": "",
             "mail": "vineetswant@gmail.com",
-            "github": "https://github.com/Vineet-Sawant"
+            "github": "https://github.com/Vineet-Sawant",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
+            },
+            "className": "bg-[#ff1053] bg-cover"
         },
         {
             "name": "Pratham Shankwalker",
@@ -57,7 +76,11 @@
             "linkedin": "https://www.linkedin.com/in/prathamshankwalker",
             "behance": "",
             "mail": "pshankwalker1@gmail.com",
-            "github": "https://github.com/prathamshankwalker"
+            "github": "https://github.com/prathamshankwalker",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
+            },
+            "className": "bg-[#f5b700] bg-cover"
         },
         {
             "name": "Cayman Velingkar",
@@ -66,7 +89,11 @@
             "linkedin": "https://www.linkedin.com/in/caymann-velingkar-975014207/",
             "behance": "",
             "mail": "velingkarcaymann@gmail.com",
-            "github": "https://github.com/Kmann22"
+            "github": "https://github.com/Kmann22",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
+            },
+            "className": "bg-[#1ac769] bg-cover"
         },
         {
             "name": "Rahul Kolwalkar",
@@ -75,7 +102,11 @@
             "linkedin": "",
             "behance": "",
             "mail": "",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
+            },
+            "className": "bg-[#7479ff] bg-cover"
         },
         {
             "name": "Prathik Achari",
@@ -84,7 +115,11 @@
             "linkedin": "",
             "behance": "",
             "mail": "",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
+            },
+            "className": "bg-[#ff1053] bg-cover"
         },
         {
             "name": "Vedant Malkarnekar",
@@ -93,7 +128,11 @@
             "linkedin": "",
             "behance": "",
             "mail": "",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
+            },
+            "className": "bg-[#f5b700] bg-cover"
         },
         {
             "name": "Kaustubh Athalekar",
@@ -102,7 +141,11 @@
             "linkedin": "https://www.linkedin.com/in/kaustubh-athalekar",
             "behance": "",
             "mail": "kaustubhdva@gmail.com",
-            "github": "https://github.com/Itsmecoscube"
+            "github": "https://github.com/Itsmecoscube",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
+            },
+            "className": "bg-[#1ac769] bg-cover"
         },
         {
             "name": "Sudiksha Bhat",
@@ -111,7 +154,11 @@
             "linkedin": "https://www.linkedin.com/in/sudiksha-bhat",
             "behance": "",
             "mail": "sudikshabhat2109@gmail.com",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
+            },
+            "className": "bg-[#7479ff] bg-cover"
         },
         {
             "name": "Abhinav",
@@ -120,7 +167,11 @@
             "linkedin": "",
             "behance": "",
             "mail": "",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
+            },
+            "className": "bg-[#ff1053] bg-cover"
         },
         {
             "name": "Shreya Khorjuvekar",
@@ -129,7 +180,12 @@
             "linkedin": "",
             "behance": "",
             "mail": "",
-            "github": ""
+            "github": "",
+
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
+            },
+            "className": "bg-[#1ac769] bg-cover"
         },
         {
             "name": "Parth",
@@ -138,7 +194,11 @@
             "linkedin": "",
             "behance": "",
             "mail": "",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
+            },
+            "className": "bg-[#7479ff] bg-cover"
         }
     ],
     "website": [
@@ -149,7 +209,11 @@
             "linkedin": "https://www.linkedin.com/in/saisameerlolla/",
             "behance": "",
             "mail": "saisameer.lolla@gmail.com",
-            "github": "https://github.com/lolla-sai"
+            "github": "https://github.com/lolla-sai",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
+            },
+            "className": "bg-[#7479ff] bg-cover"
         },
         {
             "name": "Harsh Kumar",
@@ -158,7 +222,11 @@
             "linkedin": "https://www.linkedin.com/in/harsh-k-64638a1b4/",
             "behance": "",
             "mail": "hk2257853@gmail.com",
-            "github": "https://github.com/hk2257853"
+            "github": "https://github.com/hk2257853",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
+            },
+            "className": "bg-[#ff1053] bg-cover"
         },
         {
             "name": "Lloyd Costa",
@@ -167,7 +235,11 @@
             "linkedin": "https://www.linkedin.com/in/lloyd-alrich-costa-482509176",
             "behance": "",
             "mail": "llloydcosta23@gmail.com",
-            "github": ""
+            "github": "",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
+            },
+            "className": "bg-[#f5b700] bg-cover"
         },
         {
             "name": "Jayden Viegas",
@@ -176,17 +248,13 @@
             "linkedin": "https://www.linkedin.com/in/jayden-viegas-313141267/",
             "behance": "",
             "mail": "jaydenviegas57@gmail.com",
-            "github": "https://github.com/Jayden0228"
+            "github": "https://github.com/Jayden0228",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
+            },
+            "className": "bg-[#1ac769] bg-cover"
         },
-        {
-            "name": "Puneet Patil",
-            "role": "Developer",
-            "imgLink": "/assets/images/Team/Website/team.png",
-            "linkedin": "https://www.linkedin.com/in/puneetpatil/",
-            "behance": "",
-            "mail": "patilpuneet01@gmail.com",
-            "github": "https://github.com/puneetmpatil"
-        },
+
         {
             "name": "Rounak Naik",
             "role": "Developer",
@@ -194,7 +262,11 @@
             "linkedin": "https://www.linkedin.com/in/rounak-naik-233130229/",
             "behance": "",
             "mail": "rounaknaik23@gmail.com",
-            "github": "https://github.com/rounak84"
+            "github": "https://github.com/rounak84",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
+            },
+            "className": "bg-[#7479ff] bg-cover"
         },
         {
             "name": "Medam Greeshma",
@@ -203,7 +275,11 @@
             "linkedin": "https://www.linkedin.com/in/m-greeshma/",
             "behance": "",
             "mail": "greeshma290303@gmail.com",
-            "github": "https://github.com/greeshma2903"
+            "github": "https://github.com/greeshma2903",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
+            },
+            "className": "bg-[#ff1053] bg-cover"
         },
         {
             "name": "Trusha Neogi",
@@ -211,7 +287,37 @@
             "imgLink": "/assets/images/Team/Website/Trusha.png",
             "linkedin": "https://www.linkedin.com/in/trushaneogi/",
             "behance": "https://www.behance.net/trushaneogi",
-            "mail": "trushaneogi05@gmail.com"
+            "mail": "trushaneogi05@gmail.com",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
+            },
+            "className": "bg-[#f5b700] bg-cover"
+        },
+        {
+            "name": "Mark Cotta",
+            "role": "Designer",
+            "imgLink": "/assets/images/Team/Website/Mark.png",
+            "linkedin": "https://www.linkedin.com/in/mark-cotta-38489b215/",
+            "behance": "",
+            "mail": "mark.e.cotta@gmail.com",
+            "github": "https://github.com/MarkCotta",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/green-backdrop.svg')"
+            },
+            "className": "bg-[#1ac769] bg-cover"
+        },
+        {
+            "name": "Puneet Patil",
+            "role": "Developer",
+            "imgLink": "/assets/images/Team/Website/team.png",
+            "linkedin": "https://www.linkedin.com/in/puneetpatil/",
+            "behance": "",
+            "mail": "patilpuneet01@gmail.com",
+            "github": "https://github.com/puneetmpatil",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/purple-backdrop.svg')"
+            },
+            "className": "bg-[#7479ff] bg-cover"
         }
     ]
 }

@@ -43,7 +43,7 @@ function Index() {
 
                 <Sponsors />
 
-                {/* <Team /> */}
+                <Team />
 
                 <Footer />
             </main>

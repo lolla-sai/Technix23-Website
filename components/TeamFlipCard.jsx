@@ -15,6 +15,7 @@ function TeamFlipCard({
     mail,
     github,
     className = "bg-[#1AC769]",
+    style = {},
 }) {
     return (
         <>
@@ -60,6 +61,7 @@ function TeamFlipCard({
                             "-webkit-backface-visibility": "hidden",
                             "backface-visibility": "hidden",
                             transform: "rotateY(180deg)",
+                            ...style,
                         }}
                     >
                         <h1 className="md:text-2xl text-xl font-extrabold uppercase">

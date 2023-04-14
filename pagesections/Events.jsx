@@ -140,7 +140,7 @@ function Events() {
                     />
 
                     <Button>
-                        <Link href="/Technix 2023 Brochure.pdf" download>
+                        <Link href="https://bit.ly/TECHNIX23" download>
                             DOWNLOAD BROCHURE
                         </Link>
                     </Button>
