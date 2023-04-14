@@ -65,7 +65,7 @@ function About() {
                     trigger:".EventTrans",
                     start:"+=10% top",
                     end:"+=100%",
-                    markers:true,
+                    // markers:true,
                     scrub:1,
                     toggleActions:"reverse",
                     pin:true,
