@@ -203,6 +203,18 @@
     ],
     "website": [
         {
+            "name": "Trusha Neogi",
+            "role": "Designer",
+            "imgLink": "/assets/images/Team/Website/Trusha.png",
+            "linkedin": "https://www.linkedin.com/in/trushaneogi/",
+            "behance": "https://www.behance.net/trushaneogi",
+            "mail": "trushaneogi05@gmail.com",
+            "style": {
+                "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
+            },
+            "className": "bg-[#f5b700] bg-cover"
+        },
+        {
             "name": "Sai Lolla",
             "role": "Developer",
             "imgLink": "/assets/images/Team/Website/Sai.png",
@@ -254,7 +266,6 @@
             },
             "className": "bg-[#1ac769] bg-cover"
         },
-
         {
             "name": "Rounak Naik",
             "role": "Developer",
@@ -280,18 +291,6 @@
                 "backgroundImage": "url('/assets/images/Team/red-backdrop.svg')"
             },
             "className": "bg-[#ff1053] bg-cover"
-        },
-        {
-            "name": "Trusha Neogi",
-            "role": "Designer",
-            "imgLink": "/assets/images/Team/Website/Trusha.png",
-            "linkedin": "https://www.linkedin.com/in/trushaneogi/",
-            "behance": "https://www.behance.net/trushaneogi",
-            "mail": "trushaneogi05@gmail.com",
-            "style": {
-                "backgroundImage": "url('/assets/images/Team/yellow-backdrop.svg')"
-            },
-            "className": "bg-[#f5b700] bg-cover"
         },
         {
             "name": "Mark Cotta",
