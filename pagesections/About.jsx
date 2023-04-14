@@ -44,14 +44,14 @@ function About() {
                 gsap.timeline({
                     scrollTrigger: {
                         trigger: ".EventTrans",
-                        start: "+=10% top",
+                        start: "1% top",
                         end: "+=100%",
                         // markers:true,
                         scrub: 1,
                         toggleActions: "reverse",
                         pin: true,
                         pinSpacing: false,
-                        // snap: ".EventTrans",
+                        snap: ".EventTrans",
                     },
                 }).fromTo(
                     ".EventTrans",
@@ -59,19 +59,18 @@ function About() {
                     { y: 0, scale: 1.2, rotate: 0 }
                 );
             },
-
             "(min-width: 768px) and (max-width: 1024px)": function () {
                 gsap.timeline({
                     scrollTrigger: {
                         trigger: ".EventTrans",
                         start: "+=10% top",
                         end: "+=100%",
-                        // markers:true,
+                        markers: true,
                         scrub: 1,
                         toggleActions: "reverse",
                         pin: true,
                         pinSpacing: false,
-                        // snap: ".EventTrans",
+                        snap: ".EventTrans",
                     },
                 }).fromTo(
                     ".EventTrans",
@@ -91,7 +90,7 @@ function About() {
                         toggleActions: "reverse",
                         pin: true,
                         pinSpacing: false,
-                        // snap: ".EventTrans",
+                        snap: ".EventTrans",
                     },
                 }).fromTo(
                     ".EventTrans",

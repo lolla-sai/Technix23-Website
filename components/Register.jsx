@@ -92,21 +92,21 @@ function Register() {
 
                 <div className="absolute w-[400px] h-[400px] top-[25%] left-[-5%]">
                     <Image
-                        src="/assets/images/Sponsors/mask outline.png"
+                        src="/register/event-mask-1.png"
                         fill
                         className="object-contain"
                     />
                 </div>
                 <div className="absolute w-[400px] h-[400px] bottom-[5%] left-[-5%] rotate-[-24deg]">
                     <Image
-                        src="/assets/images/Sponsors/mask outline 4.png"
+                        src="/register/event-mask-2.png"
                         fill
                         className="object-contain"
                     />
                 </div>
                 <div className="absolute w-[400px] h-[400px] lg:bottom-[15%] bottom-[40%] right-[-5%]">
                     <Image
-                        src="/assets/images/Sponsors/mask outline 2.png"
+                        src="/register/event-server-bg.png"
                         fill
                         className="object-contain"
                     />

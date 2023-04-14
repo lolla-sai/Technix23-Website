@@ -12,6 +12,7 @@ function SingleEventCard({
     eventHref,
     cursorImg,
     cartoonImg,
+    eventType = "",
 }) {
     return (
         <div
@@ -63,6 +64,12 @@ function SingleEventCard({
                     />
                     <p className="md:text-3xl text-xl whitespace-pre-line text-center ">
                         {eventName}
+                        {/* {eventType && (
+                            <>
+                                <br />
+                                <p>{eventType}</p>
+                            </>
+                        )} */}
                     </p>
                 </div>
             </Link>

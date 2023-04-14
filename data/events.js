@@ -3,6 +3,7 @@ const eventCardsData = [
         parentDivClassName: "e-red",
         childDivClassName: "eb-red",
         eventName: "Technothon 2.0",
+        eventType: "(Hackathon)",
         imgCardDecor: "Events/images/red-card-image.svg",
         leftFeatherImg: "Events/images/orange-bottom-feather.png",
         rightFeatherImg: "Events/images/orange-top-feather.png",
@@ -57,7 +58,7 @@ const eventCardsData = [
     {
         parentDivClassName: "e-yellow",
         childDivClassName: "eb-yellow",
-        eventName: "Idea Utsav",
+        eventName: "Concepto Exibição",
         imgCardDecor: "Events/images/yellow-card-img.svg",
         leftFeatherImg: "Events/images/yellow-left-feather.png",
         rightFeatherImg: "Events/images/yellow-right-feather.png",
@@ -101,7 +102,7 @@ const eventCardsData = [
     {
         parentDivClassName: "e-blue",
         childDivClassName: "eb-blue",
-        eventName: "MINEFIESTA",
+        eventName: "MineFiesta",
         imgCardDecor: "Events/images/blue-card-img.svg",
         leftFeatherImg: "Events/images/blue-left-feather.png",
         rightFeatherImg: "Events/images/blue-right-feather.png",
@@ -112,7 +113,7 @@ const eventCardsData = [
     {
         parentDivClassName: "e-yellow",
         childDivClassName: "eb-yellow",
-        eventName: "VIVA FIFA",
+        eventName: "Viva Fifa",
         imgCardDecor: "Events/images/yellow-card-img.svg",
         leftFeatherImg: "Events/images/yellow-left-feather.png",
         rightFeatherImg: "Events/images/yellow-right-feather.png",
@@ -134,7 +135,7 @@ const eventCardsData = [
     {
         parentDivClassName: "e-blue",
         childDivClassName: "eb-blue",
-        eventName: "SnapFloat",
+        eventName: "Snap Float",
         imgCardDecor: "Events/images/blue-card-img.svg",
         leftFeatherImg: "Events/images/blue-left-feather.png",
         rightFeatherImg: "Events/images/blue-right-feather.png",
@@ -145,7 +146,7 @@ const eventCardsData = [
     {
         parentDivClassName: "e-yellow",
         childDivClassName: "eb-yellow",
-        eventName: "MEME FUNHOUSE",
+        eventName: "Meme Funhouse",
         imgCardDecor: "Events/images/yellow-card-img.svg",
         leftFeatherImg: "Events/images/yellow-left-feather.png",
         rightFeatherImg: "Events/images/yellow-right-feather.png",
