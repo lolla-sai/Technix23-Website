@@ -35,7 +35,7 @@ function Hero() {
         // .fromTo(T.current,{scale:0,opacity:0},{scale:1,opacity:1})
 
         gsap.timeline({
-            defaults:{duration:3,ease:'none'},
+            defaults:{ease:'none'},
             scrollTrigger:{
                 trigger:'.HRO',
                 start:"+=1% top",
