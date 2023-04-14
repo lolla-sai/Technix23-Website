@@ -6,7 +6,16 @@ import {
     AiOutlineMail,
 } from "react-icons/ai";
 
-function TeamFlipCard({ name, role, dp, linkedin, behance, mail, github }) {
+function TeamFlipCard({
+    name,
+    role,
+    imgLink,
+    linkedin,
+    behance,
+    mail,
+    github,
+    className = "bg-[#1AC769]",
+}) {
     return (
         <>
             <style jsx>{`
@@ -24,7 +33,7 @@ function TeamFlipCard({ name, role, dp, linkedin, behance, mail, github }) {
                 }
             `}</style>
 
-            <div className="bg-transparent w-[300px] h-[300px] group flip-card rounded-3xl overflow-hidden relative z-30">
+            <div className="bg-transparent w-[280px] h-[280px] group flip-card rounded-3xl overflow-hidden relative z-30">
                 <div className="relative w-full h-full text-center group-hover:rotate-y-180 flip-card-inner transition-transform duration-300 flex">
                     <div
                         className="absolute w-full h-full bg-[#bbb] text-black"
@@ -34,60 +43,77 @@ function TeamFlipCard({ name, role, dp, linkedin, behance, mail, github }) {
                         }}
                     >
                         <Image
-                            src="/assets/images/Team Members/Dev and Design Team/DSC_2079 1.png"
+                            src={imgLink}
                             alt="Avatar"
-                            className="rounded-3xl"
-                            width={500}
-                            height={500}
+                            className="rounded-3xl object-cover"
+                            fill
+                            // width={500}
+                            // height={500}
                         />
                     </div>
                     <div
-                        className="absolute w-full h-full text-white bg-[#1AC769] flex items-center flex-col justify-center"
+                        className={
+                            "absolute w-full h-full text-white flex items-center flex-col justify-center " +
+                            className
+                        }
                         style={{
                             "-webkit-backface-visibility": "hidden",
                             "backface-visibility": "hidden",
                             transform: "rotateY(180deg)",
                         }}
                     >
-                        <h1 className="text-2xl font-extrabold uppercase">{name}</h1>
+                        <h1 className="md:text-2xl text-xl font-extrabold uppercase">
+                            {name}
+                        </h1>
                         <p className="mt-2">{role}</p>
-                        <Image className="relative top-0 left-0" src={}/>
+                        {/* <Image className="relative top-0 left-0" src={}/>
                         <Image className="relative top-0 right-0" src={}/>
                         <Image className="relative bottom-0 left-0" src={}/>
-                        <Image className="relative bottom-0 right-0" src={}/>
+                        <Image className="relative bottom-0 right-0" src={}/> */}
                         <div className="flex-row flex items-center justify-center mt-2">
-                            <a
-                                className="px-1"
-                                href={linkedin}
-                                target="_blank"
-                                rel="noopenner noreferrer"
-                            >
-                                <AiFillLinkedin />
-                            </a>
-                            <a
-                                className="px-1"
-                                href={behance}
-                                target="_blank"
-                                rel="noopenner noreferrer"
-                            >
-                                <AiFillBehanceSquare />
-                            </a>
-                            <a
-                                className="px-1"
-                                href={mail}
-                                target="_blank"
-                                rel="noopenner noreferrer"
-                            >
-                                <AiOutlineMail />
-                            </a>
-                            <a
-                                className="px-1"
-                                href={github}
-                                target="_blank"
-                                rel="noopenner noreferrer"
-                            >
-                                <AiOutlineGithub />
-                            </a>
+                            {linkedin && (
+                                <a
+                                    className="px-1"
+                                    href={linkedin}
+                                    target="_blank"
+                                    rel="noopenner noreferrer"
+                                >
+                                    <AiFillLinkedin />
+                                </a>
+                            )}
+
+                            {behance && (
+                                <a
+                                    className="px-1"
+                                    href={behance}
+                                    target="_blank"
+                                    rel="noopenner noreferrer"
+                                >
+                                    <AiFillBehanceSquare />
+                                </a>
+                            )}
+
+                            {mail && (
+                                <a
+                                    className="px-1"
+                                    href={mail}
+                                    target="_blank"
+                                    rel="noopenner noreferrer"
+                                >
+                                    <AiOutlineMail />
+                                </a>
+                            )}
+
+                            {github && (
+                                <a
+                                    className="px-1"
+                                    href={github}
+                                    target="_blank"
+                                    rel="noopenner noreferrer"
+                                >
+                                    <AiOutlineGithub />
+                                </a>
+                            )}
                         </div>
                     </div>
                 </div>

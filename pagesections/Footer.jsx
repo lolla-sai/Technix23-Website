@@ -97,7 +97,7 @@ function Footer() {
                             <p className="text-lg font-normal">
                                 montyphr94@gmail.com |{" "}
                                 <a
-                                    href="https://wa.link/c0q83g"
+                                    href="https://wa.link/ob1s7w"
                                     target="_blank"
                                 >
                                     WhatsApp

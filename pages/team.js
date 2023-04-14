@@ -11,6 +11,7 @@ import MiniProp from "@/components/MiniProp";
 import TeamFlipCard from "@/components/TeamFlipCard";
 import Menu from "@/components/Menu";
 import Head from "next/head";
+import teamDetails from "../data/teamsnew.json";
 
 const props = [
     {
@@ -153,7 +154,40 @@ function Team() {
                     <TeamMember {...member} key={member.bio} />
                 ))}
             </div> */}
-            <TeamFlipCard name="Sai Sameer Lolla" role="Developer" />
+            {/* <TeamFlipCard name="Sai Sameer Lolla" role="Developer" /> */}
+            <div className="flex items-center justify-center gap-6 mb-20 flex-wrap">
+                {teamDetails["faculty"].map((faculty) => (
+                    <TeamFlipCard {...faculty} />
+                ))}
+            </div>
+
+            <h2
+                className={
+                    londrinasolid.className +
+                    " md:text-5xl text-3xl mb-20 text-white text-center"
+                }
+            >
+                Cursor Council
+            </h2>
+            <div className="flex flex-wrap items-center justify-center gap-6 mb-20">
+                {teamDetails["council"].map((faculty) => (
+                    <TeamFlipCard {...faculty} />
+                ))}
+            </div>
+
+            <h2
+                className={
+                    londrinasolid.className +
+                    " md:text-5xl text-3xl mb-20 text-white text-center"
+                }
+            >
+                The Website Team
+            </h2>
+            <div className="flex flex-wrap items-center justify-center gap-6 mb-20">
+                {teamDetails["website"].map((faculty) => (
+                    <TeamFlipCard {...faculty} />
+                ))}
+            </div>
         </section>
     );
 }
