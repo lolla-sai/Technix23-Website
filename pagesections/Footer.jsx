@@ -83,10 +83,10 @@ function Footer() {
                             <p className="text-lg font-normal">
                                 vineetswant@gmail.com |{" "}
                                 <a
-                                    href="https://wa.link/wfqn0y"
+                                    href="https://wa.link/31kpwo"
                                     target="_blank"
                                 >
-                                    WhatsApp Link
+                                    WhatsApp
                                 </a>
                             </p>
                         </div>
@@ -97,10 +97,10 @@ function Footer() {
                             <p className="text-lg font-normal">
                                 montyphr94@gmail.com |{" "}
                                 <a
-                                    href="https://wa.link/wfqn0y"
+                                    href="https://wa.link/c0q83g"
                                     target="_blank"
                                 >
-                                    WhatsApp Link
+                                    WhatsApp
                                 </a>
                             </p>
                         </div>
