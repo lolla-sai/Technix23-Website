@@ -60,6 +60,7 @@ function TeamFlipCard({
                         style={{
                             "-webkit-backface-visibility": "hidden",
                             "backface-visibility": "hidden",
+                            backfaceVisibility: "hidden",
                             transform: "rotateY(180deg)",
                             ...style,
                         }}

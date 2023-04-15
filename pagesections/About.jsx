@@ -40,63 +40,66 @@ function About() {
         gsap.registerPlugin(ScrollTrigger);
 
         ScrollTrigger.matchMedia({
+            "(max-width: 767px)": function () {
+                gsap.timeline({
+                    scrollTrigger: {
+                        trigger: ".EventTrans",
+                        start: "1% top",
+                        end: "+=100%",
+                        // markers:true,
+                        scrub: 1,
+                        toggleActions: "reverse",
+                        pin: true,
+                        pinSpacing: false,
+                        snap: ".EventTrans",
+                    },
+                }).fromTo(
+                    ".EventTrans",
+                    { y: 0 },
+                    { y: 0, scale: 1.2, rotate: 0 }
+                );
+            },
 
-            "(max-width: 767px)": function() {
-            gsap.timeline({
-                scrollTrigger:{
-                    trigger:".EventTrans",
-                    start:"1% top",
-                    end:"+=100%",
-                    // markers:true,
-                    scrub:1,
-                    toggleActions:"reverse",
-                    pin:true,
-                    pinSpacing:false,
-                    snap:".EventTrans"   
-                }
-                
-            })
-            .fromTo(".EventTrans",{y:0 },{y:0,scale:1.2,rotate:0})
-        },
+            "(min-width: 768px) and (max-width: 1024px)": function () {
+                gsap.timeline({
+                    scrollTrigger: {
+                        trigger: ".EventTrans",
+                        start: "+=10% top",
+                        end: "+=100%",
+                        // markers:true,
+                        scrub: 1,
+                        toggleActions: "reverse",
+                        pin: true,
+                        pinSpacing: false,
+                        snap: ".EventTrans",
+                    },
+                }).fromTo(
+                    ".EventTrans",
+                    { y: 0 },
+                    { rotate: -20, y: 0, scale: 0.5 }
+                );
+            },
 
-        "(min-width: 768px) and (max-width: 1024px)": function() {
-            gsap.timeline({
-                scrollTrigger:{
-                    trigger:".EventTrans",
-                    start:"+=10% top",
-                    end:"+=100%",
-                    // markers:true,
-                    scrub:1,
-                    toggleActions:"reverse",
-                    pin:true,
-                    pinSpacing:false,
-                    snap:".EventTrans"
-                    
-                }
-            })
-            .fromTo(".EventTrans",{y:0 },{rotate:-20,y:0,scale:0.5})
-        },
-
-        
-        "(min-width: 1024px)": function() {
-            gsap.timeline({
-                scrollTrigger:{
-                    trigger:".EventTrans",
-                    start:"+=10% top",
-                    end:"+=100%",
-                    // markers:true,
-                    scrub:1,
-                    toggleActions:"reverse",
-                    pin:true,
-                    pinSpacing:false,
-                    snap:".EventTrans"
-                    
-                }
-            })
-            .fromTo(".EventTrans",{y:0 },{rotate:-20,y:0,scale:0.5})
-        }
-
-        })
+            "(min-width: 1024px)": function () {
+                gsap.timeline({
+                    scrollTrigger: {
+                        trigger: ".EventTrans",
+                        start: "+=10% top",
+                        end: "+=100%",
+                        // markers:true,
+                        scrub: 1,
+                        toggleActions: "reverse",
+                        pin: true,
+                        pinSpacing: false,
+                        snap: ".EventTrans",
+                    },
+                }).fromTo(
+                    ".EventTrans",
+                    { y: 0 },
+                    { rotate: -20, y: 0, scale: 0.5 }
+                );
+            },
+        });
 
         // gsap.timeline({
         //     scrollTrigger: {
@@ -149,7 +152,7 @@ function About() {
                 />
 
                 {props.map((prop) => (
-                    <MiniProp className={prop.className}>
+                    <MiniProp className={prop.className} key={prop.className}>
                         <prop.PropIcon size={prop.size} color={prop.color} />
                     </MiniProp>
                 ))}

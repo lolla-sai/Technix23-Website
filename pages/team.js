@@ -157,7 +157,7 @@ function Team() {
             {/* <TeamFlipCard name="Sai Sameer Lolla" role="Developer" /> */}
             <div className="flex items-center justify-center gap-6 mb-20 flex-wrap">
                 {teamDetails["faculty"].map((faculty) => (
-                    <TeamFlipCard {...faculty} />
+                    <TeamFlipCard {...faculty} key={faculty.name} />
                 ))}
             </div>
 
@@ -171,7 +171,7 @@ function Team() {
             </h2>
             <div className="flex flex-wrap items-center justify-center gap-6 mb-20">
                 {teamDetails["council"].map((faculty) => (
-                    <TeamFlipCard {...faculty} />
+                    <TeamFlipCard {...faculty} key={faculty.name} />
                 ))}
             </div>
 
@@ -185,7 +185,7 @@ function Team() {
             </h2>
             <div className="flex flex-wrap items-center justify-center gap-6 mb-20">
                 {teamDetails["website"].map((faculty) => (
-                    <TeamFlipCard {...faculty} />
+                    <TeamFlipCard {...faculty} key={faculty.name} />
                 ))}
             </div>
         </section>
