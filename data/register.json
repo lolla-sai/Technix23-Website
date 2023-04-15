@@ -84,7 +84,7 @@
         "date": "21st April 2023",
         "time": "11:00 AM - 4:00 PM IST",
         "rules": [
-            "Teams of 2 members from the same institution are allowed.",
+            "Teams of 2 members from the any institution are allowed.",
             "Candidates must report at the registration desk by 10.30 am on the day of the event and carry ID cards along with them.",
             "The event consists of 3 rounds:- Preliminary, Intermediary, Onstage.",
             "4 teams shall qualify for the onstage round.",
@@ -238,7 +238,7 @@
             "The version to be used is Minecraft Java Edition (1.12.2)",
             "16 players will compete in the championship.",
             "In case the no. of entries go beyond 16, a preliminary qualification round will be conducted. More details will be shared in the WhatsApp group.",
-            "The championship will consist of the following minigames:\nBuild Battle (Creative Building)\nParkour\nMaze\nSkywars\nBedwars\nRedstone Contraption Building\nHunger Games",
+            "The championship will consist of the following minigames:\nBuild Battle (Creative Building),\nParkour,\nMaze,\nSkywars,\nBedwars,\nRedstone Contraption Building,\nHunger Games.",
             "Decision by the coordinators will be final."
         ],
         "detailedRulesLink": "https://docs.google.com/document/d/1BwSgGk345WzXZOqD_V5qszc6ckecTLYUqJZ13VG29xg/edit?usp=drivesdk",
@@ -350,7 +350,7 @@
     "debate": {
         "event_name": "De-byte-able",
         "event_type": "Debate",
-        "event_quote": "Event Quote Goes Here",
+        "event_quote": "Psst... The debates may have a surprise to spice things up!",
         "prizes": ["₹ 3000", "₹ 2000"],
         "date": "21st April 2023",
         "time": "10:00 AM - 3:00 PM IST",
