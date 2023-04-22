@@ -17,7 +17,7 @@ const sponsors = {
         },
         {
             name: "Pocket52",
-            webLink: "",
+            webLink: "https://pocket52-prod.onelink.me/kSof/1uyghnw5",
             icon: "/assets/logos/Pocket52.png",
             className:
                 "w-52 xsm:w-60 md:w-80 min-h-[120px] md:min-h-[150px] bg-black",
