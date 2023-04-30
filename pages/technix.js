@@ -23,6 +23,9 @@ function Technix() {
                     name="viewport"
                     content="width=device-width, initial-scale=1.0"
                 ></meta>
+                <meta property="og:title" content="Technix-2023 />
+                <meta property="og:url" content="https://www.cursor.org.in/technix/" />
+                <meta property="og:image" content="https://i.ibb.co/sK5hDH9/Hero.png />
             </Head>
 
             {navbarOpen && (
