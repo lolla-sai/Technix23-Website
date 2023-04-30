@@ -47,9 +47,12 @@ https://cursor.org.in/
 
 ## Tech Stack
 
-**Client:** NextJS13-React, TailwindCSS, GSAP, StyledComponents, json for data
-
-**Registeration Handling:** lu.ma event pages
+- NextJS13-React
+- TailwindCSS
+- GSAP
+- StyledComponents
+- json for data handling
+- lu.ma event pages
 
 ## Getting Started
 
