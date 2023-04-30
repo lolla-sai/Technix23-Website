@@ -1,5 +1,4 @@
-
-![Logo](https://i.ibb.co/kQqg1F1/Technix-Logo.png)
+<img src="https://i.ibb.co/kQqg1F1/Technix-Logo.png" alt="icon" width="100%" />
 
 
 # Technix 2023 Website
@@ -23,7 +22,7 @@ The official website for Technix 2023 Event, organized by the department of Comp
 
 &emsp;[5. Mobile Experience](#mobile-experience)
 
-&emsp;[6. Team](#team)
+&emsp;[6. Team](#the-team)
 
 &emsp;[7. Lessons Learned](#lessons-learned)
 
@@ -98,10 +97,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ![Register](https://i.ibb.co/X29vr6K/Event-Page.png)
 
 ## Mobile Experience
-
-![Hero](https://i.ibb.co/MPV9SC6/Frame-6.png)
-![Events](https://i.ibb.co/ZdY5Mns/Frame-7.png)
-
 
 &emsp;&emsp;<img src="https://i.ibb.co/MPV9SC6/Frame-6.png" alt="Alt text" title="Optional title" height=600px>
 &emsp;&emsp;&emsp;&emsp;<img src="https://i.ibb.co/ZdY5Mns/Frame-7.png" alt="Alt text" title="Optional title" height=600px>
