@@ -13,15 +13,21 @@ The official website for Technix 2023 Event, organized by the department of Comp
 
 &emsp;[1. Features](#features)
 
-&emsp;[2. Hosted URLs](#urls)
+&emsp;[2. Hosted URLs](#hosted-urls)
 
-&emsp;[3. Tech Stack](#tech)
+&emsp;[3. Tech Stack](#tech-stack)
 
 &emsp;[4. Getting Started](#getting-started)
 
 &emsp;[4. Application User Interface](#application-user-interface)
 
 &emsp;[5. Mobile Experience](#mobile-experience)
+
+&emsp;[6. Team](#team)
+
+&emsp;[7. Lessons Learned](#lessons-learned)
+
+&emsp;[8. Feedback](#feedback)
 
 ## Features
 
@@ -65,7 +71,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Lodrina Solid, a custom Google Font.
 
-## Screenshots
+## Application User Interface
 
 **Home**
 
@@ -74,10 +80,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 **Events**
 
 ![Events](https://i.ibb.co/m6pZ3GN/Events.png)
-
-**Single Event Page**
-
-![Register](https://i.ibb.co/X29vr6K/Event-Page.png)
 
 **Sponsors**
 
@@ -89,9 +91,21 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 **Footer and Team**
 
-![Hero](https://i.ibb.co/nff3dxQ/Footer.png)
+![Footer](https://i.ibb.co/nff3dxQ/Footer.png)
 
-## Authors
+**Single Event Page**
+
+![Register](https://i.ibb.co/X29vr6K/Event-Page.png)
+
+## Mobile Experience
+
+![Hero](https://i.ibb.co/MPV9SC6/Frame-6.png)
+![Events](https://i.ibb.co/ZdY5Mns/Frame-7.png)
+
+
+&emsp;&emsp;<img src="https://i.ibb.co/MPV9SC6/Frame-6.png" alt="Alt text" title="Optional title" height=600px>
+&emsp;&emsp;&emsp;&emsp;<img src="https://i.ibb.co/ZdY5Mns/Frame-7.png" alt="Alt text" title="Optional title" height=600px>
+## The Team
 
 - The team of inhouse designers and developers who made this a reality
 
@@ -109,6 +123,15 @@ From top
 - Puneet Patil (Developer)
 
 
+## Lessons Learned
+
+While building this website, I acted as a dev lead, overseeing contributions by everyone, and integrating it into the incremental builds. In this process I learned team management, and working in teams.
+
+I also learnt newer concepts of NextJS 13, including the latest <Image/> component, font rendering improvements, etc.
+
+Together with my team, I managed to be a builder of a website that was viewed by students across colleges of Goa.
+
+This is something I will always remember and be proud of!
 ## Feedback
 
 If you have any feedback, please reach out to me: saisameer.lolla@gmail.com
