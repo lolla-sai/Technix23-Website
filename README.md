@@ -122,7 +122,7 @@ From top
 
 While building this website, I acted as a dev lead, overseeing contributions by everyone, and integrating it into the incremental builds. In this process I learned team management, and working in teams.
 
-I also learnt newer concepts of NextJS 13, including the latest <Image/> component, font rendering improvements, etc.
+I also learnt newer concepts of NextJS 13, including the latest \<Image/\> component, font rendering improvements, etc.
 
 Together with my team, I managed to be a builder of a website that was viewed by students across colleges of Goa.
 
