@@ -32,7 +32,7 @@ The official website for Technix 2023 Event, organized by the department of Comp
 - Appealing design
 - Events page showing all event details in one place
 - Countdown to the actual event
-- Built with NextJS - performance first with features like <Image/> component, lazy loading etc
+- Built with NextJS - performance first with features like \<Image/\> component, lazy loading etc
 - Various other sections such as Footer (all contact details with google map embed), schedule table, navbars.
 - Event Registeration with Luma
 - animations with gsap (ScrollTrigger)
