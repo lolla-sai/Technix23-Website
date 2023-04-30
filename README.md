@@ -7,7 +7,6 @@ The official website for Technix 2023 Event, organized by the department of Comp
 
 
 
-
 ## Table of contents
 
 &emsp;[1. Features](#features)
@@ -127,6 +126,7 @@ I also learnt newer concepts of NextJS 13, including the latest \<Image/\> compo
 Together with my team, I managed to be a builder of a website that was viewed by students across colleges of Goa.
 
 This is something I will always remember and be proud of!
+
 ## Feedback
 
 If you have any feedback, please reach out to me: saisameer.lolla@gmail.com
