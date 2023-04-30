@@ -1,8 +1,51 @@
-# Technix23-Website
 
-The repo for the website of Technix 2023. Launching soon...
+![Logo](https://i.ibb.co/kQqg1F1/Technix-Logo.png)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Technix 2023 Website
+
+The official website for Technix 2023 Event, organized by the department of Computer Engineering, Goa College of Engineering, Ponda - Goa
+
+
+
+
+## Table of contents
+
+&emsp;[1. Features](#features)
+
+&emsp;[2. Hosted URLs](#urls)
+
+&emsp;[3. Tech Stack](#tech)
+
+&emsp;[4. Getting Started](#getting-started)
+
+&emsp;[4. Application User Interface](#application-user-interface)
+
+&emsp;[5. Mobile Experience](#mobile-experience)
+
+## Features
+
+- Appealing design
+- Events page showing all event details in one place
+- Countdown to the actual event
+- Built with NextJS - performance first with features like <Image/> component, lazy loading etc
+- Various other sections such as Footer (all contact details with google map embed), schedule table, navbars.
+- Event Registeration with Luma
+- animations with gsap (ScrollTrigger)
+
+
+## Hosted URLs
+
+https://cursor.org.in/technix
+
+https://cursor.org.in/
+
+
+## Tech Stack
+
+**Client:** NextJS13-React, TailwindCSS, GSAP, StyledComponents, json for data
+
+**Registeration Handling:** lu.ma event pages
 
 ## Getting Started
 
@@ -18,25 +61,55 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Lodrina Solid, a custom Google Font.
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+**Home**
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Hero](https://i.ibb.co/sK5hDH9/Hero.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Events**
 
-## Deploy on Vercel
+![Events](https://i.ibb.co/m6pZ3GN/Events.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Single Event Page**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Register](https://i.ibb.co/X29vr6K/Event-Page.png)
+
+**Sponsors**
+
+![Sponsors](https://i.ibb.co/k9kyCQd/Sponsor.png)
+
+**Schedule Section**
+
+![Schedule](https://i.ibb.co/Lr3G1Qy/Schedule.png)
+
+**Footer and Team**
+
+![Hero](https://i.ibb.co/nff3dxQ/Footer.png)
+
+## Authors
+
+- The team of inhouse designers and developers who made this a reality
+
+![Website](https://i.ibb.co/8NMDtRT/Web-Team.png)
+
+From top
+- Trusha Neogi (Designer)
+- Sai Sameer Kumar Lolla (Developer)
+- Harsh Kumar (Developer)
+- Lloyd Costa (Developer)
+- Jayden Viegas (Developer)
+- Rounak Naik (Developer)
+- Medam Greeshma (Designer)
+- Mark Cotta (Designer)
+- Puneet Patil (Developer)
+
+
+## Feedback
+
+If you have any feedback, please reach out to me: saisameer.lolla@gmail.com
+
