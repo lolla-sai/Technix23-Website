@@ -3,6 +3,8 @@
 
 # Technix 2023 Website
 
+_This Repo and it's corresponding domain (cursor.org.in) is now transferred to CURSOR Council 2023. Best wishes to Team CURSOR_
+
 The official website for Technix 2023 Event, organized by the department of Computer Engineering, Goa College of Engineering, Ponda - Goa
 
 
